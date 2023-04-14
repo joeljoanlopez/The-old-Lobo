@@ -2,10 +2,10 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 #
-/[Ll]ibrary/
-/[Tt]emp/
-/[Oo]bj/
-/[Bb]uild/
-/[Bb]uilds/
-/[Ll]ogs/
-/[Uu]ser[Ss]ettings/
+TheOldLobo/[Ll]ibrary/
+TheOldLobo/[Tt]emp/
+TheOldLobo/[Oo]bj/
+TheOldLobo/[Bb]uild/
+TheOldLobo/[Bb]uilds/
+TheOldLobo/[Ll]ogs/
+TheOldLobo/[Uu]ser[Ss]ettings/
