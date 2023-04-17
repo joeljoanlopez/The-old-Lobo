@@ -10,13 +10,17 @@ public class Move : MonoBehaviour
     private Rigidbody2D body;
 
     [SerializeField] private float spe = 0;
+    [SerializeField] float sprintSpe = 0;
     [SerializeField] float dashPower = 0;
     [SerializeField] float dashTime = 0;
     [SerializeField] private float dashingCooldown = 0;
 
+    //Direction handlers
     private float horizontal;
     private float vertical;
+    private float vel;
 
+    //Sprinting handlers
     private bool sprinting;
 
     //Dashing handlers
@@ -27,8 +31,10 @@ public class Move : MonoBehaviour
     void Start()
     {
         body = GetComponent<Rigidbody2D>();
+        vel = spe;
         canDash = true;
         dashing = false;
+        sprinting = false;
     }
 
     // Update is called once per frame
@@ -36,31 +42,30 @@ public class Move : MonoBehaviour
     {
         horizontal = Input.GetAxisRaw("Horizontal");
         vertical = Input.GetAxisRaw("Vertical");
+        
+        if (Input.GetKey(KeyCode.LeftShift)) {sprinting = true;}
+        else {sprinting = false;}
 
-        if (dashing)
-        {
-            return;
-        }
-
+        if (dashing) return;
         if (canDash && Input.GetKeyDown(KeyCode.Space))
         {
             StartCoroutine(Dash());
         }
 
+
     }
 
     private void FixedUpdate()
     {
-        if (!dashing)
-        {
-            body.velocity = MovVector();
-        }
+        if (!dashing) body.velocity = MovVector();
+        if (sprinting){vel = sprintSpe;}
+        else { vel = spe; }
     }
 
     private Vector2 MovVector()
     {
         Vector2 mov = new Vector2(horizontal, vertical).normalized;
-        return mov * spe * Time.deltaTime;
+        return mov * vel * Time.deltaTime;
     }
 
     private IEnumerator Dash()

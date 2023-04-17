@@ -239,6 +239,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spe: 250
+  sprintSpe: 300
   dashPower: 25
   dashTime: 0.1
   dashingCooldown: 1
