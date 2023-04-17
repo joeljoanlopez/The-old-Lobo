@@ -5,28 +5,39 @@ using UnityEngine;
 
 public class Move : MonoBehaviour
 {
-    [SerializeField]
-    private int spe = 0;
+    private Rigidbody2D body;
+
+    [SerializeField] private int spe = 0;
+    [SerializeField] private float dashingCooldown;
 
     private bool sprinting;
+    private bool canDash;
     private bool dashing;
-    private float dashTimer;
+    private float dashTime;
 
     // Start is called before the first frame update
     void Start()
     {
+        body = GetComponent<Rigidbody2D>();
         sprinting = false;
+        canDash = true;
         dashing = false;
-        dashTimer = 0;
+        dashTime = 0.5f;
+        dashingCooldown = 1;
     }
 
     // Update is called once per frame
     void Update()
     {
         //Get Dash
-        if (Input.GetKey(KeyCode.Space) && !dashing)
+        if (Input.GetKey(KeyCode.Space) && canDash)
         {
-            Dash();
+            StartCoroutine(Dash());
+        }
+
+        if (dashing)
+        {
+            return;
         }
 
         if (Input.GetKey(KeyCode.LeftArrow))
@@ -47,15 +58,15 @@ public class Move : MonoBehaviour
         }
     }
 
-    void Dash()
+    IEnumerator Dash()
     {
+        canDash = false;
         dashing = true;
         spe *= 5;
-        while (dashTimer < 2)
-        {
-            dashTimer += Time.deltaTime;
-        }
+        yield return new WaitForSeconds(dashTime);
         spe /= 5;
         dashing = false;
+        yield return new WaitForSeconds(dashingCooldown);
+        canDash = true;
     }
 }
