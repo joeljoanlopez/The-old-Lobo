@@ -70,8 +70,9 @@ public class Move : MonoBehaviour
 
     private IEnumerator Dash()
     {
-        canDash = false;
         dashing = true;
+        canDash = false;
+        sprinting = false;
         body.velocity = MovVector() * dashPower;
         yield return new WaitForSeconds(dashTime);
         dashing = false;

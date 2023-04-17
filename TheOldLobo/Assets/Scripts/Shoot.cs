@@ -4,8 +4,11 @@ using UnityEngine;
 
 public class Shoot : MonoBehaviour
 {
+<<<<<<< Updated upstream
     GameObject.get
 
+=======
+>>>>>>> Stashed changes
     // Start is called before the first frame update
     void Start()
     {
