@@ -238,8 +238,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11903d5350a6b304ba0ad3192c76f928, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spe: 5
-  dashingCooldown: 0
+  spe: 250
+  dashPower: 25
+  dashTime: 0.1
+  dashingCooldown: 1
 --- !u!212 &1502430072
 SpriteRenderer:
   m_ObjectHideFlags: 0
