@@ -2,36 +2,38 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Threading;
+using Unity.VisualScripting;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class Move : MonoBehaviour
 {
     private Rigidbody2D body;
 
-    [SerializeField] private float spe = 0;
-    [SerializeField] float sprintSpe = 0;
-    [SerializeField] float dashPower = 0;
-    [SerializeField] float dashTime = 0;
-    [SerializeField] private float dashingCooldown = 0;
 
     //Direction handlers
-    private float horizontal;
-    private float vertical;
-    private float vel;
+    [SerializeField] private float baseSpeed = 0;
+    private float varSpeed;
+    private Vector2 _input;
 
-    //Sprinting handlers
+    //Sprinting handler
+    [SerializeField] float sprintSpe = 0;
     private bool sprinting;
 
     //Dashing handlers
+    [SerializeField] float dashPower = 0;
+    [SerializeField] float dashTime = 0;
+    [SerializeField] private float dashingCooldown = 0;
     private bool canDash;
     private bool dashing;
+    private Vector2 dashingFw;
 
     // Start is called before the first frame update
     void Start()
     {
         body = GetComponent<Rigidbody2D>();
-        vel = spe;
+        varSpeed = baseSpeed;
         canDash = true;
         dashing = false;
         sprinting = false;
@@ -40,45 +42,47 @@ public class Move : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        horizontal = Input.GetAxisRaw("Horizontal");
-        vertical = Input.GetAxisRaw("Vertical");
-        
-        if (Input.GetKey(KeyCode.LeftShift)) {sprinting = true;}
-        else {sprinting = false;}
-
-        if (dashing) return;
-        if (canDash && Input.GetKeyDown(KeyCode.Space))
-        {
-            StartCoroutine(Dash());
-        }
-
-
+        if (Input.GetKey(KeyCode.LeftShift)) { sprinting = true; }
+        else { sprinting = false; }
     }
 
     private void FixedUpdate()
     {
-        if (!dashing) body.velocity = MovVector();
-        if (sprinting){vel = sprintSpe;}
-        else { vel = spe; }
+        if (sprinting) { varSpeed = sprintSpe; }
+        else if (dashing) { varSpeed = dashPower; }
+        else { varSpeed = baseSpeed; }
+        move();
     }
 
-    private Vector2 MovVector()
+    private void OnMove(InputValue value)
     {
-        Vector2 mov = new Vector2(horizontal, vertical).normalized;
-        return mov * vel * Time.deltaTime;
+        _input = value.Get<Vector2>();
+    }
+
+    private void OnDash()
+    {
+        if (canDash)
+        {
+            StartCoroutine(Dash());
+        }
+    }
+
+    private void move()
+    {
+        var velocity = _input * varSpeed * Time.deltaTime;
+        if (dashing) { velocity = dashingFw * varSpeed * Time.deltaTime; }
+        transform.Translate(velocity);
     }
 
     private IEnumerator Dash()
     {
+        dashingFw = _input;
         dashing = true;
         canDash = false;
         sprinting = false;
-        body.velocity = MovVector() * dashPower;
         yield return new WaitForSeconds(dashTime);
         dashing = false;
         yield return new WaitForSeconds(dashingCooldown);
         canDash = true;
     }
-
-
 }
