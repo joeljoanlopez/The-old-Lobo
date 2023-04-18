@@ -7,7 +7,7 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class Move : MonoBehaviour
+public class MoveController : MonoBehaviour
 {
     private Rigidbody2D body;
 
