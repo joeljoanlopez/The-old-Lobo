@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -70,7 +70,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -19855,7 +19855,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Carretera 1_776: -260072259
+      Carretera 1_142: 1180752173
       Carretera 1_280: 623590701
       Carretera 1_285: -877082984
       Carretera 1_673: -417035780
@@ -19890,8 +19890,8 @@ TextureImporter:
       Carretera 1_426: -572137425
       Carretera 1_235: 1867223395
       Carretera 1_905: 1791354154
-      Carretera 1_431: -121764444
       Carretera 1_577: -567210552
+      Carretera 1_431: -121764444
       Carretera 1_479: -1401791184
       Carretera 1_755: 605932392
       Carretera 1_89: 74894082
@@ -20102,7 +20102,6 @@ TextureImporter:
       Carretera 1_704: -473139649
       Carretera 1_570: 509864986
       Carretera 1_536: 736850349
-      Carretera 1_143: -1374507975
       Carretera 1_204: 1483646763
       Carretera 1_632: 756475990
       Carretera 1_594: 1042222115
@@ -20118,6 +20117,7 @@ TextureImporter:
       Carretera 1_425: -1010465514
       Carretera 1_433: -1760860237
       Carretera 1_801: 667107345
+      Carretera 1_143: -1374507975
       Carretera 1_559: 1852639827
       Carretera 1_556: -783035534
       Carretera 1_774: 194614654
@@ -20794,7 +20794,7 @@ TextureImporter:
       Carretera 1_381: 2130727561
       Carretera 1_13: 1148021055
       Carretera 1_449: 2107663322
-      Carretera 1_142: 1180752173
+      Carretera 1_776: -260072259
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
