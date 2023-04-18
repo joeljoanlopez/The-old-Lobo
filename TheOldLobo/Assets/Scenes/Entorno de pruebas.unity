@@ -1019,7 +1019,7 @@ GameObject:
   - component: {fileID: 1667809743}
   - component: {fileID: 1667809742}
   m_Layer: 0
-  m_Name: Grid
+  m_Name: Escenario
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
