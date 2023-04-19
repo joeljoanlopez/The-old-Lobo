@@ -42,15 +42,15 @@ public class MoveController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Get Sprint input
         if (Input.GetKey(KeyCode.LeftShift)) { sprinting = true; }
         else { sprinting = false; }
-    }
 
-    private void FixedUpdate()
-    {
+        //Handle movement mode
         if (sprinting) { varSpeed = sprintSpe; }
         else if (dashing) { varSpeed = dashPower; }
         else { varSpeed = baseSpeed; }
+
         move();
     }
 
