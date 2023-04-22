@@ -3783,7 +3783,7 @@ TextureImporter:
       name: Carretera 1_175
       rect:
         serializedVersion: 2
-        x: 688
+        x: 576
         y: 388
         width: 16
         height: 16
@@ -3804,7 +3804,7 @@ TextureImporter:
       name: Carretera 1_176
       rect:
         serializedVersion: 2
-        x: 704
+        x: 592
         y: 388
         width: 16
         height: 16
@@ -3825,7 +3825,7 @@ TextureImporter:
       name: Carretera 1_177
       rect:
         serializedVersion: 2
-        x: 720
+        x: 608
         y: 388
         width: 16
         height: 16
@@ -3846,7 +3846,7 @@ TextureImporter:
       name: Carretera 1_178
       rect:
         serializedVersion: 2
-        x: 736
+        x: 624
         y: 388
         width: 16
         height: 16
@@ -3867,7 +3867,7 @@ TextureImporter:
       name: Carretera 1_179
       rect:
         serializedVersion: 2
-        x: 752
+        x: 688
         y: 388
         width: 16
         height: 16
@@ -3888,7 +3888,7 @@ TextureImporter:
       name: Carretera 1_180
       rect:
         serializedVersion: 2
-        x: 768
+        x: 704
         y: 388
         width: 16
         height: 16
@@ -3909,7 +3909,7 @@ TextureImporter:
       name: Carretera 1_181
       rect:
         serializedVersion: 2
-        x: 784
+        x: 720
         y: 388
         width: 16
         height: 16
@@ -3930,7 +3930,7 @@ TextureImporter:
       name: Carretera 1_182
       rect:
         serializedVersion: 2
-        x: 800
+        x: 736
         y: 388
         width: 16
         height: 16
@@ -3951,8 +3951,8 @@ TextureImporter:
       name: Carretera 1_183
       rect:
         serializedVersion: 2
-        x: 16
-        y: 372
+        x: 752
+        y: 388
         width: 16
         height: 16
       alignment: 0
@@ -3972,8 +3972,8 @@ TextureImporter:
       name: Carretera 1_184
       rect:
         serializedVersion: 2
-        x: 32
-        y: 372
+        x: 768
+        y: 388
         width: 16
         height: 16
       alignment: 0
@@ -3993,8 +3993,8 @@ TextureImporter:
       name: Carretera 1_185
       rect:
         serializedVersion: 2
-        x: 48
-        y: 372
+        x: 784
+        y: 388
         width: 16
         height: 16
       alignment: 0
@@ -4014,8 +4014,8 @@ TextureImporter:
       name: Carretera 1_186
       rect:
         serializedVersion: 2
-        x: 64
-        y: 372
+        x: 800
+        y: 388
         width: 16
         height: 16
       alignment: 0
@@ -4035,7 +4035,7 @@ TextureImporter:
       name: Carretera 1_187
       rect:
         serializedVersion: 2
-        x: 80
+        x: 16
         y: 372
         width: 16
         height: 16
@@ -4056,7 +4056,7 @@ TextureImporter:
       name: Carretera 1_188
       rect:
         serializedVersion: 2
-        x: 96
+        x: 32
         y: 372
         width: 16
         height: 16
@@ -4077,7 +4077,7 @@ TextureImporter:
       name: Carretera 1_189
       rect:
         serializedVersion: 2
-        x: 112
+        x: 48
         y: 372
         width: 16
         height: 16
@@ -4098,7 +4098,7 @@ TextureImporter:
       name: Carretera 1_190
       rect:
         serializedVersion: 2
-        x: 128
+        x: 64
         y: 372
         width: 16
         height: 16
@@ -4119,7 +4119,7 @@ TextureImporter:
       name: Carretera 1_191
       rect:
         serializedVersion: 2
-        x: 144
+        x: 80
         y: 372
         width: 16
         height: 16
@@ -4140,7 +4140,7 @@ TextureImporter:
       name: Carretera 1_192
       rect:
         serializedVersion: 2
-        x: 160
+        x: 96
         y: 372
         width: 16
         height: 16
@@ -4161,7 +4161,7 @@ TextureImporter:
       name: Carretera 1_193
       rect:
         serializedVersion: 2
-        x: 176
+        x: 112
         y: 372
         width: 16
         height: 16
@@ -4182,7 +4182,7 @@ TextureImporter:
       name: Carretera 1_194
       rect:
         serializedVersion: 2
-        x: 192
+        x: 128
         y: 372
         width: 16
         height: 16
@@ -4203,7 +4203,7 @@ TextureImporter:
       name: Carretera 1_195
       rect:
         serializedVersion: 2
-        x: 208
+        x: 144
         y: 372
         width: 16
         height: 16
@@ -4224,7 +4224,7 @@ TextureImporter:
       name: Carretera 1_196
       rect:
         serializedVersion: 2
-        x: 224
+        x: 160
         y: 372
         width: 16
         height: 16
@@ -4245,7 +4245,7 @@ TextureImporter:
       name: Carretera 1_197
       rect:
         serializedVersion: 2
-        x: 240
+        x: 176
         y: 372
         width: 16
         height: 16
@@ -4266,7 +4266,7 @@ TextureImporter:
       name: Carretera 1_198
       rect:
         serializedVersion: 2
-        x: 256
+        x: 192
         y: 372
         width: 16
         height: 16
@@ -4287,7 +4287,7 @@ TextureImporter:
       name: Carretera 1_199
       rect:
         serializedVersion: 2
-        x: 272
+        x: 208
         y: 372
         width: 16
         height: 16
@@ -4308,7 +4308,7 @@ TextureImporter:
       name: Carretera 1_200
       rect:
         serializedVersion: 2
-        x: 288
+        x: 224
         y: 372
         width: 16
         height: 16
@@ -4329,7 +4329,7 @@ TextureImporter:
       name: Carretera 1_201
       rect:
         serializedVersion: 2
-        x: 304
+        x: 240
         y: 372
         width: 16
         height: 16
@@ -4350,7 +4350,7 @@ TextureImporter:
       name: Carretera 1_202
       rect:
         serializedVersion: 2
-        x: 320
+        x: 256
         y: 372
         width: 16
         height: 16
@@ -4371,7 +4371,7 @@ TextureImporter:
       name: Carretera 1_203
       rect:
         serializedVersion: 2
-        x: 336
+        x: 272
         y: 372
         width: 16
         height: 16
@@ -4392,7 +4392,7 @@ TextureImporter:
       name: Carretera 1_204
       rect:
         serializedVersion: 2
-        x: 352
+        x: 288
         y: 372
         width: 16
         height: 16
@@ -4413,7 +4413,7 @@ TextureImporter:
       name: Carretera 1_205
       rect:
         serializedVersion: 2
-        x: 368
+        x: 304
         y: 372
         width: 16
         height: 16
@@ -4434,7 +4434,7 @@ TextureImporter:
       name: Carretera 1_206
       rect:
         serializedVersion: 2
-        x: 400
+        x: 320
         y: 372
         width: 16
         height: 16
@@ -4455,7 +4455,7 @@ TextureImporter:
       name: Carretera 1_207
       rect:
         serializedVersion: 2
-        x: 416
+        x: 336
         y: 372
         width: 16
         height: 16
@@ -4476,7 +4476,7 @@ TextureImporter:
       name: Carretera 1_208
       rect:
         serializedVersion: 2
-        x: 480
+        x: 352
         y: 372
         width: 16
         height: 16
@@ -4497,7 +4497,7 @@ TextureImporter:
       name: Carretera 1_209
       rect:
         serializedVersion: 2
-        x: 496
+        x: 368
         y: 372
         width: 16
         height: 16
@@ -4518,7 +4518,7 @@ TextureImporter:
       name: Carretera 1_210
       rect:
         serializedVersion: 2
-        x: 512
+        x: 400
         y: 372
         width: 16
         height: 16
@@ -4539,7 +4539,7 @@ TextureImporter:
       name: Carretera 1_211
       rect:
         serializedVersion: 2
-        x: 528
+        x: 416
         y: 372
         width: 16
         height: 16
@@ -4560,7 +4560,7 @@ TextureImporter:
       name: Carretera 1_212
       rect:
         serializedVersion: 2
-        x: 544
+        x: 480
         y: 372
         width: 16
         height: 16
@@ -4581,7 +4581,7 @@ TextureImporter:
       name: Carretera 1_213
       rect:
         serializedVersion: 2
-        x: 560
+        x: 496
         y: 372
         width: 16
         height: 16
@@ -4602,7 +4602,7 @@ TextureImporter:
       name: Carretera 1_214
       rect:
         serializedVersion: 2
-        x: 576
+        x: 512
         y: 372
         width: 16
         height: 16
@@ -4623,7 +4623,7 @@ TextureImporter:
       name: Carretera 1_215
       rect:
         serializedVersion: 2
-        x: 592
+        x: 528
         y: 372
         width: 16
         height: 16
@@ -4644,7 +4644,7 @@ TextureImporter:
       name: Carretera 1_216
       rect:
         serializedVersion: 2
-        x: 608
+        x: 544
         y: 372
         width: 16
         height: 16
@@ -4665,7 +4665,7 @@ TextureImporter:
       name: Carretera 1_217
       rect:
         serializedVersion: 2
-        x: 624
+        x: 560
         y: 372
         width: 16
         height: 16
@@ -4686,7 +4686,7 @@ TextureImporter:
       name: Carretera 1_218
       rect:
         serializedVersion: 2
-        x: 688
+        x: 576
         y: 372
         width: 16
         height: 16
@@ -4707,7 +4707,7 @@ TextureImporter:
       name: Carretera 1_219
       rect:
         serializedVersion: 2
-        x: 704
+        x: 592
         y: 372
         width: 16
         height: 16
@@ -4728,7 +4728,7 @@ TextureImporter:
       name: Carretera 1_220
       rect:
         serializedVersion: 2
-        x: 720
+        x: 608
         y: 372
         width: 16
         height: 16
@@ -4749,7 +4749,7 @@ TextureImporter:
       name: Carretera 1_221
       rect:
         serializedVersion: 2
-        x: 736
+        x: 624
         y: 372
         width: 16
         height: 16
@@ -4770,7 +4770,7 @@ TextureImporter:
       name: Carretera 1_222
       rect:
         serializedVersion: 2
-        x: 752
+        x: 688
         y: 372
         width: 16
         height: 16
@@ -4791,7 +4791,7 @@ TextureImporter:
       name: Carretera 1_223
       rect:
         serializedVersion: 2
-        x: 768
+        x: 704
         y: 372
         width: 16
         height: 16
@@ -4812,7 +4812,7 @@ TextureImporter:
       name: Carretera 1_224
       rect:
         serializedVersion: 2
-        x: 784
+        x: 720
         y: 372
         width: 16
         height: 16
@@ -4833,7 +4833,7 @@ TextureImporter:
       name: Carretera 1_225
       rect:
         serializedVersion: 2
-        x: 800
+        x: 736
         y: 372
         width: 16
         height: 16
@@ -4854,8 +4854,8 @@ TextureImporter:
       name: Carretera 1_226
       rect:
         serializedVersion: 2
-        x: 16
-        y: 356
+        x: 752
+        y: 372
         width: 16
         height: 16
       alignment: 0
@@ -4875,8 +4875,8 @@ TextureImporter:
       name: Carretera 1_227
       rect:
         serializedVersion: 2
-        x: 32
-        y: 356
+        x: 768
+        y: 372
         width: 16
         height: 16
       alignment: 0
@@ -4896,8 +4896,8 @@ TextureImporter:
       name: Carretera 1_228
       rect:
         serializedVersion: 2
-        x: 48
-        y: 356
+        x: 784
+        y: 372
         width: 16
         height: 16
       alignment: 0
@@ -4917,8 +4917,8 @@ TextureImporter:
       name: Carretera 1_229
       rect:
         serializedVersion: 2
-        x: 64
-        y: 356
+        x: 800
+        y: 372
         width: 16
         height: 16
       alignment: 0
@@ -4938,7 +4938,7 @@ TextureImporter:
       name: Carretera 1_230
       rect:
         serializedVersion: 2
-        x: 80
+        x: 16
         y: 356
         width: 16
         height: 16
@@ -4959,7 +4959,7 @@ TextureImporter:
       name: Carretera 1_231
       rect:
         serializedVersion: 2
-        x: 96
+        x: 32
         y: 356
         width: 16
         height: 16
@@ -4980,7 +4980,7 @@ TextureImporter:
       name: Carretera 1_232
       rect:
         serializedVersion: 2
-        x: 112
+        x: 48
         y: 356
         width: 16
         height: 16
@@ -5001,7 +5001,7 @@ TextureImporter:
       name: Carretera 1_233
       rect:
         serializedVersion: 2
-        x: 128
+        x: 64
         y: 356
         width: 16
         height: 16
@@ -5022,7 +5022,7 @@ TextureImporter:
       name: Carretera 1_234
       rect:
         serializedVersion: 2
-        x: 144
+        x: 80
         y: 356
         width: 16
         height: 16
@@ -5043,7 +5043,7 @@ TextureImporter:
       name: Carretera 1_235
       rect:
         serializedVersion: 2
-        x: 160
+        x: 96
         y: 356
         width: 16
         height: 16
@@ -5064,7 +5064,7 @@ TextureImporter:
       name: Carretera 1_236
       rect:
         serializedVersion: 2
-        x: 176
+        x: 112
         y: 356
         width: 16
         height: 16
@@ -5085,7 +5085,7 @@ TextureImporter:
       name: Carretera 1_237
       rect:
         serializedVersion: 2
-        x: 192
+        x: 128
         y: 356
         width: 16
         height: 16
@@ -5106,7 +5106,7 @@ TextureImporter:
       name: Carretera 1_238
       rect:
         serializedVersion: 2
-        x: 208
+        x: 144
         y: 356
         width: 16
         height: 16
@@ -5127,7 +5127,7 @@ TextureImporter:
       name: Carretera 1_239
       rect:
         serializedVersion: 2
-        x: 224
+        x: 160
         y: 356
         width: 16
         height: 16
@@ -5148,7 +5148,7 @@ TextureImporter:
       name: Carretera 1_240
       rect:
         serializedVersion: 2
-        x: 240
+        x: 176
         y: 356
         width: 16
         height: 16
@@ -5169,7 +5169,7 @@ TextureImporter:
       name: Carretera 1_241
       rect:
         serializedVersion: 2
-        x: 256
+        x: 192
         y: 356
         width: 16
         height: 16
@@ -5190,7 +5190,7 @@ TextureImporter:
       name: Carretera 1_242
       rect:
         serializedVersion: 2
-        x: 272
+        x: 208
         y: 356
         width: 16
         height: 16
@@ -5211,7 +5211,7 @@ TextureImporter:
       name: Carretera 1_243
       rect:
         serializedVersion: 2
-        x: 288
+        x: 224
         y: 356
         width: 16
         height: 16
@@ -5232,7 +5232,7 @@ TextureImporter:
       name: Carretera 1_244
       rect:
         serializedVersion: 2
-        x: 304
+        x: 240
         y: 356
         width: 16
         height: 16
@@ -5253,7 +5253,7 @@ TextureImporter:
       name: Carretera 1_245
       rect:
         serializedVersion: 2
-        x: 320
+        x: 256
         y: 356
         width: 16
         height: 16
@@ -5274,7 +5274,7 @@ TextureImporter:
       name: Carretera 1_246
       rect:
         serializedVersion: 2
-        x: 336
+        x: 272
         y: 356
         width: 16
         height: 16
@@ -5295,7 +5295,7 @@ TextureImporter:
       name: Carretera 1_247
       rect:
         serializedVersion: 2
-        x: 352
+        x: 288
         y: 356
         width: 16
         height: 16
@@ -5316,7 +5316,7 @@ TextureImporter:
       name: Carretera 1_248
       rect:
         serializedVersion: 2
-        x: 368
+        x: 304
         y: 356
         width: 16
         height: 16
@@ -5337,7 +5337,7 @@ TextureImporter:
       name: Carretera 1_249
       rect:
         serializedVersion: 2
-        x: 400
+        x: 320
         y: 356
         width: 16
         height: 16
@@ -5358,7 +5358,7 @@ TextureImporter:
       name: Carretera 1_250
       rect:
         serializedVersion: 2
-        x: 416
+        x: 336
         y: 356
         width: 16
         height: 16
@@ -5379,7 +5379,7 @@ TextureImporter:
       name: Carretera 1_251
       rect:
         serializedVersion: 2
-        x: 480
+        x: 352
         y: 356
         width: 16
         height: 16
@@ -5400,7 +5400,7 @@ TextureImporter:
       name: Carretera 1_252
       rect:
         serializedVersion: 2
-        x: 496
+        x: 368
         y: 356
         width: 16
         height: 16
@@ -5421,7 +5421,7 @@ TextureImporter:
       name: Carretera 1_253
       rect:
         serializedVersion: 2
-        x: 544
+        x: 400
         y: 356
         width: 16
         height: 16
@@ -5442,7 +5442,7 @@ TextureImporter:
       name: Carretera 1_254
       rect:
         serializedVersion: 2
-        x: 560
+        x: 416
         y: 356
         width: 16
         height: 16
@@ -5463,7 +5463,7 @@ TextureImporter:
       name: Carretera 1_255
       rect:
         serializedVersion: 2
-        x: 576
+        x: 480
         y: 356
         width: 16
         height: 16
@@ -5484,7 +5484,7 @@ TextureImporter:
       name: Carretera 1_256
       rect:
         serializedVersion: 2
-        x: 592
+        x: 496
         y: 356
         width: 16
         height: 16
@@ -5505,7 +5505,7 @@ TextureImporter:
       name: Carretera 1_257
       rect:
         serializedVersion: 2
-        x: 608
+        x: 544
         y: 356
         width: 16
         height: 16
@@ -5526,7 +5526,7 @@ TextureImporter:
       name: Carretera 1_258
       rect:
         serializedVersion: 2
-        x: 624
+        x: 560
         y: 356
         width: 16
         height: 16
@@ -5547,7 +5547,7 @@ TextureImporter:
       name: Carretera 1_259
       rect:
         serializedVersion: 2
-        x: 688
+        x: 576
         y: 356
         width: 16
         height: 16
@@ -5568,7 +5568,7 @@ TextureImporter:
       name: Carretera 1_260
       rect:
         serializedVersion: 2
-        x: 704
+        x: 592
         y: 356
         width: 16
         height: 16
@@ -5589,7 +5589,7 @@ TextureImporter:
       name: Carretera 1_261
       rect:
         serializedVersion: 2
-        x: 720
+        x: 608
         y: 356
         width: 16
         height: 16
@@ -5610,7 +5610,7 @@ TextureImporter:
       name: Carretera 1_262
       rect:
         serializedVersion: 2
-        x: 736
+        x: 624
         y: 356
         width: 16
         height: 16
@@ -5631,7 +5631,7 @@ TextureImporter:
       name: Carretera 1_263
       rect:
         serializedVersion: 2
-        x: 752
+        x: 688
         y: 356
         width: 16
         height: 16
@@ -5652,7 +5652,7 @@ TextureImporter:
       name: Carretera 1_264
       rect:
         serializedVersion: 2
-        x: 768
+        x: 704
         y: 356
         width: 16
         height: 16
@@ -5673,7 +5673,7 @@ TextureImporter:
       name: Carretera 1_265
       rect:
         serializedVersion: 2
-        x: 784
+        x: 720
         y: 356
         width: 16
         height: 16
@@ -5694,7 +5694,7 @@ TextureImporter:
       name: Carretera 1_266
       rect:
         serializedVersion: 2
-        x: 800
+        x: 736
         y: 356
         width: 16
         height: 16
@@ -5715,8 +5715,8 @@ TextureImporter:
       name: Carretera 1_267
       rect:
         serializedVersion: 2
-        x: 16
-        y: 340
+        x: 752
+        y: 356
         width: 16
         height: 16
       alignment: 0
@@ -5736,8 +5736,8 @@ TextureImporter:
       name: Carretera 1_268
       rect:
         serializedVersion: 2
-        x: 32
-        y: 340
+        x: 768
+        y: 356
         width: 16
         height: 16
       alignment: 0
@@ -5757,8 +5757,8 @@ TextureImporter:
       name: Carretera 1_269
       rect:
         serializedVersion: 2
-        x: 48
-        y: 340
+        x: 784
+        y: 356
         width: 16
         height: 16
       alignment: 0
@@ -5778,8 +5778,8 @@ TextureImporter:
       name: Carretera 1_270
       rect:
         serializedVersion: 2
-        x: 64
-        y: 340
+        x: 800
+        y: 356
         width: 16
         height: 16
       alignment: 0
@@ -5799,7 +5799,7 @@ TextureImporter:
       name: Carretera 1_271
       rect:
         serializedVersion: 2
-        x: 80
+        x: 16
         y: 340
         width: 16
         height: 16
@@ -5820,7 +5820,7 @@ TextureImporter:
       name: Carretera 1_272
       rect:
         serializedVersion: 2
-        x: 96
+        x: 32
         y: 340
         width: 16
         height: 16
@@ -5841,7 +5841,7 @@ TextureImporter:
       name: Carretera 1_273
       rect:
         serializedVersion: 2
-        x: 112
+        x: 48
         y: 340
         width: 16
         height: 16
@@ -5862,7 +5862,7 @@ TextureImporter:
       name: Carretera 1_274
       rect:
         serializedVersion: 2
-        x: 128
+        x: 64
         y: 340
         width: 16
         height: 16
@@ -5883,7 +5883,7 @@ TextureImporter:
       name: Carretera 1_275
       rect:
         serializedVersion: 2
-        x: 144
+        x: 80
         y: 340
         width: 16
         height: 16
@@ -5904,7 +5904,7 @@ TextureImporter:
       name: Carretera 1_276
       rect:
         serializedVersion: 2
-        x: 160
+        x: 96
         y: 340
         width: 16
         height: 16
@@ -5925,7 +5925,7 @@ TextureImporter:
       name: Carretera 1_277
       rect:
         serializedVersion: 2
-        x: 176
+        x: 112
         y: 340
         width: 16
         height: 16
@@ -5946,7 +5946,7 @@ TextureImporter:
       name: Carretera 1_278
       rect:
         serializedVersion: 2
-        x: 192
+        x: 128
         y: 340
         width: 16
         height: 16
@@ -5967,7 +5967,7 @@ TextureImporter:
       name: Carretera 1_279
       rect:
         serializedVersion: 2
-        x: 208
+        x: 144
         y: 340
         width: 16
         height: 16
@@ -5988,7 +5988,7 @@ TextureImporter:
       name: Carretera 1_280
       rect:
         serializedVersion: 2
-        x: 224
+        x: 160
         y: 340
         width: 16
         height: 16
@@ -6009,7 +6009,7 @@ TextureImporter:
       name: Carretera 1_281
       rect:
         serializedVersion: 2
-        x: 240
+        x: 176
         y: 340
         width: 16
         height: 16
@@ -6030,7 +6030,7 @@ TextureImporter:
       name: Carretera 1_282
       rect:
         serializedVersion: 2
-        x: 256
+        x: 192
         y: 340
         width: 16
         height: 16
@@ -6051,7 +6051,7 @@ TextureImporter:
       name: Carretera 1_283
       rect:
         serializedVersion: 2
-        x: 272
+        x: 208
         y: 340
         width: 16
         height: 16
@@ -6072,7 +6072,7 @@ TextureImporter:
       name: Carretera 1_284
       rect:
         serializedVersion: 2
-        x: 288
+        x: 224
         y: 340
         width: 16
         height: 16
@@ -6093,7 +6093,7 @@ TextureImporter:
       name: Carretera 1_285
       rect:
         serializedVersion: 2
-        x: 304
+        x: 240
         y: 340
         width: 16
         height: 16
@@ -6114,7 +6114,7 @@ TextureImporter:
       name: Carretera 1_286
       rect:
         serializedVersion: 2
-        x: 320
+        x: 256
         y: 340
         width: 16
         height: 16
@@ -6135,7 +6135,7 @@ TextureImporter:
       name: Carretera 1_287
       rect:
         serializedVersion: 2
-        x: 336
+        x: 272
         y: 340
         width: 16
         height: 16
@@ -6156,7 +6156,7 @@ TextureImporter:
       name: Carretera 1_288
       rect:
         serializedVersion: 2
-        x: 368
+        x: 288
         y: 340
         width: 16
         height: 16
@@ -6177,7 +6177,7 @@ TextureImporter:
       name: Carretera 1_289
       rect:
         serializedVersion: 2
-        x: 400
+        x: 304
         y: 340
         width: 16
         height: 16
@@ -6198,7 +6198,7 @@ TextureImporter:
       name: Carretera 1_290
       rect:
         serializedVersion: 2
-        x: 480
+        x: 320
         y: 340
         width: 16
         height: 16
@@ -6219,7 +6219,7 @@ TextureImporter:
       name: Carretera 1_291
       rect:
         serializedVersion: 2
-        x: 496
+        x: 336
         y: 340
         width: 16
         height: 16
@@ -6240,7 +6240,7 @@ TextureImporter:
       name: Carretera 1_292
       rect:
         serializedVersion: 2
-        x: 512
+        x: 368
         y: 340
         width: 16
         height: 16
@@ -6261,7 +6261,7 @@ TextureImporter:
       name: Carretera 1_293
       rect:
         serializedVersion: 2
-        x: 528
+        x: 400
         y: 340
         width: 16
         height: 16
@@ -6282,7 +6282,7 @@ TextureImporter:
       name: Carretera 1_294
       rect:
         serializedVersion: 2
-        x: 544
+        x: 480
         y: 340
         width: 16
         height: 16
@@ -6303,7 +6303,7 @@ TextureImporter:
       name: Carretera 1_295
       rect:
         serializedVersion: 2
-        x: 560
+        x: 496
         y: 340
         width: 16
         height: 16
@@ -6324,7 +6324,7 @@ TextureImporter:
       name: Carretera 1_296
       rect:
         serializedVersion: 2
-        x: 576
+        x: 512
         y: 340
         width: 16
         height: 16
@@ -6345,7 +6345,7 @@ TextureImporter:
       name: Carretera 1_297
       rect:
         serializedVersion: 2
-        x: 592
+        x: 528
         y: 340
         width: 16
         height: 16
@@ -6366,7 +6366,7 @@ TextureImporter:
       name: Carretera 1_298
       rect:
         serializedVersion: 2
-        x: 608
+        x: 544
         y: 340
         width: 16
         height: 16
@@ -6387,7 +6387,7 @@ TextureImporter:
       name: Carretera 1_299
       rect:
         serializedVersion: 2
-        x: 624
+        x: 560
         y: 340
         width: 16
         height: 16
@@ -6408,7 +6408,7 @@ TextureImporter:
       name: Carretera 1_300
       rect:
         serializedVersion: 2
-        x: 688
+        x: 576
         y: 340
         width: 16
         height: 16
@@ -6429,7 +6429,7 @@ TextureImporter:
       name: Carretera 1_301
       rect:
         serializedVersion: 2
-        x: 704
+        x: 592
         y: 340
         width: 16
         height: 16
@@ -6450,8 +6450,8 @@ TextureImporter:
       name: Carretera 1_302
       rect:
         serializedVersion: 2
-        x: 16
-        y: 324
+        x: 608
+        y: 340
         width: 16
         height: 16
       alignment: 0
@@ -6471,8 +6471,8 @@ TextureImporter:
       name: Carretera 1_303
       rect:
         serializedVersion: 2
-        x: 32
-        y: 324
+        x: 624
+        y: 340
         width: 16
         height: 16
       alignment: 0
@@ -6492,8 +6492,8 @@ TextureImporter:
       name: Carretera 1_304
       rect:
         serializedVersion: 2
-        x: 48
-        y: 324
+        x: 688
+        y: 340
         width: 16
         height: 16
       alignment: 0
@@ -6513,8 +6513,8 @@ TextureImporter:
       name: Carretera 1_305
       rect:
         serializedVersion: 2
-        x: 64
-        y: 324
+        x: 704
+        y: 340
         width: 16
         height: 16
       alignment: 0
@@ -6534,7 +6534,7 @@ TextureImporter:
       name: Carretera 1_306
       rect:
         serializedVersion: 2
-        x: 80
+        x: 16
         y: 324
         width: 16
         height: 16
@@ -6555,7 +6555,7 @@ TextureImporter:
       name: Carretera 1_307
       rect:
         serializedVersion: 2
-        x: 96
+        x: 32
         y: 324
         width: 16
         height: 16
@@ -6576,7 +6576,7 @@ TextureImporter:
       name: Carretera 1_308
       rect:
         serializedVersion: 2
-        x: 112
+        x: 48
         y: 324
         width: 16
         height: 16
@@ -6597,7 +6597,7 @@ TextureImporter:
       name: Carretera 1_309
       rect:
         serializedVersion: 2
-        x: 128
+        x: 64
         y: 324
         width: 16
         height: 16
@@ -6618,7 +6618,7 @@ TextureImporter:
       name: Carretera 1_310
       rect:
         serializedVersion: 2
-        x: 144
+        x: 80
         y: 324
         width: 16
         height: 16
@@ -6639,7 +6639,7 @@ TextureImporter:
       name: Carretera 1_311
       rect:
         serializedVersion: 2
-        x: 160
+        x: 96
         y: 324
         width: 16
         height: 16
@@ -6660,7 +6660,7 @@ TextureImporter:
       name: Carretera 1_312
       rect:
         serializedVersion: 2
-        x: 176
+        x: 112
         y: 324
         width: 16
         height: 16
@@ -6681,7 +6681,7 @@ TextureImporter:
       name: Carretera 1_313
       rect:
         serializedVersion: 2
-        x: 192
+        x: 128
         y: 324
         width: 16
         height: 16
@@ -6702,7 +6702,7 @@ TextureImporter:
       name: Carretera 1_314
       rect:
         serializedVersion: 2
-        x: 208
+        x: 144
         y: 324
         width: 16
         height: 16
@@ -6723,7 +6723,7 @@ TextureImporter:
       name: Carretera 1_315
       rect:
         serializedVersion: 2
-        x: 224
+        x: 160
         y: 324
         width: 16
         height: 16
@@ -6744,7 +6744,7 @@ TextureImporter:
       name: Carretera 1_316
       rect:
         serializedVersion: 2
-        x: 240
+        x: 176
         y: 324
         width: 16
         height: 16
@@ -6765,7 +6765,7 @@ TextureImporter:
       name: Carretera 1_317
       rect:
         serializedVersion: 2
-        x: 256
+        x: 192
         y: 324
         width: 16
         height: 16
@@ -6786,7 +6786,7 @@ TextureImporter:
       name: Carretera 1_318
       rect:
         serializedVersion: 2
-        x: 272
+        x: 208
         y: 324
         width: 16
         height: 16
@@ -6807,7 +6807,7 @@ TextureImporter:
       name: Carretera 1_319
       rect:
         serializedVersion: 2
-        x: 288
+        x: 224
         y: 324
         width: 16
         height: 16
@@ -6828,7 +6828,7 @@ TextureImporter:
       name: Carretera 1_320
       rect:
         serializedVersion: 2
-        x: 304
+        x: 240
         y: 324
         width: 16
         height: 16
@@ -6849,7 +6849,7 @@ TextureImporter:
       name: Carretera 1_321
       rect:
         serializedVersion: 2
-        x: 320
+        x: 256
         y: 324
         width: 16
         height: 16
@@ -6870,7 +6870,7 @@ TextureImporter:
       name: Carretera 1_322
       rect:
         serializedVersion: 2
-        x: 336
+        x: 272
         y: 324
         width: 16
         height: 16
@@ -6891,7 +6891,7 @@ TextureImporter:
       name: Carretera 1_323
       rect:
         serializedVersion: 2
-        x: 480
+        x: 288
         y: 324
         width: 16
         height: 16
@@ -6912,7 +6912,7 @@ TextureImporter:
       name: Carretera 1_324
       rect:
         serializedVersion: 2
-        x: 496
+        x: 304
         y: 324
         width: 16
         height: 16
@@ -6933,7 +6933,7 @@ TextureImporter:
       name: Carretera 1_325
       rect:
         serializedVersion: 2
-        x: 512
+        x: 320
         y: 324
         width: 16
         height: 16
@@ -6954,7 +6954,7 @@ TextureImporter:
       name: Carretera 1_326
       rect:
         serializedVersion: 2
-        x: 528
+        x: 336
         y: 324
         width: 16
         height: 16
@@ -6975,7 +6975,7 @@ TextureImporter:
       name: Carretera 1_327
       rect:
         serializedVersion: 2
-        x: 544
+        x: 480
         y: 324
         width: 16
         height: 16
@@ -6996,7 +6996,7 @@ TextureImporter:
       name: Carretera 1_328
       rect:
         serializedVersion: 2
-        x: 560
+        x: 496
         y: 324
         width: 16
         height: 16
@@ -7017,7 +7017,7 @@ TextureImporter:
       name: Carretera 1_329
       rect:
         serializedVersion: 2
-        x: 688
+        x: 512
         y: 324
         width: 16
         height: 16
@@ -7038,7 +7038,7 @@ TextureImporter:
       name: Carretera 1_330
       rect:
         serializedVersion: 2
-        x: 704
+        x: 528
         y: 324
         width: 16
         height: 16
@@ -7059,8 +7059,8 @@ TextureImporter:
       name: Carretera 1_331
       rect:
         serializedVersion: 2
-        x: 16
-        y: 308
+        x: 544
+        y: 324
         width: 16
         height: 16
       alignment: 0
@@ -7080,8 +7080,8 @@ TextureImporter:
       name: Carretera 1_332
       rect:
         serializedVersion: 2
-        x: 32
-        y: 308
+        x: 560
+        y: 324
         width: 16
         height: 16
       alignment: 0
@@ -7101,8 +7101,8 @@ TextureImporter:
       name: Carretera 1_333
       rect:
         serializedVersion: 2
-        x: 48
-        y: 308
+        x: 688
+        y: 324
         width: 16
         height: 16
       alignment: 0
@@ -7122,8 +7122,8 @@ TextureImporter:
       name: Carretera 1_334
       rect:
         serializedVersion: 2
-        x: 64
-        y: 308
+        x: 704
+        y: 324
         width: 16
         height: 16
       alignment: 0
@@ -7143,7 +7143,7 @@ TextureImporter:
       name: Carretera 1_335
       rect:
         serializedVersion: 2
-        x: 80
+        x: 16
         y: 308
         width: 16
         height: 16
@@ -7164,7 +7164,7 @@ TextureImporter:
       name: Carretera 1_336
       rect:
         serializedVersion: 2
-        x: 96
+        x: 32
         y: 308
         width: 16
         height: 16
@@ -7185,7 +7185,7 @@ TextureImporter:
       name: Carretera 1_337
       rect:
         serializedVersion: 2
-        x: 112
+        x: 48
         y: 308
         width: 16
         height: 16
@@ -7206,7 +7206,7 @@ TextureImporter:
       name: Carretera 1_338
       rect:
         serializedVersion: 2
-        x: 128
+        x: 64
         y: 308
         width: 16
         height: 16
@@ -7227,7 +7227,7 @@ TextureImporter:
       name: Carretera 1_339
       rect:
         serializedVersion: 2
-        x: 144
+        x: 80
         y: 308
         width: 16
         height: 16
@@ -7248,7 +7248,7 @@ TextureImporter:
       name: Carretera 1_340
       rect:
         serializedVersion: 2
-        x: 160
+        x: 96
         y: 308
         width: 16
         height: 16
@@ -7269,7 +7269,7 @@ TextureImporter:
       name: Carretera 1_341
       rect:
         serializedVersion: 2
-        x: 176
+        x: 112
         y: 308
         width: 16
         height: 16
@@ -7290,7 +7290,7 @@ TextureImporter:
       name: Carretera 1_342
       rect:
         serializedVersion: 2
-        x: 192
+        x: 128
         y: 308
         width: 16
         height: 16
@@ -7311,7 +7311,7 @@ TextureImporter:
       name: Carretera 1_343
       rect:
         serializedVersion: 2
-        x: 208
+        x: 144
         y: 308
         width: 16
         height: 16
@@ -7332,7 +7332,7 @@ TextureImporter:
       name: Carretera 1_344
       rect:
         serializedVersion: 2
-        x: 224
+        x: 160
         y: 308
         width: 16
         height: 16
@@ -7353,7 +7353,7 @@ TextureImporter:
       name: Carretera 1_345
       rect:
         serializedVersion: 2
-        x: 240
+        x: 176
         y: 308
         width: 16
         height: 16
@@ -7374,7 +7374,7 @@ TextureImporter:
       name: Carretera 1_346
       rect:
         serializedVersion: 2
-        x: 256
+        x: 192
         y: 308
         width: 16
         height: 16
@@ -7395,7 +7395,7 @@ TextureImporter:
       name: Carretera 1_347
       rect:
         serializedVersion: 2
-        x: 272
+        x: 208
         y: 308
         width: 16
         height: 16
@@ -7416,7 +7416,7 @@ TextureImporter:
       name: Carretera 1_348
       rect:
         serializedVersion: 2
-        x: 288
+        x: 224
         y: 308
         width: 16
         height: 16
@@ -7437,7 +7437,7 @@ TextureImporter:
       name: Carretera 1_349
       rect:
         serializedVersion: 2
-        x: 304
+        x: 240
         y: 308
         width: 16
         height: 16
@@ -7458,7 +7458,7 @@ TextureImporter:
       name: Carretera 1_350
       rect:
         serializedVersion: 2
-        x: 320
+        x: 256
         y: 308
         width: 16
         height: 16
@@ -7479,7 +7479,7 @@ TextureImporter:
       name: Carretera 1_351
       rect:
         serializedVersion: 2
-        x: 336
+        x: 272
         y: 308
         width: 16
         height: 16
@@ -7500,7 +7500,7 @@ TextureImporter:
       name: Carretera 1_352
       rect:
         serializedVersion: 2
-        x: 368
+        x: 288
         y: 308
         width: 16
         height: 16
@@ -7521,7 +7521,7 @@ TextureImporter:
       name: Carretera 1_353
       rect:
         serializedVersion: 2
-        x: 384
+        x: 304
         y: 308
         width: 16
         height: 16
@@ -7542,7 +7542,7 @@ TextureImporter:
       name: Carretera 1_354
       rect:
         serializedVersion: 2
-        x: 400
+        x: 320
         y: 308
         width: 16
         height: 16
@@ -7563,7 +7563,7 @@ TextureImporter:
       name: Carretera 1_355
       rect:
         serializedVersion: 2
-        x: 416
+        x: 336
         y: 308
         width: 16
         height: 16
@@ -7584,7 +7584,7 @@ TextureImporter:
       name: Carretera 1_356
       rect:
         serializedVersion: 2
-        x: 432
+        x: 368
         y: 308
         width: 16
         height: 16
@@ -7605,7 +7605,7 @@ TextureImporter:
       name: Carretera 1_357
       rect:
         serializedVersion: 2
-        x: 448
+        x: 384
         y: 308
         width: 16
         height: 16
@@ -7626,7 +7626,7 @@ TextureImporter:
       name: Carretera 1_358
       rect:
         serializedVersion: 2
-        x: 464
+        x: 400
         y: 308
         width: 16
         height: 16
@@ -7647,7 +7647,7 @@ TextureImporter:
       name: Carretera 1_359
       rect:
         serializedVersion: 2
-        x: 480
+        x: 416
         y: 308
         width: 16
         height: 16
@@ -7668,7 +7668,7 @@ TextureImporter:
       name: Carretera 1_360
       rect:
         serializedVersion: 2
-        x: 496
+        x: 432
         y: 308
         width: 16
         height: 16
@@ -7689,7 +7689,7 @@ TextureImporter:
       name: Carretera 1_361
       rect:
         serializedVersion: 2
-        x: 512
+        x: 448
         y: 308
         width: 16
         height: 16
@@ -7710,7 +7710,7 @@ TextureImporter:
       name: Carretera 1_362
       rect:
         serializedVersion: 2
-        x: 528
+        x: 464
         y: 308
         width: 16
         height: 16
@@ -7731,7 +7731,7 @@ TextureImporter:
       name: Carretera 1_363
       rect:
         serializedVersion: 2
-        x: 544
+        x: 480
         y: 308
         width: 16
         height: 16
@@ -7752,7 +7752,7 @@ TextureImporter:
       name: Carretera 1_364
       rect:
         serializedVersion: 2
-        x: 560
+        x: 496
         y: 308
         width: 16
         height: 16
@@ -7773,7 +7773,7 @@ TextureImporter:
       name: Carretera 1_365
       rect:
         serializedVersion: 2
-        x: 576
+        x: 512
         y: 308
         width: 16
         height: 16
@@ -7794,7 +7794,7 @@ TextureImporter:
       name: Carretera 1_366
       rect:
         serializedVersion: 2
-        x: 592
+        x: 528
         y: 308
         width: 16
         height: 16
@@ -7815,7 +7815,7 @@ TextureImporter:
       name: Carretera 1_367
       rect:
         serializedVersion: 2
-        x: 608
+        x: 544
         y: 308
         width: 16
         height: 16
@@ -7836,7 +7836,7 @@ TextureImporter:
       name: Carretera 1_368
       rect:
         serializedVersion: 2
-        x: 624
+        x: 560
         y: 308
         width: 16
         height: 16
@@ -7857,7 +7857,7 @@ TextureImporter:
       name: Carretera 1_369
       rect:
         serializedVersion: 2
-        x: 640
+        x: 576
         y: 308
         width: 16
         height: 16
@@ -7878,8 +7878,8 @@ TextureImporter:
       name: Carretera 1_370
       rect:
         serializedVersion: 2
-        x: 16
-        y: 292
+        x: 592
+        y: 308
         width: 16
         height: 16
       alignment: 0
@@ -7899,8 +7899,8 @@ TextureImporter:
       name: Carretera 1_371
       rect:
         serializedVersion: 2
-        x: 32
-        y: 292
+        x: 608
+        y: 308
         width: 16
         height: 16
       alignment: 0
@@ -7920,8 +7920,8 @@ TextureImporter:
       name: Carretera 1_372
       rect:
         serializedVersion: 2
-        x: 48
-        y: 292
+        x: 624
+        y: 308
         width: 16
         height: 16
       alignment: 0
@@ -7941,8 +7941,8 @@ TextureImporter:
       name: Carretera 1_373
       rect:
         serializedVersion: 2
-        x: 64
-        y: 292
+        x: 640
+        y: 308
         width: 16
         height: 16
       alignment: 0
@@ -7962,7 +7962,7 @@ TextureImporter:
       name: Carretera 1_374
       rect:
         serializedVersion: 2
-        x: 80
+        x: 16
         y: 292
         width: 16
         height: 16
@@ -7983,7 +7983,7 @@ TextureImporter:
       name: Carretera 1_375
       rect:
         serializedVersion: 2
-        x: 96
+        x: 32
         y: 292
         width: 16
         height: 16
@@ -8004,7 +8004,7 @@ TextureImporter:
       name: Carretera 1_376
       rect:
         serializedVersion: 2
-        x: 112
+        x: 48
         y: 292
         width: 16
         height: 16
@@ -8025,7 +8025,7 @@ TextureImporter:
       name: Carretera 1_377
       rect:
         serializedVersion: 2
-        x: 128
+        x: 64
         y: 292
         width: 16
         height: 16
@@ -8046,7 +8046,7 @@ TextureImporter:
       name: Carretera 1_378
       rect:
         serializedVersion: 2
-        x: 144
+        x: 80
         y: 292
         width: 16
         height: 16
@@ -8067,7 +8067,7 @@ TextureImporter:
       name: Carretera 1_379
       rect:
         serializedVersion: 2
-        x: 160
+        x: 96
         y: 292
         width: 16
         height: 16
@@ -8088,7 +8088,7 @@ TextureImporter:
       name: Carretera 1_380
       rect:
         serializedVersion: 2
-        x: 176
+        x: 112
         y: 292
         width: 16
         height: 16
@@ -8109,7 +8109,7 @@ TextureImporter:
       name: Carretera 1_381
       rect:
         serializedVersion: 2
-        x: 192
+        x: 128
         y: 292
         width: 16
         height: 16
@@ -8130,7 +8130,7 @@ TextureImporter:
       name: Carretera 1_382
       rect:
         serializedVersion: 2
-        x: 208
+        x: 144
         y: 292
         width: 16
         height: 16
@@ -8151,7 +8151,7 @@ TextureImporter:
       name: Carretera 1_383
       rect:
         serializedVersion: 2
-        x: 224
+        x: 160
         y: 292
         width: 16
         height: 16
@@ -8172,7 +8172,7 @@ TextureImporter:
       name: Carretera 1_384
       rect:
         serializedVersion: 2
-        x: 240
+        x: 176
         y: 292
         width: 16
         height: 16
@@ -8193,7 +8193,7 @@ TextureImporter:
       name: Carretera 1_385
       rect:
         serializedVersion: 2
-        x: 256
+        x: 192
         y: 292
         width: 16
         height: 16
@@ -8214,7 +8214,7 @@ TextureImporter:
       name: Carretera 1_386
       rect:
         serializedVersion: 2
-        x: 272
+        x: 208
         y: 292
         width: 16
         height: 16
@@ -8235,7 +8235,7 @@ TextureImporter:
       name: Carretera 1_387
       rect:
         serializedVersion: 2
-        x: 288
+        x: 224
         y: 292
         width: 16
         height: 16
@@ -8256,7 +8256,7 @@ TextureImporter:
       name: Carretera 1_388
       rect:
         serializedVersion: 2
-        x: 304
+        x: 240
         y: 292
         width: 16
         height: 16
@@ -8277,7 +8277,7 @@ TextureImporter:
       name: Carretera 1_389
       rect:
         serializedVersion: 2
-        x: 320
+        x: 256
         y: 292
         width: 16
         height: 16
@@ -8298,7 +8298,7 @@ TextureImporter:
       name: Carretera 1_390
       rect:
         serializedVersion: 2
-        x: 336
+        x: 272
         y: 292
         width: 16
         height: 16
@@ -8319,7 +8319,7 @@ TextureImporter:
       name: Carretera 1_391
       rect:
         serializedVersion: 2
-        x: 368
+        x: 288
         y: 292
         width: 16
         height: 16
@@ -8340,7 +8340,7 @@ TextureImporter:
       name: Carretera 1_392
       rect:
         serializedVersion: 2
-        x: 384
+        x: 304
         y: 292
         width: 16
         height: 16
@@ -8361,7 +8361,7 @@ TextureImporter:
       name: Carretera 1_393
       rect:
         serializedVersion: 2
-        x: 400
+        x: 320
         y: 292
         width: 16
         height: 16
@@ -8382,7 +8382,7 @@ TextureImporter:
       name: Carretera 1_394
       rect:
         serializedVersion: 2
-        x: 416
+        x: 336
         y: 292
         width: 16
         height: 16
@@ -8403,7 +8403,7 @@ TextureImporter:
       name: Carretera 1_395
       rect:
         serializedVersion: 2
-        x: 432
+        x: 368
         y: 292
         width: 16
         height: 16
@@ -8424,7 +8424,7 @@ TextureImporter:
       name: Carretera 1_396
       rect:
         serializedVersion: 2
-        x: 448
+        x: 384
         y: 292
         width: 16
         height: 16
@@ -8445,7 +8445,7 @@ TextureImporter:
       name: Carretera 1_397
       rect:
         serializedVersion: 2
-        x: 464
+        x: 400
         y: 292
         width: 16
         height: 16
@@ -8466,7 +8466,7 @@ TextureImporter:
       name: Carretera 1_398
       rect:
         serializedVersion: 2
-        x: 480
+        x: 416
         y: 292
         width: 16
         height: 16
@@ -8487,7 +8487,7 @@ TextureImporter:
       name: Carretera 1_399
       rect:
         serializedVersion: 2
-        x: 496
+        x: 432
         y: 292
         width: 16
         height: 16
@@ -8508,7 +8508,7 @@ TextureImporter:
       name: Carretera 1_400
       rect:
         serializedVersion: 2
-        x: 512
+        x: 448
         y: 292
         width: 16
         height: 16
@@ -8529,7 +8529,7 @@ TextureImporter:
       name: Carretera 1_401
       rect:
         serializedVersion: 2
-        x: 528
+        x: 464
         y: 292
         width: 16
         height: 16
@@ -8550,7 +8550,7 @@ TextureImporter:
       name: Carretera 1_402
       rect:
         serializedVersion: 2
-        x: 544
+        x: 480
         y: 292
         width: 16
         height: 16
@@ -8571,7 +8571,7 @@ TextureImporter:
       name: Carretera 1_403
       rect:
         serializedVersion: 2
-        x: 560
+        x: 496
         y: 292
         width: 16
         height: 16
@@ -8592,7 +8592,7 @@ TextureImporter:
       name: Carretera 1_404
       rect:
         serializedVersion: 2
-        x: 576
+        x: 512
         y: 292
         width: 16
         height: 16
@@ -8613,7 +8613,7 @@ TextureImporter:
       name: Carretera 1_405
       rect:
         serializedVersion: 2
-        x: 592
+        x: 528
         y: 292
         width: 16
         height: 16
@@ -8634,7 +8634,7 @@ TextureImporter:
       name: Carretera 1_406
       rect:
         serializedVersion: 2
-        x: 608
+        x: 544
         y: 292
         width: 16
         height: 16
@@ -8655,7 +8655,7 @@ TextureImporter:
       name: Carretera 1_407
       rect:
         serializedVersion: 2
-        x: 624
+        x: 560
         y: 292
         width: 16
         height: 16
@@ -8676,7 +8676,7 @@ TextureImporter:
       name: Carretera 1_408
       rect:
         serializedVersion: 2
-        x: 640
+        x: 576
         y: 292
         width: 16
         height: 16
@@ -8697,8 +8697,8 @@ TextureImporter:
       name: Carretera 1_409
       rect:
         serializedVersion: 2
-        x: 16
-        y: 276
+        x: 592
+        y: 292
         width: 16
         height: 16
       alignment: 0
@@ -8718,8 +8718,8 @@ TextureImporter:
       name: Carretera 1_410
       rect:
         serializedVersion: 2
-        x: 32
-        y: 276
+        x: 608
+        y: 292
         width: 16
         height: 16
       alignment: 0
@@ -8739,8 +8739,8 @@ TextureImporter:
       name: Carretera 1_411
       rect:
         serializedVersion: 2
-        x: 48
-        y: 276
+        x: 624
+        y: 292
         width: 16
         height: 16
       alignment: 0
@@ -8760,8 +8760,8 @@ TextureImporter:
       name: Carretera 1_412
       rect:
         serializedVersion: 2
-        x: 64
-        y: 276
+        x: 640
+        y: 292
         width: 16
         height: 16
       alignment: 0
@@ -8781,7 +8781,7 @@ TextureImporter:
       name: Carretera 1_413
       rect:
         serializedVersion: 2
-        x: 80
+        x: 16
         y: 276
         width: 16
         height: 16
@@ -8802,7 +8802,7 @@ TextureImporter:
       name: Carretera 1_414
       rect:
         serializedVersion: 2
-        x: 96
+        x: 32
         y: 276
         width: 16
         height: 16
@@ -8823,7 +8823,7 @@ TextureImporter:
       name: Carretera 1_415
       rect:
         serializedVersion: 2
-        x: 112
+        x: 48
         y: 276
         width: 16
         height: 16
@@ -8844,7 +8844,7 @@ TextureImporter:
       name: Carretera 1_416
       rect:
         serializedVersion: 2
-        x: 128
+        x: 64
         y: 276
         width: 16
         height: 16
@@ -8865,7 +8865,7 @@ TextureImporter:
       name: Carretera 1_417
       rect:
         serializedVersion: 2
-        x: 144
+        x: 80
         y: 276
         width: 16
         height: 16
@@ -8886,7 +8886,7 @@ TextureImporter:
       name: Carretera 1_418
       rect:
         serializedVersion: 2
-        x: 160
+        x: 96
         y: 276
         width: 16
         height: 16
@@ -8907,7 +8907,7 @@ TextureImporter:
       name: Carretera 1_419
       rect:
         serializedVersion: 2
-        x: 176
+        x: 112
         y: 276
         width: 16
         height: 16
@@ -8928,7 +8928,7 @@ TextureImporter:
       name: Carretera 1_420
       rect:
         serializedVersion: 2
-        x: 192
+        x: 128
         y: 276
         width: 16
         height: 16
@@ -8949,7 +8949,7 @@ TextureImporter:
       name: Carretera 1_421
       rect:
         serializedVersion: 2
-        x: 208
+        x: 144
         y: 276
         width: 16
         height: 16
@@ -8970,7 +8970,7 @@ TextureImporter:
       name: Carretera 1_422
       rect:
         serializedVersion: 2
-        x: 224
+        x: 160
         y: 276
         width: 16
         height: 16
@@ -8991,7 +8991,7 @@ TextureImporter:
       name: Carretera 1_423
       rect:
         serializedVersion: 2
-        x: 240
+        x: 176
         y: 276
         width: 16
         height: 16
@@ -9012,7 +9012,7 @@ TextureImporter:
       name: Carretera 1_424
       rect:
         serializedVersion: 2
-        x: 256
+        x: 192
         y: 276
         width: 16
         height: 16
@@ -9033,7 +9033,7 @@ TextureImporter:
       name: Carretera 1_425
       rect:
         serializedVersion: 2
-        x: 272
+        x: 208
         y: 276
         width: 16
         height: 16
@@ -9054,7 +9054,7 @@ TextureImporter:
       name: Carretera 1_426
       rect:
         serializedVersion: 2
-        x: 288
+        x: 224
         y: 276
         width: 16
         height: 16
@@ -9075,7 +9075,7 @@ TextureImporter:
       name: Carretera 1_427
       rect:
         serializedVersion: 2
-        x: 304
+        x: 240
         y: 276
         width: 16
         height: 16
@@ -9096,7 +9096,7 @@ TextureImporter:
       name: Carretera 1_428
       rect:
         serializedVersion: 2
-        x: 320
+        x: 256
         y: 276
         width: 16
         height: 16
@@ -9117,7 +9117,7 @@ TextureImporter:
       name: Carretera 1_429
       rect:
         serializedVersion: 2
-        x: 336
+        x: 272
         y: 276
         width: 16
         height: 16
@@ -9138,7 +9138,7 @@ TextureImporter:
       name: Carretera 1_430
       rect:
         serializedVersion: 2
-        x: 368
+        x: 288
         y: 276
         width: 16
         height: 16
@@ -9159,7 +9159,7 @@ TextureImporter:
       name: Carretera 1_431
       rect:
         serializedVersion: 2
-        x: 384
+        x: 304
         y: 276
         width: 16
         height: 16
@@ -9180,7 +9180,7 @@ TextureImporter:
       name: Carretera 1_432
       rect:
         serializedVersion: 2
-        x: 400
+        x: 320
         y: 276
         width: 16
         height: 16
@@ -9201,7 +9201,7 @@ TextureImporter:
       name: Carretera 1_433
       rect:
         serializedVersion: 2
-        x: 416
+        x: 336
         y: 276
         width: 16
         height: 16
@@ -9222,7 +9222,7 @@ TextureImporter:
       name: Carretera 1_434
       rect:
         serializedVersion: 2
-        x: 432
+        x: 368
         y: 276
         width: 16
         height: 16
@@ -9243,7 +9243,7 @@ TextureImporter:
       name: Carretera 1_435
       rect:
         serializedVersion: 2
-        x: 448
+        x: 384
         y: 276
         width: 16
         height: 16
@@ -9264,7 +9264,7 @@ TextureImporter:
       name: Carretera 1_436
       rect:
         serializedVersion: 2
-        x: 464
+        x: 400
         y: 276
         width: 16
         height: 16
@@ -9285,7 +9285,7 @@ TextureImporter:
       name: Carretera 1_437
       rect:
         serializedVersion: 2
-        x: 480
+        x: 416
         y: 276
         width: 16
         height: 16
@@ -9306,7 +9306,7 @@ TextureImporter:
       name: Carretera 1_438
       rect:
         serializedVersion: 2
-        x: 496
+        x: 432
         y: 276
         width: 16
         height: 16
@@ -9327,7 +9327,7 @@ TextureImporter:
       name: Carretera 1_439
       rect:
         serializedVersion: 2
-        x: 512
+        x: 448
         y: 276
         width: 16
         height: 16
@@ -9348,7 +9348,7 @@ TextureImporter:
       name: Carretera 1_440
       rect:
         serializedVersion: 2
-        x: 528
+        x: 464
         y: 276
         width: 16
         height: 16
@@ -9369,7 +9369,7 @@ TextureImporter:
       name: Carretera 1_441
       rect:
         serializedVersion: 2
-        x: 544
+        x: 480
         y: 276
         width: 16
         height: 16
@@ -9390,7 +9390,7 @@ TextureImporter:
       name: Carretera 1_442
       rect:
         serializedVersion: 2
-        x: 560
+        x: 496
         y: 276
         width: 16
         height: 16
@@ -9411,7 +9411,7 @@ TextureImporter:
       name: Carretera 1_443
       rect:
         serializedVersion: 2
-        x: 576
+        x: 512
         y: 276
         width: 16
         height: 16
@@ -9432,7 +9432,7 @@ TextureImporter:
       name: Carretera 1_444
       rect:
         serializedVersion: 2
-        x: 592
+        x: 528
         y: 276
         width: 16
         height: 16
@@ -9453,7 +9453,7 @@ TextureImporter:
       name: Carretera 1_445
       rect:
         serializedVersion: 2
-        x: 608
+        x: 544
         y: 276
         width: 16
         height: 16
@@ -9474,7 +9474,7 @@ TextureImporter:
       name: Carretera 1_446
       rect:
         serializedVersion: 2
-        x: 624
+        x: 560
         y: 276
         width: 16
         height: 16
@@ -9495,7 +9495,7 @@ TextureImporter:
       name: Carretera 1_447
       rect:
         serializedVersion: 2
-        x: 640
+        x: 576
         y: 276
         width: 16
         height: 16
@@ -9516,8 +9516,8 @@ TextureImporter:
       name: Carretera 1_448
       rect:
         serializedVersion: 2
-        x: 16
-        y: 260
+        x: 592
+        y: 276
         width: 16
         height: 16
       alignment: 0
@@ -9537,8 +9537,8 @@ TextureImporter:
       name: Carretera 1_449
       rect:
         serializedVersion: 2
-        x: 32
-        y: 260
+        x: 608
+        y: 276
         width: 16
         height: 16
       alignment: 0
@@ -9558,8 +9558,8 @@ TextureImporter:
       name: Carretera 1_450
       rect:
         serializedVersion: 2
-        x: 48
-        y: 260
+        x: 624
+        y: 276
         width: 16
         height: 16
       alignment: 0
@@ -9579,8 +9579,8 @@ TextureImporter:
       name: Carretera 1_451
       rect:
         serializedVersion: 2
-        x: 64
-        y: 260
+        x: 640
+        y: 276
         width: 16
         height: 16
       alignment: 0
@@ -9600,7 +9600,7 @@ TextureImporter:
       name: Carretera 1_452
       rect:
         serializedVersion: 2
-        x: 80
+        x: 16
         y: 260
         width: 16
         height: 16
@@ -9621,7 +9621,7 @@ TextureImporter:
       name: Carretera 1_453
       rect:
         serializedVersion: 2
-        x: 96
+        x: 32
         y: 260
         width: 16
         height: 16
@@ -9642,7 +9642,7 @@ TextureImporter:
       name: Carretera 1_454
       rect:
         serializedVersion: 2
-        x: 112
+        x: 48
         y: 260
         width: 16
         height: 16
@@ -9663,7 +9663,7 @@ TextureImporter:
       name: Carretera 1_455
       rect:
         serializedVersion: 2
-        x: 128
+        x: 64
         y: 260
         width: 16
         height: 16
@@ -9684,7 +9684,7 @@ TextureImporter:
       name: Carretera 1_456
       rect:
         serializedVersion: 2
-        x: 144
+        x: 80
         y: 260
         width: 16
         height: 16
@@ -9705,7 +9705,7 @@ TextureImporter:
       name: Carretera 1_457
       rect:
         serializedVersion: 2
-        x: 160
+        x: 96
         y: 260
         width: 16
         height: 16
@@ -9726,7 +9726,7 @@ TextureImporter:
       name: Carretera 1_458
       rect:
         serializedVersion: 2
-        x: 176
+        x: 112
         y: 260
         width: 16
         height: 16
@@ -9747,7 +9747,7 @@ TextureImporter:
       name: Carretera 1_459
       rect:
         serializedVersion: 2
-        x: 192
+        x: 128
         y: 260
         width: 16
         height: 16
@@ -9768,7 +9768,7 @@ TextureImporter:
       name: Carretera 1_460
       rect:
         serializedVersion: 2
-        x: 208
+        x: 144
         y: 260
         width: 16
         height: 16
@@ -9789,7 +9789,7 @@ TextureImporter:
       name: Carretera 1_461
       rect:
         serializedVersion: 2
-        x: 224
+        x: 160
         y: 260
         width: 16
         height: 16
@@ -9810,7 +9810,7 @@ TextureImporter:
       name: Carretera 1_462
       rect:
         serializedVersion: 2
-        x: 240
+        x: 176
         y: 260
         width: 16
         height: 16
@@ -9831,7 +9831,7 @@ TextureImporter:
       name: Carretera 1_463
       rect:
         serializedVersion: 2
-        x: 256
+        x: 192
         y: 260
         width: 16
         height: 16
@@ -9852,7 +9852,7 @@ TextureImporter:
       name: Carretera 1_464
       rect:
         serializedVersion: 2
-        x: 272
+        x: 208
         y: 260
         width: 16
         height: 16
@@ -9873,7 +9873,7 @@ TextureImporter:
       name: Carretera 1_465
       rect:
         serializedVersion: 2
-        x: 288
+        x: 224
         y: 260
         width: 16
         height: 16
@@ -9894,7 +9894,7 @@ TextureImporter:
       name: Carretera 1_466
       rect:
         serializedVersion: 2
-        x: 304
+        x: 240
         y: 260
         width: 16
         height: 16
@@ -9915,7 +9915,7 @@ TextureImporter:
       name: Carretera 1_467
       rect:
         serializedVersion: 2
-        x: 320
+        x: 256
         y: 260
         width: 16
         height: 16
@@ -9936,7 +9936,7 @@ TextureImporter:
       name: Carretera 1_468
       rect:
         serializedVersion: 2
-        x: 336
+        x: 272
         y: 260
         width: 16
         height: 16
@@ -9957,7 +9957,7 @@ TextureImporter:
       name: Carretera 1_469
       rect:
         serializedVersion: 2
-        x: 368
+        x: 288
         y: 260
         width: 16
         height: 16
@@ -9978,7 +9978,7 @@ TextureImporter:
       name: Carretera 1_470
       rect:
         serializedVersion: 2
-        x: 384
+        x: 304
         y: 260
         width: 16
         height: 16
@@ -9999,7 +9999,7 @@ TextureImporter:
       name: Carretera 1_471
       rect:
         serializedVersion: 2
-        x: 400
+        x: 320
         y: 260
         width: 16
         height: 16
@@ -10020,7 +10020,7 @@ TextureImporter:
       name: Carretera 1_472
       rect:
         serializedVersion: 2
-        x: 416
+        x: 336
         y: 260
         width: 16
         height: 16
@@ -10041,7 +10041,7 @@ TextureImporter:
       name: Carretera 1_473
       rect:
         serializedVersion: 2
-        x: 432
+        x: 368
         y: 260
         width: 16
         height: 16
@@ -10062,7 +10062,7 @@ TextureImporter:
       name: Carretera 1_474
       rect:
         serializedVersion: 2
-        x: 448
+        x: 384
         y: 260
         width: 16
         height: 16
@@ -10083,7 +10083,7 @@ TextureImporter:
       name: Carretera 1_475
       rect:
         serializedVersion: 2
-        x: 464
+        x: 400
         y: 260
         width: 16
         height: 16
@@ -10104,7 +10104,7 @@ TextureImporter:
       name: Carretera 1_476
       rect:
         serializedVersion: 2
-        x: 480
+        x: 416
         y: 260
         width: 16
         height: 16
@@ -10125,7 +10125,7 @@ TextureImporter:
       name: Carretera 1_477
       rect:
         serializedVersion: 2
-        x: 496
+        x: 432
         y: 260
         width: 16
         height: 16
@@ -10146,7 +10146,7 @@ TextureImporter:
       name: Carretera 1_478
       rect:
         serializedVersion: 2
-        x: 512
+        x: 448
         y: 260
         width: 16
         height: 16
@@ -10167,7 +10167,7 @@ TextureImporter:
       name: Carretera 1_479
       rect:
         serializedVersion: 2
-        x: 528
+        x: 464
         y: 260
         width: 16
         height: 16
@@ -10188,7 +10188,7 @@ TextureImporter:
       name: Carretera 1_480
       rect:
         serializedVersion: 2
-        x: 544
+        x: 480
         y: 260
         width: 16
         height: 16
@@ -10209,7 +10209,7 @@ TextureImporter:
       name: Carretera 1_481
       rect:
         serializedVersion: 2
-        x: 560
+        x: 496
         y: 260
         width: 16
         height: 16
@@ -10230,7 +10230,7 @@ TextureImporter:
       name: Carretera 1_482
       rect:
         serializedVersion: 2
-        x: 576
+        x: 512
         y: 260
         width: 16
         height: 16
@@ -10251,7 +10251,7 @@ TextureImporter:
       name: Carretera 1_483
       rect:
         serializedVersion: 2
-        x: 592
+        x: 528
         y: 260
         width: 16
         height: 16
@@ -10272,7 +10272,7 @@ TextureImporter:
       name: Carretera 1_484
       rect:
         serializedVersion: 2
-        x: 608
+        x: 544
         y: 260
         width: 16
         height: 16
@@ -10293,7 +10293,7 @@ TextureImporter:
       name: Carretera 1_485
       rect:
         serializedVersion: 2
-        x: 624
+        x: 560
         y: 260
         width: 16
         height: 16
@@ -10314,7 +10314,7 @@ TextureImporter:
       name: Carretera 1_486
       rect:
         serializedVersion: 2
-        x: 640
+        x: 576
         y: 260
         width: 16
         height: 16
@@ -10335,8 +10335,8 @@ TextureImporter:
       name: Carretera 1_487
       rect:
         serializedVersion: 2
-        x: 16
-        y: 244
+        x: 592
+        y: 260
         width: 16
         height: 16
       alignment: 0
@@ -10356,8 +10356,8 @@ TextureImporter:
       name: Carretera 1_488
       rect:
         serializedVersion: 2
-        x: 32
-        y: 244
+        x: 608
+        y: 260
         width: 16
         height: 16
       alignment: 0
@@ -10377,8 +10377,8 @@ TextureImporter:
       name: Carretera 1_489
       rect:
         serializedVersion: 2
-        x: 48
-        y: 244
+        x: 624
+        y: 260
         width: 16
         height: 16
       alignment: 0
@@ -10398,8 +10398,8 @@ TextureImporter:
       name: Carretera 1_490
       rect:
         serializedVersion: 2
-        x: 64
-        y: 244
+        x: 640
+        y: 260
         width: 16
         height: 16
       alignment: 0
@@ -10419,7 +10419,7 @@ TextureImporter:
       name: Carretera 1_491
       rect:
         serializedVersion: 2
-        x: 80
+        x: 16
         y: 244
         width: 16
         height: 16
@@ -10440,7 +10440,7 @@ TextureImporter:
       name: Carretera 1_492
       rect:
         serializedVersion: 2
-        x: 96
+        x: 32
         y: 244
         width: 16
         height: 16
@@ -10461,7 +10461,7 @@ TextureImporter:
       name: Carretera 1_493
       rect:
         serializedVersion: 2
-        x: 112
+        x: 48
         y: 244
         width: 16
         height: 16
@@ -10482,7 +10482,7 @@ TextureImporter:
       name: Carretera 1_494
       rect:
         serializedVersion: 2
-        x: 128
+        x: 64
         y: 244
         width: 16
         height: 16
@@ -10503,7 +10503,7 @@ TextureImporter:
       name: Carretera 1_495
       rect:
         serializedVersion: 2
-        x: 144
+        x: 80
         y: 244
         width: 16
         height: 16
@@ -10524,7 +10524,7 @@ TextureImporter:
       name: Carretera 1_496
       rect:
         serializedVersion: 2
-        x: 160
+        x: 96
         y: 244
         width: 16
         height: 16
@@ -10545,7 +10545,7 @@ TextureImporter:
       name: Carretera 1_497
       rect:
         serializedVersion: 2
-        x: 176
+        x: 112
         y: 244
         width: 16
         height: 16
@@ -10566,7 +10566,7 @@ TextureImporter:
       name: Carretera 1_498
       rect:
         serializedVersion: 2
-        x: 192
+        x: 128
         y: 244
         width: 16
         height: 16
@@ -10587,7 +10587,7 @@ TextureImporter:
       name: Carretera 1_499
       rect:
         serializedVersion: 2
-        x: 208
+        x: 144
         y: 244
         width: 16
         height: 16
@@ -10608,7 +10608,7 @@ TextureImporter:
       name: Carretera 1_500
       rect:
         serializedVersion: 2
-        x: 224
+        x: 160
         y: 244
         width: 16
         height: 16
@@ -10629,7 +10629,7 @@ TextureImporter:
       name: Carretera 1_501
       rect:
         serializedVersion: 2
-        x: 240
+        x: 176
         y: 244
         width: 16
         height: 16
@@ -10650,7 +10650,7 @@ TextureImporter:
       name: Carretera 1_502
       rect:
         serializedVersion: 2
-        x: 256
+        x: 192
         y: 244
         width: 16
         height: 16
@@ -10671,7 +10671,7 @@ TextureImporter:
       name: Carretera 1_503
       rect:
         serializedVersion: 2
-        x: 272
+        x: 208
         y: 244
         width: 16
         height: 16
@@ -10692,7 +10692,7 @@ TextureImporter:
       name: Carretera 1_504
       rect:
         serializedVersion: 2
-        x: 288
+        x: 224
         y: 244
         width: 16
         height: 16
@@ -10713,7 +10713,7 @@ TextureImporter:
       name: Carretera 1_505
       rect:
         serializedVersion: 2
-        x: 304
+        x: 240
         y: 244
         width: 16
         height: 16
@@ -10734,7 +10734,7 @@ TextureImporter:
       name: Carretera 1_506
       rect:
         serializedVersion: 2
-        x: 320
+        x: 256
         y: 244
         width: 16
         height: 16
@@ -10755,7 +10755,7 @@ TextureImporter:
       name: Carretera 1_507
       rect:
         serializedVersion: 2
-        x: 336
+        x: 272
         y: 244
         width: 16
         height: 16
@@ -10776,7 +10776,7 @@ TextureImporter:
       name: Carretera 1_508
       rect:
         serializedVersion: 2
-        x: 368
+        x: 288
         y: 244
         width: 16
         height: 16
@@ -10797,7 +10797,7 @@ TextureImporter:
       name: Carretera 1_509
       rect:
         serializedVersion: 2
-        x: 384
+        x: 304
         y: 244
         width: 16
         height: 16
@@ -10818,7 +10818,7 @@ TextureImporter:
       name: Carretera 1_510
       rect:
         serializedVersion: 2
-        x: 400
+        x: 320
         y: 244
         width: 16
         height: 16
@@ -10839,7 +10839,7 @@ TextureImporter:
       name: Carretera 1_511
       rect:
         serializedVersion: 2
-        x: 416
+        x: 336
         y: 244
         width: 16
         height: 16
@@ -10860,7 +10860,7 @@ TextureImporter:
       name: Carretera 1_512
       rect:
         serializedVersion: 2
-        x: 432
+        x: 368
         y: 244
         width: 16
         height: 16
@@ -10881,7 +10881,7 @@ TextureImporter:
       name: Carretera 1_513
       rect:
         serializedVersion: 2
-        x: 448
+        x: 384
         y: 244
         width: 16
         height: 16
@@ -10902,7 +10902,7 @@ TextureImporter:
       name: Carretera 1_514
       rect:
         serializedVersion: 2
-        x: 464
+        x: 400
         y: 244
         width: 16
         height: 16
@@ -10923,7 +10923,7 @@ TextureImporter:
       name: Carretera 1_515
       rect:
         serializedVersion: 2
-        x: 480
+        x: 416
         y: 244
         width: 16
         height: 16
@@ -10944,7 +10944,7 @@ TextureImporter:
       name: Carretera 1_516
       rect:
         serializedVersion: 2
-        x: 496
+        x: 432
         y: 244
         width: 16
         height: 16
@@ -10965,7 +10965,7 @@ TextureImporter:
       name: Carretera 1_517
       rect:
         serializedVersion: 2
-        x: 512
+        x: 448
         y: 244
         width: 16
         height: 16
@@ -10986,7 +10986,7 @@ TextureImporter:
       name: Carretera 1_518
       rect:
         serializedVersion: 2
-        x: 528
+        x: 464
         y: 244
         width: 16
         height: 16
@@ -11007,7 +11007,7 @@ TextureImporter:
       name: Carretera 1_519
       rect:
         serializedVersion: 2
-        x: 544
+        x: 480
         y: 244
         width: 16
         height: 16
@@ -11028,7 +11028,7 @@ TextureImporter:
       name: Carretera 1_520
       rect:
         serializedVersion: 2
-        x: 560
+        x: 496
         y: 244
         width: 16
         height: 16
@@ -11049,7 +11049,7 @@ TextureImporter:
       name: Carretera 1_521
       rect:
         serializedVersion: 2
-        x: 576
+        x: 512
         y: 244
         width: 16
         height: 16
@@ -11070,7 +11070,7 @@ TextureImporter:
       name: Carretera 1_522
       rect:
         serializedVersion: 2
-        x: 592
+        x: 528
         y: 244
         width: 16
         height: 16
@@ -11091,7 +11091,7 @@ TextureImporter:
       name: Carretera 1_523
       rect:
         serializedVersion: 2
-        x: 608
+        x: 544
         y: 244
         width: 16
         height: 16
@@ -11112,7 +11112,7 @@ TextureImporter:
       name: Carretera 1_524
       rect:
         serializedVersion: 2
-        x: 624
+        x: 560
         y: 244
         width: 16
         height: 16
@@ -11133,7 +11133,7 @@ TextureImporter:
       name: Carretera 1_525
       rect:
         serializedVersion: 2
-        x: 640
+        x: 576
         y: 244
         width: 16
         height: 16
@@ -11154,8 +11154,8 @@ TextureImporter:
       name: Carretera 1_526
       rect:
         serializedVersion: 2
-        x: 16
-        y: 228
+        x: 592
+        y: 244
         width: 16
         height: 16
       alignment: 0
@@ -11175,8 +11175,8 @@ TextureImporter:
       name: Carretera 1_527
       rect:
         serializedVersion: 2
-        x: 32
-        y: 228
+        x: 608
+        y: 244
         width: 16
         height: 16
       alignment: 0
@@ -11196,8 +11196,8 @@ TextureImporter:
       name: Carretera 1_528
       rect:
         serializedVersion: 2
-        x: 48
-        y: 228
+        x: 624
+        y: 244
         width: 16
         height: 16
       alignment: 0
@@ -11217,8 +11217,8 @@ TextureImporter:
       name: Carretera 1_529
       rect:
         serializedVersion: 2
-        x: 64
-        y: 228
+        x: 640
+        y: 244
         width: 16
         height: 16
       alignment: 0
@@ -11238,7 +11238,7 @@ TextureImporter:
       name: Carretera 1_530
       rect:
         serializedVersion: 2
-        x: 80
+        x: 16
         y: 228
         width: 16
         height: 16
@@ -11259,7 +11259,7 @@ TextureImporter:
       name: Carretera 1_531
       rect:
         serializedVersion: 2
-        x: 96
+        x: 32
         y: 228
         width: 16
         height: 16
@@ -11280,7 +11280,7 @@ TextureImporter:
       name: Carretera 1_532
       rect:
         serializedVersion: 2
-        x: 112
+        x: 48
         y: 228
         width: 16
         height: 16
@@ -11301,7 +11301,7 @@ TextureImporter:
       name: Carretera 1_533
       rect:
         serializedVersion: 2
-        x: 128
+        x: 64
         y: 228
         width: 16
         height: 16
@@ -11322,7 +11322,7 @@ TextureImporter:
       name: Carretera 1_534
       rect:
         serializedVersion: 2
-        x: 144
+        x: 80
         y: 228
         width: 16
         height: 16
@@ -11343,7 +11343,7 @@ TextureImporter:
       name: Carretera 1_535
       rect:
         serializedVersion: 2
-        x: 160
+        x: 96
         y: 228
         width: 16
         height: 16
@@ -11364,7 +11364,7 @@ TextureImporter:
       name: Carretera 1_536
       rect:
         serializedVersion: 2
-        x: 176
+        x: 112
         y: 228
         width: 16
         height: 16
@@ -11385,7 +11385,7 @@ TextureImporter:
       name: Carretera 1_537
       rect:
         serializedVersion: 2
-        x: 192
+        x: 128
         y: 228
         width: 16
         height: 16
@@ -11406,7 +11406,7 @@ TextureImporter:
       name: Carretera 1_538
       rect:
         serializedVersion: 2
-        x: 208
+        x: 144
         y: 228
         width: 16
         height: 16
@@ -11427,7 +11427,7 @@ TextureImporter:
       name: Carretera 1_539
       rect:
         serializedVersion: 2
-        x: 224
+        x: 160
         y: 228
         width: 16
         height: 16
@@ -11448,7 +11448,7 @@ TextureImporter:
       name: Carretera 1_540
       rect:
         serializedVersion: 2
-        x: 240
+        x: 176
         y: 228
         width: 16
         height: 16
@@ -11469,7 +11469,7 @@ TextureImporter:
       name: Carretera 1_541
       rect:
         serializedVersion: 2
-        x: 256
+        x: 192
         y: 228
         width: 16
         height: 16
@@ -11490,7 +11490,7 @@ TextureImporter:
       name: Carretera 1_542
       rect:
         serializedVersion: 2
-        x: 272
+        x: 208
         y: 228
         width: 16
         height: 16
@@ -11511,7 +11511,7 @@ TextureImporter:
       name: Carretera 1_543
       rect:
         serializedVersion: 2
-        x: 288
+        x: 224
         y: 228
         width: 16
         height: 16
@@ -11532,7 +11532,7 @@ TextureImporter:
       name: Carretera 1_544
       rect:
         serializedVersion: 2
-        x: 304
+        x: 240
         y: 228
         width: 16
         height: 16
@@ -11553,7 +11553,7 @@ TextureImporter:
       name: Carretera 1_545
       rect:
         serializedVersion: 2
-        x: 320
+        x: 256
         y: 228
         width: 16
         height: 16
@@ -11574,7 +11574,7 @@ TextureImporter:
       name: Carretera 1_546
       rect:
         serializedVersion: 2
-        x: 336
+        x: 272
         y: 228
         width: 16
         height: 16
@@ -11595,7 +11595,7 @@ TextureImporter:
       name: Carretera 1_547
       rect:
         serializedVersion: 2
-        x: 368
+        x: 288
         y: 228
         width: 16
         height: 16
@@ -11616,7 +11616,7 @@ TextureImporter:
       name: Carretera 1_548
       rect:
         serializedVersion: 2
-        x: 384
+        x: 304
         y: 228
         width: 16
         height: 16
@@ -11637,7 +11637,7 @@ TextureImporter:
       name: Carretera 1_549
       rect:
         serializedVersion: 2
-        x: 400
+        x: 320
         y: 228
         width: 16
         height: 16
@@ -11658,7 +11658,7 @@ TextureImporter:
       name: Carretera 1_550
       rect:
         serializedVersion: 2
-        x: 416
+        x: 336
         y: 228
         width: 16
         height: 16
@@ -11679,7 +11679,7 @@ TextureImporter:
       name: Carretera 1_551
       rect:
         serializedVersion: 2
-        x: 432
+        x: 368
         y: 228
         width: 16
         height: 16
@@ -11700,7 +11700,7 @@ TextureImporter:
       name: Carretera 1_552
       rect:
         serializedVersion: 2
-        x: 448
+        x: 384
         y: 228
         width: 16
         height: 16
@@ -11721,7 +11721,7 @@ TextureImporter:
       name: Carretera 1_553
       rect:
         serializedVersion: 2
-        x: 464
+        x: 400
         y: 228
         width: 16
         height: 16
@@ -11742,7 +11742,7 @@ TextureImporter:
       name: Carretera 1_554
       rect:
         serializedVersion: 2
-        x: 480
+        x: 416
         y: 228
         width: 16
         height: 16
@@ -11763,7 +11763,7 @@ TextureImporter:
       name: Carretera 1_555
       rect:
         serializedVersion: 2
-        x: 496
+        x: 432
         y: 228
         width: 16
         height: 16
@@ -11784,7 +11784,7 @@ TextureImporter:
       name: Carretera 1_556
       rect:
         serializedVersion: 2
-        x: 512
+        x: 448
         y: 228
         width: 16
         height: 16
@@ -11805,7 +11805,7 @@ TextureImporter:
       name: Carretera 1_557
       rect:
         serializedVersion: 2
-        x: 528
+        x: 464
         y: 228
         width: 16
         height: 16
@@ -11826,7 +11826,7 @@ TextureImporter:
       name: Carretera 1_558
       rect:
         serializedVersion: 2
-        x: 544
+        x: 480
         y: 228
         width: 16
         height: 16
@@ -11847,7 +11847,7 @@ TextureImporter:
       name: Carretera 1_559
       rect:
         serializedVersion: 2
-        x: 560
+        x: 496
         y: 228
         width: 16
         height: 16
@@ -11868,7 +11868,7 @@ TextureImporter:
       name: Carretera 1_560
       rect:
         serializedVersion: 2
-        x: 576
+        x: 512
         y: 228
         width: 16
         height: 16
@@ -11889,7 +11889,7 @@ TextureImporter:
       name: Carretera 1_561
       rect:
         serializedVersion: 2
-        x: 592
+        x: 528
         y: 228
         width: 16
         height: 16
@@ -11910,7 +11910,7 @@ TextureImporter:
       name: Carretera 1_562
       rect:
         serializedVersion: 2
-        x: 608
+        x: 544
         y: 228
         width: 16
         height: 16
@@ -11931,7 +11931,7 @@ TextureImporter:
       name: Carretera 1_563
       rect:
         serializedVersion: 2
-        x: 624
+        x: 560
         y: 228
         width: 16
         height: 16
@@ -11952,7 +11952,7 @@ TextureImporter:
       name: Carretera 1_564
       rect:
         serializedVersion: 2
-        x: 640
+        x: 576
         y: 228
         width: 16
         height: 16
@@ -11973,8 +11973,8 @@ TextureImporter:
       name: Carretera 1_565
       rect:
         serializedVersion: 2
-        x: 16
-        y: 212
+        x: 592
+        y: 228
         width: 16
         height: 16
       alignment: 0
@@ -11994,8 +11994,8 @@ TextureImporter:
       name: Carretera 1_566
       rect:
         serializedVersion: 2
-        x: 32
-        y: 212
+        x: 608
+        y: 228
         width: 16
         height: 16
       alignment: 0
@@ -12015,8 +12015,8 @@ TextureImporter:
       name: Carretera 1_567
       rect:
         serializedVersion: 2
-        x: 48
-        y: 212
+        x: 624
+        y: 228
         width: 16
         height: 16
       alignment: 0
@@ -12036,8 +12036,8 @@ TextureImporter:
       name: Carretera 1_568
       rect:
         serializedVersion: 2
-        x: 64
-        y: 212
+        x: 640
+        y: 228
         width: 16
         height: 16
       alignment: 0
@@ -12057,7 +12057,7 @@ TextureImporter:
       name: Carretera 1_569
       rect:
         serializedVersion: 2
-        x: 80
+        x: 16
         y: 212
         width: 16
         height: 16
@@ -12078,7 +12078,7 @@ TextureImporter:
       name: Carretera 1_570
       rect:
         serializedVersion: 2
-        x: 96
+        x: 32
         y: 212
         width: 16
         height: 16
@@ -12099,7 +12099,7 @@ TextureImporter:
       name: Carretera 1_571
       rect:
         serializedVersion: 2
-        x: 112
+        x: 48
         y: 212
         width: 16
         height: 16
@@ -12120,7 +12120,7 @@ TextureImporter:
       name: Carretera 1_572
       rect:
         serializedVersion: 2
-        x: 128
+        x: 64
         y: 212
         width: 16
         height: 16
@@ -12141,7 +12141,7 @@ TextureImporter:
       name: Carretera 1_573
       rect:
         serializedVersion: 2
-        x: 144
+        x: 80
         y: 212
         width: 16
         height: 16
@@ -12162,7 +12162,7 @@ TextureImporter:
       name: Carretera 1_574
       rect:
         serializedVersion: 2
-        x: 160
+        x: 96
         y: 212
         width: 16
         height: 16
@@ -12183,7 +12183,7 @@ TextureImporter:
       name: Carretera 1_575
       rect:
         serializedVersion: 2
-        x: 176
+        x: 112
         y: 212
         width: 16
         height: 16
@@ -12204,7 +12204,7 @@ TextureImporter:
       name: Carretera 1_576
       rect:
         serializedVersion: 2
-        x: 192
+        x: 128
         y: 212
         width: 16
         height: 16
@@ -12225,7 +12225,7 @@ TextureImporter:
       name: Carretera 1_577
       rect:
         serializedVersion: 2
-        x: 208
+        x: 144
         y: 212
         width: 16
         height: 16
@@ -12246,7 +12246,7 @@ TextureImporter:
       name: Carretera 1_578
       rect:
         serializedVersion: 2
-        x: 224
+        x: 160
         y: 212
         width: 16
         height: 16
@@ -12267,7 +12267,7 @@ TextureImporter:
       name: Carretera 1_579
       rect:
         serializedVersion: 2
-        x: 240
+        x: 176
         y: 212
         width: 16
         height: 16
@@ -12288,7 +12288,7 @@ TextureImporter:
       name: Carretera 1_580
       rect:
         serializedVersion: 2
-        x: 256
+        x: 192
         y: 212
         width: 16
         height: 16
@@ -12309,7 +12309,7 @@ TextureImporter:
       name: Carretera 1_581
       rect:
         serializedVersion: 2
-        x: 272
+        x: 208
         y: 212
         width: 16
         height: 16
@@ -12330,7 +12330,7 @@ TextureImporter:
       name: Carretera 1_582
       rect:
         serializedVersion: 2
-        x: 288
+        x: 224
         y: 212
         width: 16
         height: 16
@@ -12351,7 +12351,7 @@ TextureImporter:
       name: Carretera 1_583
       rect:
         serializedVersion: 2
-        x: 304
+        x: 240
         y: 212
         width: 16
         height: 16
@@ -12372,7 +12372,7 @@ TextureImporter:
       name: Carretera 1_584
       rect:
         serializedVersion: 2
-        x: 320
+        x: 256
         y: 212
         width: 16
         height: 16
@@ -12393,7 +12393,7 @@ TextureImporter:
       name: Carretera 1_585
       rect:
         serializedVersion: 2
-        x: 336
+        x: 272
         y: 212
         width: 16
         height: 16
@@ -12414,7 +12414,7 @@ TextureImporter:
       name: Carretera 1_586
       rect:
         serializedVersion: 2
-        x: 368
+        x: 288
         y: 212
         width: 16
         height: 16
@@ -12435,7 +12435,7 @@ TextureImporter:
       name: Carretera 1_587
       rect:
         serializedVersion: 2
-        x: 384
+        x: 304
         y: 212
         width: 16
         height: 16
@@ -12456,7 +12456,7 @@ TextureImporter:
       name: Carretera 1_588
       rect:
         serializedVersion: 2
-        x: 400
+        x: 320
         y: 212
         width: 16
         height: 16
@@ -12477,7 +12477,7 @@ TextureImporter:
       name: Carretera 1_589
       rect:
         serializedVersion: 2
-        x: 416
+        x: 336
         y: 212
         width: 16
         height: 16
@@ -12498,7 +12498,7 @@ TextureImporter:
       name: Carretera 1_590
       rect:
         serializedVersion: 2
-        x: 432
+        x: 368
         y: 212
         width: 16
         height: 16
@@ -12519,7 +12519,7 @@ TextureImporter:
       name: Carretera 1_591
       rect:
         serializedVersion: 2
-        x: 448
+        x: 384
         y: 212
         width: 16
         height: 16
@@ -12540,7 +12540,7 @@ TextureImporter:
       name: Carretera 1_592
       rect:
         serializedVersion: 2
-        x: 464
+        x: 400
         y: 212
         width: 16
         height: 16
@@ -12561,7 +12561,7 @@ TextureImporter:
       name: Carretera 1_593
       rect:
         serializedVersion: 2
-        x: 480
+        x: 416
         y: 212
         width: 16
         height: 16
@@ -12582,7 +12582,7 @@ TextureImporter:
       name: Carretera 1_594
       rect:
         serializedVersion: 2
-        x: 496
+        x: 432
         y: 212
         width: 16
         height: 16
@@ -12603,7 +12603,7 @@ TextureImporter:
       name: Carretera 1_595
       rect:
         serializedVersion: 2
-        x: 512
+        x: 448
         y: 212
         width: 16
         height: 16
@@ -12624,7 +12624,7 @@ TextureImporter:
       name: Carretera 1_596
       rect:
         serializedVersion: 2
-        x: 528
+        x: 464
         y: 212
         width: 16
         height: 16
@@ -12645,7 +12645,7 @@ TextureImporter:
       name: Carretera 1_597
       rect:
         serializedVersion: 2
-        x: 544
+        x: 480
         y: 212
         width: 16
         height: 16
@@ -12666,7 +12666,7 @@ TextureImporter:
       name: Carretera 1_598
       rect:
         serializedVersion: 2
-        x: 560
+        x: 496
         y: 212
         width: 16
         height: 16
@@ -12687,7 +12687,7 @@ TextureImporter:
       name: Carretera 1_599
       rect:
         serializedVersion: 2
-        x: 576
+        x: 512
         y: 212
         width: 16
         height: 16
@@ -12708,7 +12708,7 @@ TextureImporter:
       name: Carretera 1_600
       rect:
         serializedVersion: 2
-        x: 592
+        x: 528
         y: 212
         width: 16
         height: 16
@@ -12729,7 +12729,7 @@ TextureImporter:
       name: Carretera 1_601
       rect:
         serializedVersion: 2
-        x: 608
+        x: 544
         y: 212
         width: 16
         height: 16
@@ -12750,7 +12750,7 @@ TextureImporter:
       name: Carretera 1_602
       rect:
         serializedVersion: 2
-        x: 624
+        x: 560
         y: 212
         width: 16
         height: 16
@@ -12771,7 +12771,7 @@ TextureImporter:
       name: Carretera 1_603
       rect:
         serializedVersion: 2
-        x: 640
+        x: 576
         y: 212
         width: 16
         height: 16
@@ -12792,8 +12792,8 @@ TextureImporter:
       name: Carretera 1_604
       rect:
         serializedVersion: 2
-        x: 16
-        y: 196
+        x: 592
+        y: 212
         width: 16
         height: 16
       alignment: 0
@@ -12813,8 +12813,8 @@ TextureImporter:
       name: Carretera 1_605
       rect:
         serializedVersion: 2
-        x: 32
-        y: 196
+        x: 608
+        y: 212
         width: 16
         height: 16
       alignment: 0
@@ -12834,8 +12834,8 @@ TextureImporter:
       name: Carretera 1_606
       rect:
         serializedVersion: 2
-        x: 48
-        y: 196
+        x: 624
+        y: 212
         width: 16
         height: 16
       alignment: 0
@@ -12855,8 +12855,8 @@ TextureImporter:
       name: Carretera 1_607
       rect:
         serializedVersion: 2
-        x: 112
-        y: 196
+        x: 640
+        y: 212
         width: 16
         height: 16
       alignment: 0
@@ -12876,7 +12876,7 @@ TextureImporter:
       name: Carretera 1_608
       rect:
         serializedVersion: 2
-        x: 128
+        x: 16
         y: 196
         width: 16
         height: 16
@@ -12897,7 +12897,7 @@ TextureImporter:
       name: Carretera 1_609
       rect:
         serializedVersion: 2
-        x: 144
+        x: 32
         y: 196
         width: 16
         height: 16
@@ -12918,7 +12918,7 @@ TextureImporter:
       name: Carretera 1_610
       rect:
         serializedVersion: 2
-        x: 160
+        x: 48
         y: 196
         width: 16
         height: 16
@@ -12939,7 +12939,7 @@ TextureImporter:
       name: Carretera 1_611
       rect:
         serializedVersion: 2
-        x: 176
+        x: 112
         y: 196
         width: 16
         height: 16
@@ -12960,7 +12960,7 @@ TextureImporter:
       name: Carretera 1_612
       rect:
         serializedVersion: 2
-        x: 192
+        x: 128
         y: 196
         width: 16
         height: 16
@@ -12981,7 +12981,7 @@ TextureImporter:
       name: Carretera 1_613
       rect:
         serializedVersion: 2
-        x: 208
+        x: 144
         y: 196
         width: 16
         height: 16
@@ -13002,7 +13002,7 @@ TextureImporter:
       name: Carretera 1_614
       rect:
         serializedVersion: 2
-        x: 224
+        x: 160
         y: 196
         width: 16
         height: 16
@@ -13023,7 +13023,7 @@ TextureImporter:
       name: Carretera 1_615
       rect:
         serializedVersion: 2
-        x: 240
+        x: 176
         y: 196
         width: 16
         height: 16
@@ -13044,7 +13044,7 @@ TextureImporter:
       name: Carretera 1_616
       rect:
         serializedVersion: 2
-        x: 256
+        x: 192
         y: 196
         width: 16
         height: 16
@@ -13065,7 +13065,7 @@ TextureImporter:
       name: Carretera 1_617
       rect:
         serializedVersion: 2
-        x: 272
+        x: 208
         y: 196
         width: 16
         height: 16
@@ -13086,7 +13086,7 @@ TextureImporter:
       name: Carretera 1_618
       rect:
         serializedVersion: 2
-        x: 288
+        x: 224
         y: 196
         width: 16
         height: 16
@@ -13107,7 +13107,7 @@ TextureImporter:
       name: Carretera 1_619
       rect:
         serializedVersion: 2
-        x: 304
+        x: 240
         y: 196
         width: 16
         height: 16
@@ -13128,7 +13128,7 @@ TextureImporter:
       name: Carretera 1_620
       rect:
         serializedVersion: 2
-        x: 320
+        x: 256
         y: 196
         width: 16
         height: 16
@@ -13149,7 +13149,7 @@ TextureImporter:
       name: Carretera 1_621
       rect:
         serializedVersion: 2
-        x: 336
+        x: 272
         y: 196
         width: 16
         height: 16
@@ -13170,7 +13170,7 @@ TextureImporter:
       name: Carretera 1_622
       rect:
         serializedVersion: 2
-        x: 368
+        x: 288
         y: 196
         width: 16
         height: 16
@@ -13191,7 +13191,7 @@ TextureImporter:
       name: Carretera 1_623
       rect:
         serializedVersion: 2
-        x: 384
+        x: 304
         y: 196
         width: 16
         height: 16
@@ -13212,7 +13212,7 @@ TextureImporter:
       name: Carretera 1_624
       rect:
         serializedVersion: 2
-        x: 400
+        x: 320
         y: 196
         width: 16
         height: 16
@@ -13233,7 +13233,7 @@ TextureImporter:
       name: Carretera 1_625
       rect:
         serializedVersion: 2
-        x: 416
+        x: 336
         y: 196
         width: 16
         height: 16
@@ -13254,7 +13254,7 @@ TextureImporter:
       name: Carretera 1_626
       rect:
         serializedVersion: 2
-        x: 432
+        x: 368
         y: 196
         width: 16
         height: 16
@@ -13275,7 +13275,7 @@ TextureImporter:
       name: Carretera 1_627
       rect:
         serializedVersion: 2
-        x: 448
+        x: 384
         y: 196
         width: 16
         height: 16
@@ -13296,7 +13296,7 @@ TextureImporter:
       name: Carretera 1_628
       rect:
         serializedVersion: 2
-        x: 464
+        x: 400
         y: 196
         width: 16
         height: 16
@@ -13317,7 +13317,7 @@ TextureImporter:
       name: Carretera 1_629
       rect:
         serializedVersion: 2
-        x: 480
+        x: 416
         y: 196
         width: 16
         height: 16
@@ -13338,7 +13338,7 @@ TextureImporter:
       name: Carretera 1_630
       rect:
         serializedVersion: 2
-        x: 496
+        x: 432
         y: 196
         width: 16
         height: 16
@@ -13359,7 +13359,7 @@ TextureImporter:
       name: Carretera 1_631
       rect:
         serializedVersion: 2
-        x: 512
+        x: 448
         y: 196
         width: 16
         height: 16
@@ -13380,7 +13380,7 @@ TextureImporter:
       name: Carretera 1_632
       rect:
         serializedVersion: 2
-        x: 528
+        x: 464
         y: 196
         width: 16
         height: 16
@@ -13401,7 +13401,7 @@ TextureImporter:
       name: Carretera 1_633
       rect:
         serializedVersion: 2
-        x: 544
+        x: 480
         y: 196
         width: 16
         height: 16
@@ -13422,7 +13422,7 @@ TextureImporter:
       name: Carretera 1_634
       rect:
         serializedVersion: 2
-        x: 560
+        x: 496
         y: 196
         width: 16
         height: 16
@@ -13443,7 +13443,7 @@ TextureImporter:
       name: Carretera 1_635
       rect:
         serializedVersion: 2
-        x: 576
+        x: 512
         y: 196
         width: 16
         height: 16
@@ -13464,7 +13464,7 @@ TextureImporter:
       name: Carretera 1_636
       rect:
         serializedVersion: 2
-        x: 592
+        x: 528
         y: 196
         width: 16
         height: 16
@@ -13485,7 +13485,7 @@ TextureImporter:
       name: Carretera 1_637
       rect:
         serializedVersion: 2
-        x: 608
+        x: 544
         y: 196
         width: 16
         height: 16
@@ -13506,7 +13506,7 @@ TextureImporter:
       name: Carretera 1_638
       rect:
         serializedVersion: 2
-        x: 624
+        x: 560
         y: 196
         width: 16
         height: 16
@@ -13527,7 +13527,7 @@ TextureImporter:
       name: Carretera 1_639
       rect:
         serializedVersion: 2
-        x: 640
+        x: 576
         y: 196
         width: 16
         height: 16
@@ -13548,8 +13548,8 @@ TextureImporter:
       name: Carretera 1_640
       rect:
         serializedVersion: 2
-        x: 16
-        y: 180
+        x: 592
+        y: 196
         width: 16
         height: 16
       alignment: 0
@@ -13569,8 +13569,8 @@ TextureImporter:
       name: Carretera 1_641
       rect:
         serializedVersion: 2
-        x: 32
-        y: 180
+        x: 608
+        y: 196
         width: 16
         height: 16
       alignment: 0
@@ -13590,8 +13590,8 @@ TextureImporter:
       name: Carretera 1_642
       rect:
         serializedVersion: 2
-        x: 48
-        y: 180
+        x: 624
+        y: 196
         width: 16
         height: 16
       alignment: 0
@@ -13611,8 +13611,8 @@ TextureImporter:
       name: Carretera 1_643
       rect:
         serializedVersion: 2
-        x: 112
-        y: 180
+        x: 640
+        y: 196
         width: 16
         height: 16
       alignment: 0
@@ -13632,7 +13632,7 @@ TextureImporter:
       name: Carretera 1_644
       rect:
         serializedVersion: 2
-        x: 128
+        x: 16
         y: 180
         width: 16
         height: 16
@@ -13653,7 +13653,7 @@ TextureImporter:
       name: Carretera 1_645
       rect:
         serializedVersion: 2
-        x: 144
+        x: 32
         y: 180
         width: 16
         height: 16
@@ -13674,7 +13674,7 @@ TextureImporter:
       name: Carretera 1_646
       rect:
         serializedVersion: 2
-        x: 160
+        x: 48
         y: 180
         width: 16
         height: 16
@@ -13695,7 +13695,7 @@ TextureImporter:
       name: Carretera 1_647
       rect:
         serializedVersion: 2
-        x: 176
+        x: 112
         y: 180
         width: 16
         height: 16
@@ -13716,7 +13716,7 @@ TextureImporter:
       name: Carretera 1_648
       rect:
         serializedVersion: 2
-        x: 192
+        x: 128
         y: 180
         width: 16
         height: 16
@@ -13737,7 +13737,7 @@ TextureImporter:
       name: Carretera 1_649
       rect:
         serializedVersion: 2
-        x: 208
+        x: 144
         y: 180
         width: 16
         height: 16
@@ -13758,7 +13758,7 @@ TextureImporter:
       name: Carretera 1_650
       rect:
         serializedVersion: 2
-        x: 224
+        x: 160
         y: 180
         width: 16
         height: 16
@@ -13779,7 +13779,7 @@ TextureImporter:
       name: Carretera 1_651
       rect:
         serializedVersion: 2
-        x: 240
+        x: 176
         y: 180
         width: 16
         height: 16
@@ -13800,7 +13800,7 @@ TextureImporter:
       name: Carretera 1_652
       rect:
         serializedVersion: 2
-        x: 256
+        x: 192
         y: 180
         width: 16
         height: 16
@@ -13821,7 +13821,7 @@ TextureImporter:
       name: Carretera 1_653
       rect:
         serializedVersion: 2
-        x: 272
+        x: 208
         y: 180
         width: 16
         height: 16
@@ -13842,7 +13842,7 @@ TextureImporter:
       name: Carretera 1_654
       rect:
         serializedVersion: 2
-        x: 288
+        x: 224
         y: 180
         width: 16
         height: 16
@@ -13863,7 +13863,7 @@ TextureImporter:
       name: Carretera 1_655
       rect:
         serializedVersion: 2
-        x: 304
+        x: 240
         y: 180
         width: 16
         height: 16
@@ -13884,7 +13884,7 @@ TextureImporter:
       name: Carretera 1_656
       rect:
         serializedVersion: 2
-        x: 320
+        x: 256
         y: 180
         width: 16
         height: 16
@@ -13905,7 +13905,7 @@ TextureImporter:
       name: Carretera 1_657
       rect:
         serializedVersion: 2
-        x: 336
+        x: 272
         y: 180
         width: 16
         height: 16
@@ -13926,7 +13926,7 @@ TextureImporter:
       name: Carretera 1_658
       rect:
         serializedVersion: 2
-        x: 368
+        x: 288
         y: 180
         width: 16
         height: 16
@@ -13947,7 +13947,7 @@ TextureImporter:
       name: Carretera 1_659
       rect:
         serializedVersion: 2
-        x: 384
+        x: 304
         y: 180
         width: 16
         height: 16
@@ -13968,7 +13968,7 @@ TextureImporter:
       name: Carretera 1_660
       rect:
         serializedVersion: 2
-        x: 400
+        x: 320
         y: 180
         width: 16
         height: 16
@@ -13989,7 +13989,7 @@ TextureImporter:
       name: Carretera 1_661
       rect:
         serializedVersion: 2
-        x: 416
+        x: 336
         y: 180
         width: 16
         height: 16
@@ -14010,7 +14010,7 @@ TextureImporter:
       name: Carretera 1_662
       rect:
         serializedVersion: 2
-        x: 432
+        x: 368
         y: 180
         width: 16
         height: 16
@@ -14031,7 +14031,7 @@ TextureImporter:
       name: Carretera 1_663
       rect:
         serializedVersion: 2
-        x: 448
+        x: 384
         y: 180
         width: 16
         height: 16
@@ -14052,7 +14052,7 @@ TextureImporter:
       name: Carretera 1_664
       rect:
         serializedVersion: 2
-        x: 464
+        x: 400
         y: 180
         width: 16
         height: 16
@@ -14073,7 +14073,7 @@ TextureImporter:
       name: Carretera 1_665
       rect:
         serializedVersion: 2
-        x: 480
+        x: 416
         y: 180
         width: 16
         height: 16
@@ -14094,7 +14094,7 @@ TextureImporter:
       name: Carretera 1_666
       rect:
         serializedVersion: 2
-        x: 496
+        x: 432
         y: 180
         width: 16
         height: 16
@@ -14115,7 +14115,7 @@ TextureImporter:
       name: Carretera 1_667
       rect:
         serializedVersion: 2
-        x: 512
+        x: 448
         y: 180
         width: 16
         height: 16
@@ -14136,7 +14136,7 @@ TextureImporter:
       name: Carretera 1_668
       rect:
         serializedVersion: 2
-        x: 528
+        x: 464
         y: 180
         width: 16
         height: 16
@@ -14157,7 +14157,7 @@ TextureImporter:
       name: Carretera 1_669
       rect:
         serializedVersion: 2
-        x: 544
+        x: 480
         y: 180
         width: 16
         height: 16
@@ -14178,7 +14178,7 @@ TextureImporter:
       name: Carretera 1_670
       rect:
         serializedVersion: 2
-        x: 560
+        x: 496
         y: 180
         width: 16
         height: 16
@@ -14199,7 +14199,7 @@ TextureImporter:
       name: Carretera 1_671
       rect:
         serializedVersion: 2
-        x: 576
+        x: 512
         y: 180
         width: 16
         height: 16
@@ -14220,7 +14220,7 @@ TextureImporter:
       name: Carretera 1_672
       rect:
         serializedVersion: 2
-        x: 592
+        x: 528
         y: 180
         width: 16
         height: 16
@@ -14241,7 +14241,7 @@ TextureImporter:
       name: Carretera 1_673
       rect:
         serializedVersion: 2
-        x: 608
+        x: 544
         y: 180
         width: 16
         height: 16
@@ -14262,7 +14262,7 @@ TextureImporter:
       name: Carretera 1_674
       rect:
         serializedVersion: 2
-        x: 624
+        x: 560
         y: 180
         width: 16
         height: 16
@@ -14283,7 +14283,7 @@ TextureImporter:
       name: Carretera 1_675
       rect:
         serializedVersion: 2
-        x: 640
+        x: 576
         y: 180
         width: 16
         height: 16
@@ -14304,8 +14304,8 @@ TextureImporter:
       name: Carretera 1_676
       rect:
         serializedVersion: 2
-        x: 16
-        y: 164
+        x: 592
+        y: 180
         width: 16
         height: 16
       alignment: 0
@@ -14325,8 +14325,8 @@ TextureImporter:
       name: Carretera 1_677
       rect:
         serializedVersion: 2
-        x: 32
-        y: 164
+        x: 608
+        y: 180
         width: 16
         height: 16
       alignment: 0
@@ -14346,8 +14346,8 @@ TextureImporter:
       name: Carretera 1_678
       rect:
         serializedVersion: 2
-        x: 48
-        y: 164
+        x: 624
+        y: 180
         width: 16
         height: 16
       alignment: 0
@@ -14367,8 +14367,8 @@ TextureImporter:
       name: Carretera 1_679
       rect:
         serializedVersion: 2
-        x: 112
-        y: 164
+        x: 640
+        y: 180
         width: 16
         height: 16
       alignment: 0
@@ -14388,7 +14388,7 @@ TextureImporter:
       name: Carretera 1_680
       rect:
         serializedVersion: 2
-        x: 128
+        x: 16
         y: 164
         width: 16
         height: 16
@@ -14409,7 +14409,7 @@ TextureImporter:
       name: Carretera 1_681
       rect:
         serializedVersion: 2
-        x: 144
+        x: 32
         y: 164
         width: 16
         height: 16
@@ -14430,7 +14430,7 @@ TextureImporter:
       name: Carretera 1_682
       rect:
         serializedVersion: 2
-        x: 160
+        x: 48
         y: 164
         width: 16
         height: 16
@@ -14451,7 +14451,7 @@ TextureImporter:
       name: Carretera 1_683
       rect:
         serializedVersion: 2
-        x: 176
+        x: 112
         y: 164
         width: 16
         height: 16
@@ -14472,7 +14472,7 @@ TextureImporter:
       name: Carretera 1_684
       rect:
         serializedVersion: 2
-        x: 192
+        x: 128
         y: 164
         width: 16
         height: 16
@@ -14493,7 +14493,7 @@ TextureImporter:
       name: Carretera 1_685
       rect:
         serializedVersion: 2
-        x: 208
+        x: 144
         y: 164
         width: 16
         height: 16
@@ -14514,7 +14514,7 @@ TextureImporter:
       name: Carretera 1_686
       rect:
         serializedVersion: 2
-        x: 224
+        x: 160
         y: 164
         width: 16
         height: 16
@@ -14535,7 +14535,7 @@ TextureImporter:
       name: Carretera 1_687
       rect:
         serializedVersion: 2
-        x: 240
+        x: 176
         y: 164
         width: 16
         height: 16
@@ -14556,7 +14556,7 @@ TextureImporter:
       name: Carretera 1_688
       rect:
         serializedVersion: 2
-        x: 256
+        x: 192
         y: 164
         width: 16
         height: 16
@@ -14577,7 +14577,7 @@ TextureImporter:
       name: Carretera 1_689
       rect:
         serializedVersion: 2
-        x: 272
+        x: 208
         y: 164
         width: 16
         height: 16
@@ -14598,7 +14598,7 @@ TextureImporter:
       name: Carretera 1_690
       rect:
         serializedVersion: 2
-        x: 288
+        x: 224
         y: 164
         width: 16
         height: 16
@@ -14619,7 +14619,7 @@ TextureImporter:
       name: Carretera 1_691
       rect:
         serializedVersion: 2
-        x: 304
+        x: 240
         y: 164
         width: 16
         height: 16
@@ -14640,7 +14640,7 @@ TextureImporter:
       name: Carretera 1_692
       rect:
         serializedVersion: 2
-        x: 320
+        x: 256
         y: 164
         width: 16
         height: 16
@@ -14661,7 +14661,7 @@ TextureImporter:
       name: Carretera 1_693
       rect:
         serializedVersion: 2
-        x: 336
+        x: 272
         y: 164
         width: 16
         height: 16
@@ -14682,7 +14682,7 @@ TextureImporter:
       name: Carretera 1_694
       rect:
         serializedVersion: 2
-        x: 368
+        x: 288
         y: 164
         width: 16
         height: 16
@@ -14703,7 +14703,7 @@ TextureImporter:
       name: Carretera 1_695
       rect:
         serializedVersion: 2
-        x: 384
+        x: 304
         y: 164
         width: 16
         height: 16
@@ -14724,7 +14724,7 @@ TextureImporter:
       name: Carretera 1_696
       rect:
         serializedVersion: 2
-        x: 400
+        x: 320
         y: 164
         width: 16
         height: 16
@@ -14745,7 +14745,7 @@ TextureImporter:
       name: Carretera 1_697
       rect:
         serializedVersion: 2
-        x: 416
+        x: 336
         y: 164
         width: 16
         height: 16
@@ -14766,7 +14766,7 @@ TextureImporter:
       name: Carretera 1_698
       rect:
         serializedVersion: 2
-        x: 432
+        x: 368
         y: 164
         width: 16
         height: 16
@@ -14787,7 +14787,7 @@ TextureImporter:
       name: Carretera 1_699
       rect:
         serializedVersion: 2
-        x: 448
+        x: 384
         y: 164
         width: 16
         height: 16
@@ -14808,7 +14808,7 @@ TextureImporter:
       name: Carretera 1_700
       rect:
         serializedVersion: 2
-        x: 464
+        x: 400
         y: 164
         width: 16
         height: 16
@@ -14829,7 +14829,7 @@ TextureImporter:
       name: Carretera 1_701
       rect:
         serializedVersion: 2
-        x: 480
+        x: 416
         y: 164
         width: 16
         height: 16
@@ -14850,7 +14850,7 @@ TextureImporter:
       name: Carretera 1_702
       rect:
         serializedVersion: 2
-        x: 496
+        x: 432
         y: 164
         width: 16
         height: 16
@@ -14871,7 +14871,7 @@ TextureImporter:
       name: Carretera 1_703
       rect:
         serializedVersion: 2
-        x: 512
+        x: 448
         y: 164
         width: 16
         height: 16
@@ -14892,7 +14892,7 @@ TextureImporter:
       name: Carretera 1_704
       rect:
         serializedVersion: 2
-        x: 528
+        x: 464
         y: 164
         width: 16
         height: 16
@@ -14913,7 +14913,7 @@ TextureImporter:
       name: Carretera 1_705
       rect:
         serializedVersion: 2
-        x: 544
+        x: 480
         y: 164
         width: 16
         height: 16
@@ -14934,7 +14934,7 @@ TextureImporter:
       name: Carretera 1_706
       rect:
         serializedVersion: 2
-        x: 560
+        x: 496
         y: 164
         width: 16
         height: 16
@@ -14955,7 +14955,7 @@ TextureImporter:
       name: Carretera 1_707
       rect:
         serializedVersion: 2
-        x: 576
+        x: 512
         y: 164
         width: 16
         height: 16
@@ -14976,7 +14976,7 @@ TextureImporter:
       name: Carretera 1_708
       rect:
         serializedVersion: 2
-        x: 592
+        x: 528
         y: 164
         width: 16
         height: 16
@@ -14997,7 +14997,7 @@ TextureImporter:
       name: Carretera 1_709
       rect:
         serializedVersion: 2
-        x: 608
+        x: 544
         y: 164
         width: 16
         height: 16
@@ -15018,7 +15018,7 @@ TextureImporter:
       name: Carretera 1_710
       rect:
         serializedVersion: 2
-        x: 624
+        x: 560
         y: 164
         width: 16
         height: 16
@@ -15039,7 +15039,7 @@ TextureImporter:
       name: Carretera 1_711
       rect:
         serializedVersion: 2
-        x: 640
+        x: 576
         y: 164
         width: 16
         height: 16
@@ -15060,8 +15060,8 @@ TextureImporter:
       name: Carretera 1_712
       rect:
         serializedVersion: 2
-        x: 112
-        y: 148
+        x: 592
+        y: 164
         width: 16
         height: 16
       alignment: 0
@@ -15081,8 +15081,8 @@ TextureImporter:
       name: Carretera 1_713
       rect:
         serializedVersion: 2
-        x: 128
-        y: 148
+        x: 608
+        y: 164
         width: 16
         height: 16
       alignment: 0
@@ -15102,8 +15102,8 @@ TextureImporter:
       name: Carretera 1_714
       rect:
         serializedVersion: 2
-        x: 144
-        y: 148
+        x: 624
+        y: 164
         width: 16
         height: 16
       alignment: 0
@@ -15123,8 +15123,8 @@ TextureImporter:
       name: Carretera 1_715
       rect:
         serializedVersion: 2
-        x: 160
-        y: 148
+        x: 640
+        y: 164
         width: 16
         height: 16
       alignment: 0
@@ -15144,7 +15144,7 @@ TextureImporter:
       name: Carretera 1_716
       rect:
         serializedVersion: 2
-        x: 176
+        x: 112
         y: 148
         width: 16
         height: 16
@@ -15165,7 +15165,7 @@ TextureImporter:
       name: Carretera 1_717
       rect:
         serializedVersion: 2
-        x: 192
+        x: 128
         y: 148
         width: 16
         height: 16
@@ -15186,7 +15186,7 @@ TextureImporter:
       name: Carretera 1_718
       rect:
         serializedVersion: 2
-        x: 208
+        x: 144
         y: 148
         width: 16
         height: 16
@@ -15207,7 +15207,7 @@ TextureImporter:
       name: Carretera 1_719
       rect:
         serializedVersion: 2
-        x: 224
+        x: 160
         y: 148
         width: 16
         height: 16
@@ -15228,7 +15228,7 @@ TextureImporter:
       name: Carretera 1_720
       rect:
         serializedVersion: 2
-        x: 240
+        x: 176
         y: 148
         width: 16
         height: 16
@@ -15249,7 +15249,7 @@ TextureImporter:
       name: Carretera 1_721
       rect:
         serializedVersion: 2
-        x: 256
+        x: 192
         y: 148
         width: 16
         height: 16
@@ -15270,7 +15270,7 @@ TextureImporter:
       name: Carretera 1_722
       rect:
         serializedVersion: 2
-        x: 272
+        x: 208
         y: 148
         width: 16
         height: 16
@@ -15291,7 +15291,7 @@ TextureImporter:
       name: Carretera 1_723
       rect:
         serializedVersion: 2
-        x: 288
+        x: 224
         y: 148
         width: 16
         height: 16
@@ -15312,7 +15312,7 @@ TextureImporter:
       name: Carretera 1_724
       rect:
         serializedVersion: 2
-        x: 304
+        x: 240
         y: 148
         width: 16
         height: 16
@@ -15333,7 +15333,7 @@ TextureImporter:
       name: Carretera 1_725
       rect:
         serializedVersion: 2
-        x: 320
+        x: 256
         y: 148
         width: 16
         height: 16
@@ -15354,7 +15354,7 @@ TextureImporter:
       name: Carretera 1_726
       rect:
         serializedVersion: 2
-        x: 336
+        x: 272
         y: 148
         width: 16
         height: 16
@@ -15375,7 +15375,7 @@ TextureImporter:
       name: Carretera 1_727
       rect:
         serializedVersion: 2
-        x: 368
+        x: 288
         y: 148
         width: 16
         height: 16
@@ -15396,7 +15396,7 @@ TextureImporter:
       name: Carretera 1_728
       rect:
         serializedVersion: 2
-        x: 384
+        x: 304
         y: 148
         width: 16
         height: 16
@@ -15417,7 +15417,7 @@ TextureImporter:
       name: Carretera 1_729
       rect:
         serializedVersion: 2
-        x: 400
+        x: 320
         y: 148
         width: 16
         height: 16
@@ -15438,7 +15438,7 @@ TextureImporter:
       name: Carretera 1_730
       rect:
         serializedVersion: 2
-        x: 416
+        x: 336
         y: 148
         width: 16
         height: 16
@@ -15459,7 +15459,7 @@ TextureImporter:
       name: Carretera 1_731
       rect:
         serializedVersion: 2
-        x: 432
+        x: 368
         y: 148
         width: 16
         height: 16
@@ -15480,7 +15480,7 @@ TextureImporter:
       name: Carretera 1_732
       rect:
         serializedVersion: 2
-        x: 448
+        x: 384
         y: 148
         width: 16
         height: 16
@@ -15501,7 +15501,7 @@ TextureImporter:
       name: Carretera 1_733
       rect:
         serializedVersion: 2
-        x: 464
+        x: 400
         y: 148
         width: 16
         height: 16
@@ -15522,7 +15522,7 @@ TextureImporter:
       name: Carretera 1_734
       rect:
         serializedVersion: 2
-        x: 480
+        x: 416
         y: 148
         width: 16
         height: 16
@@ -15543,7 +15543,7 @@ TextureImporter:
       name: Carretera 1_735
       rect:
         serializedVersion: 2
-        x: 496
+        x: 432
         y: 148
         width: 16
         height: 16
@@ -15564,7 +15564,7 @@ TextureImporter:
       name: Carretera 1_736
       rect:
         serializedVersion: 2
-        x: 512
+        x: 448
         y: 148
         width: 16
         height: 16
@@ -15585,7 +15585,7 @@ TextureImporter:
       name: Carretera 1_737
       rect:
         serializedVersion: 2
-        x: 528
+        x: 464
         y: 148
         width: 16
         height: 16
@@ -15606,7 +15606,7 @@ TextureImporter:
       name: Carretera 1_738
       rect:
         serializedVersion: 2
-        x: 544
+        x: 480
         y: 148
         width: 16
         height: 16
@@ -15627,7 +15627,7 @@ TextureImporter:
       name: Carretera 1_739
       rect:
         serializedVersion: 2
-        x: 560
+        x: 496
         y: 148
         width: 16
         height: 16
@@ -15648,7 +15648,7 @@ TextureImporter:
       name: Carretera 1_740
       rect:
         serializedVersion: 2
-        x: 576
+        x: 512
         y: 148
         width: 16
         height: 16
@@ -15669,7 +15669,7 @@ TextureImporter:
       name: Carretera 1_741
       rect:
         serializedVersion: 2
-        x: 592
+        x: 528
         y: 148
         width: 16
         height: 16
@@ -15690,7 +15690,7 @@ TextureImporter:
       name: Carretera 1_742
       rect:
         serializedVersion: 2
-        x: 608
+        x: 544
         y: 148
         width: 16
         height: 16
@@ -15711,7 +15711,7 @@ TextureImporter:
       name: Carretera 1_743
       rect:
         serializedVersion: 2
-        x: 624
+        x: 560
         y: 148
         width: 16
         height: 16
@@ -15732,7 +15732,7 @@ TextureImporter:
       name: Carretera 1_744
       rect:
         serializedVersion: 2
-        x: 640
+        x: 576
         y: 148
         width: 16
         height: 16
@@ -15753,8 +15753,8 @@ TextureImporter:
       name: Carretera 1_745
       rect:
         serializedVersion: 2
-        x: 64
-        y: 132
+        x: 592
+        y: 148
         width: 16
         height: 16
       alignment: 0
@@ -15774,8 +15774,8 @@ TextureImporter:
       name: Carretera 1_746
       rect:
         serializedVersion: 2
-        x: 80
-        y: 132
+        x: 608
+        y: 148
         width: 16
         height: 16
       alignment: 0
@@ -15795,8 +15795,8 @@ TextureImporter:
       name: Carretera 1_747
       rect:
         serializedVersion: 2
-        x: 96
-        y: 132
+        x: 624
+        y: 148
         width: 16
         height: 16
       alignment: 0
@@ -15816,8 +15816,8 @@ TextureImporter:
       name: Carretera 1_748
       rect:
         serializedVersion: 2
-        x: 112
-        y: 132
+        x: 640
+        y: 148
         width: 16
         height: 16
       alignment: 0
@@ -15837,7 +15837,7 @@ TextureImporter:
       name: Carretera 1_749
       rect:
         serializedVersion: 2
-        x: 128
+        x: 64
         y: 132
         width: 16
         height: 16
@@ -15858,7 +15858,7 @@ TextureImporter:
       name: Carretera 1_750
       rect:
         serializedVersion: 2
-        x: 144
+        x: 80
         y: 132
         width: 16
         height: 16
@@ -15879,7 +15879,7 @@ TextureImporter:
       name: Carretera 1_751
       rect:
         serializedVersion: 2
-        x: 160
+        x: 96
         y: 132
         width: 16
         height: 16
@@ -15900,7 +15900,7 @@ TextureImporter:
       name: Carretera 1_752
       rect:
         serializedVersion: 2
-        x: 176
+        x: 112
         y: 132
         width: 16
         height: 16
@@ -15921,7 +15921,7 @@ TextureImporter:
       name: Carretera 1_753
       rect:
         serializedVersion: 2
-        x: 192
+        x: 128
         y: 132
         width: 16
         height: 16
@@ -15942,7 +15942,7 @@ TextureImporter:
       name: Carretera 1_754
       rect:
         serializedVersion: 2
-        x: 208
+        x: 144
         y: 132
         width: 16
         height: 16
@@ -15963,7 +15963,7 @@ TextureImporter:
       name: Carretera 1_755
       rect:
         serializedVersion: 2
-        x: 224
+        x: 160
         y: 132
         width: 16
         height: 16
@@ -15984,7 +15984,7 @@ TextureImporter:
       name: Carretera 1_756
       rect:
         serializedVersion: 2
-        x: 240
+        x: 176
         y: 132
         width: 16
         height: 16
@@ -16005,7 +16005,7 @@ TextureImporter:
       name: Carretera 1_757
       rect:
         serializedVersion: 2
-        x: 256
+        x: 192
         y: 132
         width: 16
         height: 16
@@ -16026,7 +16026,7 @@ TextureImporter:
       name: Carretera 1_758
       rect:
         serializedVersion: 2
-        x: 272
+        x: 208
         y: 132
         width: 16
         height: 16
@@ -16047,7 +16047,7 @@ TextureImporter:
       name: Carretera 1_759
       rect:
         serializedVersion: 2
-        x: 288
+        x: 224
         y: 132
         width: 16
         height: 16
@@ -16068,7 +16068,7 @@ TextureImporter:
       name: Carretera 1_760
       rect:
         serializedVersion: 2
-        x: 304
+        x: 240
         y: 132
         width: 16
         height: 16
@@ -16089,7 +16089,7 @@ TextureImporter:
       name: Carretera 1_761
       rect:
         serializedVersion: 2
-        x: 320
+        x: 256
         y: 132
         width: 16
         height: 16
@@ -16110,7 +16110,7 @@ TextureImporter:
       name: Carretera 1_762
       rect:
         serializedVersion: 2
-        x: 336
+        x: 272
         y: 132
         width: 16
         height: 16
@@ -16131,7 +16131,7 @@ TextureImporter:
       name: Carretera 1_763
       rect:
         serializedVersion: 2
-        x: 368
+        x: 288
         y: 132
         width: 16
         height: 16
@@ -16152,7 +16152,7 @@ TextureImporter:
       name: Carretera 1_764
       rect:
         serializedVersion: 2
-        x: 384
+        x: 304
         y: 132
         width: 16
         height: 16
@@ -16173,7 +16173,7 @@ TextureImporter:
       name: Carretera 1_765
       rect:
         serializedVersion: 2
-        x: 400
+        x: 320
         y: 132
         width: 16
         height: 16
@@ -16194,7 +16194,7 @@ TextureImporter:
       name: Carretera 1_766
       rect:
         serializedVersion: 2
-        x: 416
+        x: 336
         y: 132
         width: 16
         height: 16
@@ -16215,7 +16215,7 @@ TextureImporter:
       name: Carretera 1_767
       rect:
         serializedVersion: 2
-        x: 432
+        x: 368
         y: 132
         width: 16
         height: 16
@@ -16236,7 +16236,7 @@ TextureImporter:
       name: Carretera 1_768
       rect:
         serializedVersion: 2
-        x: 448
+        x: 384
         y: 132
         width: 16
         height: 16
@@ -16257,7 +16257,7 @@ TextureImporter:
       name: Carretera 1_769
       rect:
         serializedVersion: 2
-        x: 464
+        x: 400
         y: 132
         width: 16
         height: 16
@@ -16278,7 +16278,7 @@ TextureImporter:
       name: Carretera 1_770
       rect:
         serializedVersion: 2
-        x: 480
+        x: 416
         y: 132
         width: 16
         height: 16
@@ -16299,7 +16299,7 @@ TextureImporter:
       name: Carretera 1_771
       rect:
         serializedVersion: 2
-        x: 496
+        x: 432
         y: 132
         width: 16
         height: 16
@@ -16320,7 +16320,7 @@ TextureImporter:
       name: Carretera 1_772
       rect:
         serializedVersion: 2
-        x: 512
+        x: 448
         y: 132
         width: 16
         height: 16
@@ -16341,7 +16341,7 @@ TextureImporter:
       name: Carretera 1_773
       rect:
         serializedVersion: 2
-        x: 528
+        x: 464
         y: 132
         width: 16
         height: 16
@@ -16362,7 +16362,7 @@ TextureImporter:
       name: Carretera 1_774
       rect:
         serializedVersion: 2
-        x: 544
+        x: 480
         y: 132
         width: 16
         height: 16
@@ -16383,7 +16383,7 @@ TextureImporter:
       name: Carretera 1_775
       rect:
         serializedVersion: 2
-        x: 560
+        x: 496
         y: 132
         width: 16
         height: 16
@@ -16404,7 +16404,7 @@ TextureImporter:
       name: Carretera 1_776
       rect:
         serializedVersion: 2
-        x: 576
+        x: 512
         y: 132
         width: 16
         height: 16
@@ -16425,7 +16425,7 @@ TextureImporter:
       name: Carretera 1_777
       rect:
         serializedVersion: 2
-        x: 592
+        x: 528
         y: 132
         width: 16
         height: 16
@@ -16446,7 +16446,7 @@ TextureImporter:
       name: Carretera 1_778
       rect:
         serializedVersion: 2
-        x: 608
+        x: 544
         y: 132
         width: 16
         height: 16
@@ -16467,7 +16467,7 @@ TextureImporter:
       name: Carretera 1_779
       rect:
         serializedVersion: 2
-        x: 624
+        x: 560
         y: 132
         width: 16
         height: 16
@@ -16488,7 +16488,7 @@ TextureImporter:
       name: Carretera 1_780
       rect:
         serializedVersion: 2
-        x: 640
+        x: 576
         y: 132
         width: 16
         height: 16
@@ -16509,8 +16509,8 @@ TextureImporter:
       name: Carretera 1_781
       rect:
         serializedVersion: 2
-        x: 64
-        y: 116
+        x: 592
+        y: 132
         width: 16
         height: 16
       alignment: 0
@@ -16530,8 +16530,8 @@ TextureImporter:
       name: Carretera 1_782
       rect:
         serializedVersion: 2
-        x: 80
-        y: 116
+        x: 608
+        y: 132
         width: 16
         height: 16
       alignment: 0
@@ -16551,8 +16551,8 @@ TextureImporter:
       name: Carretera 1_783
       rect:
         serializedVersion: 2
-        x: 96
-        y: 116
+        x: 624
+        y: 132
         width: 16
         height: 16
       alignment: 0
@@ -16572,8 +16572,8 @@ TextureImporter:
       name: Carretera 1_784
       rect:
         serializedVersion: 2
-        x: 112
-        y: 116
+        x: 640
+        y: 132
         width: 16
         height: 16
       alignment: 0
@@ -16593,7 +16593,7 @@ TextureImporter:
       name: Carretera 1_785
       rect:
         serializedVersion: 2
-        x: 128
+        x: 64
         y: 116
         width: 16
         height: 16
@@ -16614,7 +16614,7 @@ TextureImporter:
       name: Carretera 1_786
       rect:
         serializedVersion: 2
-        x: 144
+        x: 80
         y: 116
         width: 16
         height: 16
@@ -16635,7 +16635,7 @@ TextureImporter:
       name: Carretera 1_787
       rect:
         serializedVersion: 2
-        x: 160
+        x: 96
         y: 116
         width: 16
         height: 16
@@ -16656,7 +16656,7 @@ TextureImporter:
       name: Carretera 1_788
       rect:
         serializedVersion: 2
-        x: 176
+        x: 112
         y: 116
         width: 16
         height: 16
@@ -16677,7 +16677,7 @@ TextureImporter:
       name: Carretera 1_789
       rect:
         serializedVersion: 2
-        x: 192
+        x: 128
         y: 116
         width: 16
         height: 16
@@ -16698,7 +16698,7 @@ TextureImporter:
       name: Carretera 1_790
       rect:
         serializedVersion: 2
-        x: 208
+        x: 144
         y: 116
         width: 16
         height: 16
@@ -16719,7 +16719,7 @@ TextureImporter:
       name: Carretera 1_791
       rect:
         serializedVersion: 2
-        x: 224
+        x: 160
         y: 116
         width: 16
         height: 16
@@ -16740,7 +16740,7 @@ TextureImporter:
       name: Carretera 1_792
       rect:
         serializedVersion: 2
-        x: 240
+        x: 176
         y: 116
         width: 16
         height: 16
@@ -16761,7 +16761,7 @@ TextureImporter:
       name: Carretera 1_793
       rect:
         serializedVersion: 2
-        x: 256
+        x: 192
         y: 116
         width: 16
         height: 16
@@ -16782,7 +16782,7 @@ TextureImporter:
       name: Carretera 1_794
       rect:
         serializedVersion: 2
-        x: 272
+        x: 208
         y: 116
         width: 16
         height: 16
@@ -16803,7 +16803,7 @@ TextureImporter:
       name: Carretera 1_795
       rect:
         serializedVersion: 2
-        x: 288
+        x: 224
         y: 116
         width: 16
         height: 16
@@ -16824,7 +16824,7 @@ TextureImporter:
       name: Carretera 1_796
       rect:
         serializedVersion: 2
-        x: 304
+        x: 240
         y: 116
         width: 16
         height: 16
@@ -16845,7 +16845,7 @@ TextureImporter:
       name: Carretera 1_797
       rect:
         serializedVersion: 2
-        x: 320
+        x: 256
         y: 116
         width: 16
         height: 16
@@ -16866,7 +16866,7 @@ TextureImporter:
       name: Carretera 1_798
       rect:
         serializedVersion: 2
-        x: 336
+        x: 272
         y: 116
         width: 16
         height: 16
@@ -16887,7 +16887,7 @@ TextureImporter:
       name: Carretera 1_799
       rect:
         serializedVersion: 2
-        x: 368
+        x: 288
         y: 116
         width: 16
         height: 16
@@ -16908,7 +16908,7 @@ TextureImporter:
       name: Carretera 1_800
       rect:
         serializedVersion: 2
-        x: 384
+        x: 304
         y: 116
         width: 16
         height: 16
@@ -16929,7 +16929,7 @@ TextureImporter:
       name: Carretera 1_801
       rect:
         serializedVersion: 2
-        x: 400
+        x: 320
         y: 116
         width: 16
         height: 16
@@ -16950,7 +16950,7 @@ TextureImporter:
       name: Carretera 1_802
       rect:
         serializedVersion: 2
-        x: 416
+        x: 336
         y: 116
         width: 16
         height: 16
@@ -16971,7 +16971,7 @@ TextureImporter:
       name: Carretera 1_803
       rect:
         serializedVersion: 2
-        x: 432
+        x: 368
         y: 116
         width: 16
         height: 16
@@ -16992,7 +16992,7 @@ TextureImporter:
       name: Carretera 1_804
       rect:
         serializedVersion: 2
-        x: 448
+        x: 384
         y: 116
         width: 16
         height: 16
@@ -17013,7 +17013,7 @@ TextureImporter:
       name: Carretera 1_805
       rect:
         serializedVersion: 2
-        x: 464
+        x: 400
         y: 116
         width: 16
         height: 16
@@ -17034,7 +17034,7 @@ TextureImporter:
       name: Carretera 1_806
       rect:
         serializedVersion: 2
-        x: 480
+        x: 416
         y: 116
         width: 16
         height: 16
@@ -17055,7 +17055,7 @@ TextureImporter:
       name: Carretera 1_807
       rect:
         serializedVersion: 2
-        x: 496
+        x: 432
         y: 116
         width: 16
         height: 16
@@ -17076,7 +17076,7 @@ TextureImporter:
       name: Carretera 1_808
       rect:
         serializedVersion: 2
-        x: 512
+        x: 448
         y: 116
         width: 16
         height: 16
@@ -17097,7 +17097,7 @@ TextureImporter:
       name: Carretera 1_809
       rect:
         serializedVersion: 2
-        x: 528
+        x: 464
         y: 116
         width: 16
         height: 16
@@ -17118,7 +17118,7 @@ TextureImporter:
       name: Carretera 1_810
       rect:
         serializedVersion: 2
-        x: 544
+        x: 480
         y: 116
         width: 16
         height: 16
@@ -17139,7 +17139,7 @@ TextureImporter:
       name: Carretera 1_811
       rect:
         serializedVersion: 2
-        x: 560
+        x: 496
         y: 116
         width: 16
         height: 16
@@ -17160,7 +17160,7 @@ TextureImporter:
       name: Carretera 1_812
       rect:
         serializedVersion: 2
-        x: 576
+        x: 512
         y: 116
         width: 16
         height: 16
@@ -17181,7 +17181,7 @@ TextureImporter:
       name: Carretera 1_813
       rect:
         serializedVersion: 2
-        x: 592
+        x: 528
         y: 116
         width: 16
         height: 16
@@ -17202,7 +17202,7 @@ TextureImporter:
       name: Carretera 1_814
       rect:
         serializedVersion: 2
-        x: 608
+        x: 544
         y: 116
         width: 16
         height: 16
@@ -17223,7 +17223,7 @@ TextureImporter:
       name: Carretera 1_815
       rect:
         serializedVersion: 2
-        x: 624
+        x: 560
         y: 116
         width: 16
         height: 16
@@ -17244,7 +17244,7 @@ TextureImporter:
       name: Carretera 1_816
       rect:
         serializedVersion: 2
-        x: 640
+        x: 576
         y: 116
         width: 16
         height: 16
@@ -17265,8 +17265,8 @@ TextureImporter:
       name: Carretera 1_817
       rect:
         serializedVersion: 2
-        x: 256
-        y: 100
+        x: 592
+        y: 116
         width: 16
         height: 16
       alignment: 0
@@ -17286,8 +17286,8 @@ TextureImporter:
       name: Carretera 1_818
       rect:
         serializedVersion: 2
-        x: 272
-        y: 100
+        x: 608
+        y: 116
         width: 16
         height: 16
       alignment: 0
@@ -17307,8 +17307,8 @@ TextureImporter:
       name: Carretera 1_819
       rect:
         serializedVersion: 2
-        x: 288
-        y: 100
+        x: 624
+        y: 116
         width: 16
         height: 16
       alignment: 0
@@ -17328,8 +17328,8 @@ TextureImporter:
       name: Carretera 1_820
       rect:
         serializedVersion: 2
-        x: 304
-        y: 100
+        x: 640
+        y: 116
         width: 16
         height: 16
       alignment: 0
@@ -17349,7 +17349,7 @@ TextureImporter:
       name: Carretera 1_821
       rect:
         serializedVersion: 2
-        x: 320
+        x: 256
         y: 100
         width: 16
         height: 16
@@ -17370,7 +17370,7 @@ TextureImporter:
       name: Carretera 1_822
       rect:
         serializedVersion: 2
-        x: 336
+        x: 272
         y: 100
         width: 16
         height: 16
@@ -17391,7 +17391,7 @@ TextureImporter:
       name: Carretera 1_823
       rect:
         serializedVersion: 2
-        x: 368
+        x: 288
         y: 100
         width: 16
         height: 16
@@ -17412,7 +17412,7 @@ TextureImporter:
       name: Carretera 1_824
       rect:
         serializedVersion: 2
-        x: 384
+        x: 304
         y: 100
         width: 16
         height: 16
@@ -17433,7 +17433,7 @@ TextureImporter:
       name: Carretera 1_825
       rect:
         serializedVersion: 2
-        x: 400
+        x: 320
         y: 100
         width: 16
         height: 16
@@ -17454,7 +17454,7 @@ TextureImporter:
       name: Carretera 1_826
       rect:
         serializedVersion: 2
-        x: 416
+        x: 336
         y: 100
         width: 16
         height: 16
@@ -17475,7 +17475,7 @@ TextureImporter:
       name: Carretera 1_827
       rect:
         serializedVersion: 2
-        x: 432
+        x: 368
         y: 100
         width: 16
         height: 16
@@ -17496,7 +17496,7 @@ TextureImporter:
       name: Carretera 1_828
       rect:
         serializedVersion: 2
-        x: 448
+        x: 384
         y: 100
         width: 16
         height: 16
@@ -17517,7 +17517,7 @@ TextureImporter:
       name: Carretera 1_829
       rect:
         serializedVersion: 2
-        x: 464
+        x: 400
         y: 100
         width: 16
         height: 16
@@ -17538,7 +17538,7 @@ TextureImporter:
       name: Carretera 1_830
       rect:
         serializedVersion: 2
-        x: 480
+        x: 416
         y: 100
         width: 16
         height: 16
@@ -17559,7 +17559,7 @@ TextureImporter:
       name: Carretera 1_831
       rect:
         serializedVersion: 2
-        x: 496
+        x: 432
         y: 100
         width: 16
         height: 16
@@ -17580,7 +17580,7 @@ TextureImporter:
       name: Carretera 1_832
       rect:
         serializedVersion: 2
-        x: 512
+        x: 448
         y: 100
         width: 16
         height: 16
@@ -17601,7 +17601,7 @@ TextureImporter:
       name: Carretera 1_833
       rect:
         serializedVersion: 2
-        x: 528
+        x: 464
         y: 100
         width: 16
         height: 16
@@ -17622,7 +17622,7 @@ TextureImporter:
       name: Carretera 1_834
       rect:
         serializedVersion: 2
-        x: 544
+        x: 480
         y: 100
         width: 16
         height: 16
@@ -17643,7 +17643,7 @@ TextureImporter:
       name: Carretera 1_835
       rect:
         serializedVersion: 2
-        x: 560
+        x: 496
         y: 100
         width: 16
         height: 16
@@ -17664,7 +17664,7 @@ TextureImporter:
       name: Carretera 1_836
       rect:
         serializedVersion: 2
-        x: 576
+        x: 512
         y: 100
         width: 16
         height: 16
@@ -17685,7 +17685,7 @@ TextureImporter:
       name: Carretera 1_837
       rect:
         serializedVersion: 2
-        x: 592
+        x: 528
         y: 100
         width: 16
         height: 16
@@ -17706,7 +17706,7 @@ TextureImporter:
       name: Carretera 1_838
       rect:
         serializedVersion: 2
-        x: 608
+        x: 544
         y: 100
         width: 16
         height: 16
@@ -17727,7 +17727,7 @@ TextureImporter:
       name: Carretera 1_839
       rect:
         serializedVersion: 2
-        x: 624
+        x: 560
         y: 100
         width: 16
         height: 16
@@ -17748,7 +17748,7 @@ TextureImporter:
       name: Carretera 1_840
       rect:
         serializedVersion: 2
-        x: 640
+        x: 576
         y: 100
         width: 16
         height: 16
@@ -17769,8 +17769,8 @@ TextureImporter:
       name: Carretera 1_841
       rect:
         serializedVersion: 2
-        x: 112
-        y: 84
+        x: 592
+        y: 100
         width: 16
         height: 16
       alignment: 0
@@ -17790,8 +17790,8 @@ TextureImporter:
       name: Carretera 1_842
       rect:
         serializedVersion: 2
-        x: 128
-        y: 84
+        x: 608
+        y: 100
         width: 16
         height: 16
       alignment: 0
@@ -17811,8 +17811,8 @@ TextureImporter:
       name: Carretera 1_843
       rect:
         serializedVersion: 2
-        x: 144
-        y: 84
+        x: 624
+        y: 100
         width: 16
         height: 16
       alignment: 0
@@ -17832,8 +17832,8 @@ TextureImporter:
       name: Carretera 1_844
       rect:
         serializedVersion: 2
-        x: 160
-        y: 84
+        x: 640
+        y: 100
         width: 16
         height: 16
       alignment: 0
@@ -17853,7 +17853,7 @@ TextureImporter:
       name: Carretera 1_845
       rect:
         serializedVersion: 2
-        x: 176
+        x: 112
         y: 84
         width: 16
         height: 16
@@ -17874,7 +17874,7 @@ TextureImporter:
       name: Carretera 1_846
       rect:
         serializedVersion: 2
-        x: 192
+        x: 128
         y: 84
         width: 16
         height: 16
@@ -17895,7 +17895,7 @@ TextureImporter:
       name: Carretera 1_847
       rect:
         serializedVersion: 2
-        x: 208
+        x: 144
         y: 84
         width: 16
         height: 16
@@ -17916,7 +17916,7 @@ TextureImporter:
       name: Carretera 1_848
       rect:
         serializedVersion: 2
-        x: 224
+        x: 160
         y: 84
         width: 16
         height: 16
@@ -17937,7 +17937,7 @@ TextureImporter:
       name: Carretera 1_849
       rect:
         serializedVersion: 2
-        x: 240
+        x: 176
         y: 84
         width: 16
         height: 16
@@ -17958,7 +17958,7 @@ TextureImporter:
       name: Carretera 1_850
       rect:
         serializedVersion: 2
-        x: 368
+        x: 192
         y: 84
         width: 16
         height: 16
@@ -17979,7 +17979,7 @@ TextureImporter:
       name: Carretera 1_851
       rect:
         serializedVersion: 2
-        x: 384
+        x: 208
         y: 84
         width: 16
         height: 16
@@ -18000,7 +18000,7 @@ TextureImporter:
       name: Carretera 1_852
       rect:
         serializedVersion: 2
-        x: 400
+        x: 224
         y: 84
         width: 16
         height: 16
@@ -18021,7 +18021,7 @@ TextureImporter:
       name: Carretera 1_853
       rect:
         serializedVersion: 2
-        x: 416
+        x: 240
         y: 84
         width: 16
         height: 16
@@ -18042,7 +18042,7 @@ TextureImporter:
       name: Carretera 1_854
       rect:
         serializedVersion: 2
-        x: 432
+        x: 368
         y: 84
         width: 16
         height: 16
@@ -18063,7 +18063,7 @@ TextureImporter:
       name: Carretera 1_855
       rect:
         serializedVersion: 2
-        x: 448
+        x: 384
         y: 84
         width: 16
         height: 16
@@ -18084,7 +18084,7 @@ TextureImporter:
       name: Carretera 1_856
       rect:
         serializedVersion: 2
-        x: 464
+        x: 400
         y: 84
         width: 16
         height: 16
@@ -18105,7 +18105,7 @@ TextureImporter:
       name: Carretera 1_857
       rect:
         serializedVersion: 2
-        x: 480
+        x: 416
         y: 84
         width: 16
         height: 16
@@ -18126,7 +18126,7 @@ TextureImporter:
       name: Carretera 1_858
       rect:
         serializedVersion: 2
-        x: 496
+        x: 432
         y: 84
         width: 16
         height: 16
@@ -18147,7 +18147,7 @@ TextureImporter:
       name: Carretera 1_859
       rect:
         serializedVersion: 2
-        x: 512
+        x: 448
         y: 84
         width: 16
         height: 16
@@ -18168,7 +18168,7 @@ TextureImporter:
       name: Carretera 1_860
       rect:
         serializedVersion: 2
-        x: 528
+        x: 464
         y: 84
         width: 16
         height: 16
@@ -18189,7 +18189,7 @@ TextureImporter:
       name: Carretera 1_861
       rect:
         serializedVersion: 2
-        x: 544
+        x: 480
         y: 84
         width: 16
         height: 16
@@ -18210,7 +18210,7 @@ TextureImporter:
       name: Carretera 1_862
       rect:
         serializedVersion: 2
-        x: 560
+        x: 496
         y: 84
         width: 16
         height: 16
@@ -18231,7 +18231,7 @@ TextureImporter:
       name: Carretera 1_863
       rect:
         serializedVersion: 2
-        x: 576
+        x: 512
         y: 84
         width: 16
         height: 16
@@ -18252,7 +18252,7 @@ TextureImporter:
       name: Carretera 1_864
       rect:
         serializedVersion: 2
-        x: 592
+        x: 528
         y: 84
         width: 16
         height: 16
@@ -18273,7 +18273,7 @@ TextureImporter:
       name: Carretera 1_865
       rect:
         serializedVersion: 2
-        x: 608
+        x: 544
         y: 84
         width: 16
         height: 16
@@ -18294,7 +18294,7 @@ TextureImporter:
       name: Carretera 1_866
       rect:
         serializedVersion: 2
-        x: 624
+        x: 560
         y: 84
         width: 16
         height: 16
@@ -18315,7 +18315,7 @@ TextureImporter:
       name: Carretera 1_867
       rect:
         serializedVersion: 2
-        x: 640
+        x: 576
         y: 84
         width: 16
         height: 16
@@ -18336,8 +18336,8 @@ TextureImporter:
       name: Carretera 1_868
       rect:
         serializedVersion: 2
-        x: 112
-        y: 68
+        x: 592
+        y: 84
         width: 16
         height: 16
       alignment: 0
@@ -18357,8 +18357,8 @@ TextureImporter:
       name: Carretera 1_869
       rect:
         serializedVersion: 2
-        x: 128
-        y: 68
+        x: 608
+        y: 84
         width: 16
         height: 16
       alignment: 0
@@ -18378,8 +18378,8 @@ TextureImporter:
       name: Carretera 1_870
       rect:
         serializedVersion: 2
-        x: 144
-        y: 68
+        x: 624
+        y: 84
         width: 16
         height: 16
       alignment: 0
@@ -18399,8 +18399,8 @@ TextureImporter:
       name: Carretera 1_871
       rect:
         serializedVersion: 2
-        x: 160
-        y: 68
+        x: 640
+        y: 84
         width: 16
         height: 16
       alignment: 0
@@ -18420,7 +18420,7 @@ TextureImporter:
       name: Carretera 1_872
       rect:
         serializedVersion: 2
-        x: 176
+        x: 112
         y: 68
         width: 16
         height: 16
@@ -18441,7 +18441,7 @@ TextureImporter:
       name: Carretera 1_873
       rect:
         serializedVersion: 2
-        x: 192
+        x: 128
         y: 68
         width: 16
         height: 16
@@ -18462,7 +18462,7 @@ TextureImporter:
       name: Carretera 1_874
       rect:
         serializedVersion: 2
-        x: 208
+        x: 144
         y: 68
         width: 16
         height: 16
@@ -18483,7 +18483,7 @@ TextureImporter:
       name: Carretera 1_875
       rect:
         serializedVersion: 2
-        x: 224
+        x: 160
         y: 68
         width: 16
         height: 16
@@ -18504,7 +18504,7 @@ TextureImporter:
       name: Carretera 1_876
       rect:
         serializedVersion: 2
-        x: 240
+        x: 176
         y: 68
         width: 16
         height: 16
@@ -18525,7 +18525,7 @@ TextureImporter:
       name: Carretera 1_877
       rect:
         serializedVersion: 2
-        x: 368
+        x: 192
         y: 68
         width: 16
         height: 16
@@ -18546,7 +18546,7 @@ TextureImporter:
       name: Carretera 1_878
       rect:
         serializedVersion: 2
-        x: 384
+        x: 208
         y: 68
         width: 16
         height: 16
@@ -18567,7 +18567,7 @@ TextureImporter:
       name: Carretera 1_879
       rect:
         serializedVersion: 2
-        x: 400
+        x: 224
         y: 68
         width: 16
         height: 16
@@ -18588,7 +18588,7 @@ TextureImporter:
       name: Carretera 1_880
       rect:
         serializedVersion: 2
-        x: 416
+        x: 240
         y: 68
         width: 16
         height: 16
@@ -18609,7 +18609,7 @@ TextureImporter:
       name: Carretera 1_881
       rect:
         serializedVersion: 2
-        x: 432
+        x: 368
         y: 68
         width: 16
         height: 16
@@ -18630,7 +18630,7 @@ TextureImporter:
       name: Carretera 1_882
       rect:
         serializedVersion: 2
-        x: 448
+        x: 384
         y: 68
         width: 16
         height: 16
@@ -18651,7 +18651,7 @@ TextureImporter:
       name: Carretera 1_883
       rect:
         serializedVersion: 2
-        x: 464
+        x: 400
         y: 68
         width: 16
         height: 16
@@ -18672,7 +18672,7 @@ TextureImporter:
       name: Carretera 1_884
       rect:
         serializedVersion: 2
-        x: 480
+        x: 416
         y: 68
         width: 16
         height: 16
@@ -18693,7 +18693,7 @@ TextureImporter:
       name: Carretera 1_885
       rect:
         serializedVersion: 2
-        x: 496
+        x: 432
         y: 68
         width: 16
         height: 16
@@ -18714,7 +18714,7 @@ TextureImporter:
       name: Carretera 1_886
       rect:
         serializedVersion: 2
-        x: 512
+        x: 448
         y: 68
         width: 16
         height: 16
@@ -18735,7 +18735,7 @@ TextureImporter:
       name: Carretera 1_887
       rect:
         serializedVersion: 2
-        x: 528
+        x: 464
         y: 68
         width: 16
         height: 16
@@ -18756,7 +18756,7 @@ TextureImporter:
       name: Carretera 1_888
       rect:
         serializedVersion: 2
-        x: 544
+        x: 480
         y: 68
         width: 16
         height: 16
@@ -18777,7 +18777,7 @@ TextureImporter:
       name: Carretera 1_889
       rect:
         serializedVersion: 2
-        x: 560
+        x: 496
         y: 68
         width: 16
         height: 16
@@ -18798,7 +18798,7 @@ TextureImporter:
       name: Carretera 1_890
       rect:
         serializedVersion: 2
-        x: 576
+        x: 512
         y: 68
         width: 16
         height: 16
@@ -18819,7 +18819,7 @@ TextureImporter:
       name: Carretera 1_891
       rect:
         serializedVersion: 2
-        x: 592
+        x: 528
         y: 68
         width: 16
         height: 16
@@ -18840,7 +18840,7 @@ TextureImporter:
       name: Carretera 1_892
       rect:
         serializedVersion: 2
-        x: 608
+        x: 544
         y: 68
         width: 16
         height: 16
@@ -18861,7 +18861,7 @@ TextureImporter:
       name: Carretera 1_893
       rect:
         serializedVersion: 2
-        x: 624
+        x: 560
         y: 68
         width: 16
         height: 16
@@ -18882,7 +18882,7 @@ TextureImporter:
       name: Carretera 1_894
       rect:
         serializedVersion: 2
-        x: 640
+        x: 576
         y: 68
         width: 16
         height: 16
@@ -18903,8 +18903,8 @@ TextureImporter:
       name: Carretera 1_895
       rect:
         serializedVersion: 2
-        x: 112
-        y: 52
+        x: 592
+        y: 68
         width: 16
         height: 16
       alignment: 0
@@ -18924,8 +18924,8 @@ TextureImporter:
       name: Carretera 1_896
       rect:
         serializedVersion: 2
-        x: 128
-        y: 52
+        x: 608
+        y: 68
         width: 16
         height: 16
       alignment: 0
@@ -18945,8 +18945,8 @@ TextureImporter:
       name: Carretera 1_897
       rect:
         serializedVersion: 2
-        x: 144
-        y: 52
+        x: 624
+        y: 68
         width: 16
         height: 16
       alignment: 0
@@ -18966,8 +18966,8 @@ TextureImporter:
       name: Carretera 1_898
       rect:
         serializedVersion: 2
-        x: 160
-        y: 52
+        x: 640
+        y: 68
         width: 16
         height: 16
       alignment: 0
@@ -18987,7 +18987,7 @@ TextureImporter:
       name: Carretera 1_899
       rect:
         serializedVersion: 2
-        x: 176
+        x: 112
         y: 52
         width: 16
         height: 16
@@ -19008,7 +19008,7 @@ TextureImporter:
       name: Carretera 1_900
       rect:
         serializedVersion: 2
-        x: 192
+        x: 128
         y: 52
         width: 16
         height: 16
@@ -19029,7 +19029,7 @@ TextureImporter:
       name: Carretera 1_901
       rect:
         serializedVersion: 2
-        x: 208
+        x: 144
         y: 52
         width: 16
         height: 16
@@ -19050,7 +19050,7 @@ TextureImporter:
       name: Carretera 1_902
       rect:
         serializedVersion: 2
-        x: 224
+        x: 160
         y: 52
         width: 16
         height: 16
@@ -19071,7 +19071,7 @@ TextureImporter:
       name: Carretera 1_903
       rect:
         serializedVersion: 2
-        x: 240
+        x: 176
         y: 52
         width: 16
         height: 16
@@ -19092,7 +19092,7 @@ TextureImporter:
       name: Carretera 1_904
       rect:
         serializedVersion: 2
-        x: 368
+        x: 192
         y: 52
         width: 16
         height: 16
@@ -19113,7 +19113,7 @@ TextureImporter:
       name: Carretera 1_905
       rect:
         serializedVersion: 2
-        x: 384
+        x: 208
         y: 52
         width: 16
         height: 16
@@ -19134,7 +19134,7 @@ TextureImporter:
       name: Carretera 1_906
       rect:
         serializedVersion: 2
-        x: 400
+        x: 224
         y: 52
         width: 16
         height: 16
@@ -19155,7 +19155,7 @@ TextureImporter:
       name: Carretera 1_907
       rect:
         serializedVersion: 2
-        x: 416
+        x: 240
         y: 52
         width: 16
         height: 16
@@ -19176,7 +19176,7 @@ TextureImporter:
       name: Carretera 1_908
       rect:
         serializedVersion: 2
-        x: 432
+        x: 368
         y: 52
         width: 16
         height: 16
@@ -19197,7 +19197,7 @@ TextureImporter:
       name: Carretera 1_909
       rect:
         serializedVersion: 2
-        x: 448
+        x: 384
         y: 52
         width: 16
         height: 16
@@ -19218,7 +19218,7 @@ TextureImporter:
       name: Carretera 1_910
       rect:
         serializedVersion: 2
-        x: 464
+        x: 400
         y: 52
         width: 16
         height: 16
@@ -19239,7 +19239,7 @@ TextureImporter:
       name: Carretera 1_911
       rect:
         serializedVersion: 2
-        x: 480
+        x: 416
         y: 52
         width: 16
         height: 16
@@ -19260,7 +19260,7 @@ TextureImporter:
       name: Carretera 1_912
       rect:
         serializedVersion: 2
-        x: 496
+        x: 432
         y: 52
         width: 16
         height: 16
@@ -19281,7 +19281,7 @@ TextureImporter:
       name: Carretera 1_913
       rect:
         serializedVersion: 2
-        x: 512
+        x: 448
         y: 52
         width: 16
         height: 16
@@ -19302,7 +19302,7 @@ TextureImporter:
       name: Carretera 1_914
       rect:
         serializedVersion: 2
-        x: 528
+        x: 464
         y: 52
         width: 16
         height: 16
@@ -19323,7 +19323,7 @@ TextureImporter:
       name: Carretera 1_915
       rect:
         serializedVersion: 2
-        x: 544
+        x: 480
         y: 52
         width: 16
         height: 16
@@ -19344,7 +19344,7 @@ TextureImporter:
       name: Carretera 1_916
       rect:
         serializedVersion: 2
-        x: 560
+        x: 496
         y: 52
         width: 16
         height: 16
@@ -19365,7 +19365,7 @@ TextureImporter:
       name: Carretera 1_917
       rect:
         serializedVersion: 2
-        x: 576
+        x: 512
         y: 52
         width: 16
         height: 16
@@ -19386,7 +19386,7 @@ TextureImporter:
       name: Carretera 1_918
       rect:
         serializedVersion: 2
-        x: 592
+        x: 528
         y: 52
         width: 16
         height: 16
@@ -19407,7 +19407,7 @@ TextureImporter:
       name: Carretera 1_919
       rect:
         serializedVersion: 2
-        x: 608
+        x: 544
         y: 52
         width: 16
         height: 16
@@ -19428,7 +19428,7 @@ TextureImporter:
       name: Carretera 1_920
       rect:
         serializedVersion: 2
-        x: 624
+        x: 560
         y: 52
         width: 16
         height: 16
@@ -19449,7 +19449,7 @@ TextureImporter:
       name: Carretera 1_921
       rect:
         serializedVersion: 2
-        x: 640
+        x: 576
         y: 52
         width: 16
         height: 16
@@ -19470,8 +19470,8 @@ TextureImporter:
       name: Carretera 1_922
       rect:
         serializedVersion: 2
-        x: 112
-        y: 36
+        x: 592
+        y: 52
         width: 16
         height: 16
       alignment: 0
@@ -19491,8 +19491,8 @@ TextureImporter:
       name: Carretera 1_923
       rect:
         serializedVersion: 2
-        x: 128
-        y: 36
+        x: 608
+        y: 52
         width: 16
         height: 16
       alignment: 0
@@ -19512,8 +19512,8 @@ TextureImporter:
       name: Carretera 1_924
       rect:
         serializedVersion: 2
-        x: 144
-        y: 36
+        x: 624
+        y: 52
         width: 16
         height: 16
       alignment: 0
@@ -19533,8 +19533,8 @@ TextureImporter:
       name: Carretera 1_925
       rect:
         serializedVersion: 2
-        x: 160
-        y: 36
+        x: 640
+        y: 52
         width: 16
         height: 16
       alignment: 0
@@ -19554,7 +19554,7 @@ TextureImporter:
       name: Carretera 1_926
       rect:
         serializedVersion: 2
-        x: 176
+        x: 112
         y: 36
         width: 16
         height: 16
@@ -19575,7 +19575,7 @@ TextureImporter:
       name: Carretera 1_927
       rect:
         serializedVersion: 2
-        x: 192
+        x: 128
         y: 36
         width: 16
         height: 16
@@ -19596,7 +19596,7 @@ TextureImporter:
       name: Carretera 1_928
       rect:
         serializedVersion: 2
-        x: 208
+        x: 144
         y: 36
         width: 16
         height: 16
@@ -19617,7 +19617,7 @@ TextureImporter:
       name: Carretera 1_929
       rect:
         serializedVersion: 2
-        x: 224
+        x: 160
         y: 36
         width: 16
         height: 16
@@ -19638,7 +19638,7 @@ TextureImporter:
       name: Carretera 1_930
       rect:
         serializedVersion: 2
-        x: 240
+        x: 176
         y: 36
         width: 16
         height: 16
@@ -19659,7 +19659,7 @@ TextureImporter:
       name: Carretera 1_931
       rect:
         serializedVersion: 2
-        x: 368
+        x: 192
         y: 36
         width: 16
         height: 16
@@ -19680,7 +19680,7 @@ TextureImporter:
       name: Carretera 1_932
       rect:
         serializedVersion: 2
-        x: 384
+        x: 208
         y: 36
         width: 16
         height: 16
@@ -19701,7 +19701,7 @@ TextureImporter:
       name: Carretera 1_933
       rect:
         serializedVersion: 2
-        x: 400
+        x: 224
         y: 36
         width: 16
         height: 16
@@ -19722,7 +19722,7 @@ TextureImporter:
       name: Carretera 1_934
       rect:
         serializedVersion: 2
-        x: 416
+        x: 240
         y: 36
         width: 16
         height: 16
@@ -19743,7 +19743,7 @@ TextureImporter:
       name: Carretera 1_935
       rect:
         serializedVersion: 2
-        x: 432
+        x: 368
         y: 36
         width: 16
         height: 16
@@ -19764,7 +19764,7 @@ TextureImporter:
       name: Carretera 1_936
       rect:
         serializedVersion: 2
-        x: 448
+        x: 384
         y: 36
         width: 16
         height: 16
@@ -19785,7 +19785,7 @@ TextureImporter:
       name: Carretera 1_937
       rect:
         serializedVersion: 2
-        x: 464
+        x: 400
         y: 36
         width: 16
         height: 16
@@ -19806,7 +19806,7 @@ TextureImporter:
       name: Carretera 1_938
       rect:
         serializedVersion: 2
-        x: 480
+        x: 416
         y: 36
         width: 16
         height: 16
@@ -19827,7 +19827,7 @@ TextureImporter:
       name: Carretera 1_939
       rect:
         serializedVersion: 2
-        x: 496
+        x: 432
         y: 36
         width: 16
         height: 16
@@ -19848,7 +19848,7 @@ TextureImporter:
       name: Carretera 1_940
       rect:
         serializedVersion: 2
-        x: 512
+        x: 448
         y: 36
         width: 16
         height: 16
@@ -19869,7 +19869,7 @@ TextureImporter:
       name: Carretera 1_941
       rect:
         serializedVersion: 2
-        x: 528
+        x: 464
         y: 36
         width: 16
         height: 16
@@ -19890,7 +19890,7 @@ TextureImporter:
       name: Carretera 1_942
       rect:
         serializedVersion: 2
-        x: 544
+        x: 480
         y: 36
         width: 16
         height: 16
@@ -19911,7 +19911,7 @@ TextureImporter:
       name: Carretera 1_943
       rect:
         serializedVersion: 2
-        x: 560
+        x: 496
         y: 36
         width: 16
         height: 16
@@ -19932,7 +19932,7 @@ TextureImporter:
       name: Carretera 1_944
       rect:
         serializedVersion: 2
-        x: 576
+        x: 512
         y: 36
         width: 16
         height: 16
@@ -19953,7 +19953,7 @@ TextureImporter:
       name: Carretera 1_945
       rect:
         serializedVersion: 2
-        x: 592
+        x: 528
         y: 36
         width: 16
         height: 16
@@ -19974,7 +19974,7 @@ TextureImporter:
       name: Carretera 1_946
       rect:
         serializedVersion: 2
-        x: 608
+        x: 544
         y: 36
         width: 16
         height: 16
@@ -19995,7 +19995,7 @@ TextureImporter:
       name: Carretera 1_947
       rect:
         serializedVersion: 2
-        x: 624
+        x: 560
         y: 36
         width: 16
         height: 16
@@ -20016,7 +20016,7 @@ TextureImporter:
       name: Carretera 1_948
       rect:
         serializedVersion: 2
-        x: 640
+        x: 576
         y: 36
         width: 16
         height: 16
@@ -20037,8 +20037,8 @@ TextureImporter:
       name: Carretera 1_949
       rect:
         serializedVersion: 2
-        x: 112
-        y: 20
+        x: 592
+        y: 36
         width: 16
         height: 16
       alignment: 0
@@ -20058,8 +20058,8 @@ TextureImporter:
       name: Carretera 1_950
       rect:
         serializedVersion: 2
-        x: 128
-        y: 20
+        x: 608
+        y: 36
         width: 16
         height: 16
       alignment: 0
@@ -20079,8 +20079,8 @@ TextureImporter:
       name: Carretera 1_951
       rect:
         serializedVersion: 2
-        x: 144
-        y: 20
+        x: 624
+        y: 36
         width: 16
         height: 16
       alignment: 0
@@ -20100,8 +20100,8 @@ TextureImporter:
       name: Carretera 1_952
       rect:
         serializedVersion: 2
-        x: 160
-        y: 20
+        x: 640
+        y: 36
         width: 16
         height: 16
       alignment: 0
@@ -20121,7 +20121,7 @@ TextureImporter:
       name: Carretera 1_953
       rect:
         serializedVersion: 2
-        x: 176
+        x: 112
         y: 20
         width: 16
         height: 16
@@ -20142,7 +20142,7 @@ TextureImporter:
       name: Carretera 1_954
       rect:
         serializedVersion: 2
-        x: 192
+        x: 128
         y: 20
         width: 16
         height: 16
@@ -20163,7 +20163,7 @@ TextureImporter:
       name: Carretera 1_955
       rect:
         serializedVersion: 2
-        x: 208
+        x: 144
         y: 20
         width: 16
         height: 16
@@ -20184,7 +20184,7 @@ TextureImporter:
       name: Carretera 1_956
       rect:
         serializedVersion: 2
-        x: 224
+        x: 160
         y: 20
         width: 16
         height: 16
@@ -20205,7 +20205,7 @@ TextureImporter:
       name: Carretera 1_957
       rect:
         serializedVersion: 2
-        x: 240
+        x: 176
         y: 20
         width: 16
         height: 16
@@ -20218,6 +20218,90 @@ TextureImporter:
       bones: []
       spriteID: f29c23e4361e25d408365fb9bfc35e14
       internalID: -406937093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carretera 1_958
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 20
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a868c5087de5dd24284d941f2b38c47d
+      internalID: 471583877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carretera 1_959
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 20
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 244ab709b6d220147a59b20b0e4a7b4c
+      internalID: 2091464306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carretera 1_960
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 20
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c2ce2949f6afeb419704c33a64544c2
+      internalID: 1776589106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carretera 1_961
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 20
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d74d0b298f4eca844b6ec114df334978
+      internalID: -470267720
       vertices: []
       indices: 
       edges: []
@@ -20348,6 +20432,7 @@ TextureImporter:
       Carretera 1_763: -637101706
       Carretera 1_942: -1193031990
       Carretera 1_289: -260718769
+      Carretera 1_960: 1776589106
       Carretera 1_261: 1753384998
       Carretera 1_555: 460971998
       Carretera 1_700: -2077160542
@@ -20525,6 +20610,7 @@ TextureImporter:
       Carretera 1_933: -1614498542
       Carretera 1_183: -853927390
       Carretera 1_388: 350474136
+      Carretera 1_961: -470267720
       Carretera 1_938: -569924077
       Carretera 1_947: -263746098
       Carretera 1_407: 1947166207
@@ -20568,6 +20654,7 @@ TextureImporter:
       Carretera 1_256: 1499972990
       Carretera 1_874: 753728290
       Carretera 1_393: 229272015
+      Carretera 1_958: 471583877
       Carretera 1_760: 1671140075
       Carretera 1_94: -286477932
       Carretera 1_265: -1910112388
@@ -20715,6 +20802,7 @@ TextureImporter:
       Carretera 1_565: 352389737
       Carretera 1_333: 1843117464
       Carretera 1_531: -759175370
+      Carretera 1_959: 2091464306
       Carretera 1_234: -183048485
       Carretera 1_770: -789304875
       Carretera 1_304: -447343423
