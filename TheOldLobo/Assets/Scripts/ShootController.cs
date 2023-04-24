@@ -1,7 +1,10 @@
 using Newtonsoft.Json.Linq;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
+using UnityEngine.UIElements.Experimental;
 
 public class ShootController : MonoBehaviour
 {
@@ -16,9 +19,13 @@ public class ShootController : MonoBehaviour
     private Vector2 bulletFw;
     private bool shooting;
     private Rigidbody2D rb;
+    private float varSpeed;
+
     //if, where and when the bullet is shot
     [SerializeField] private float shootingCooldown = 1;
     public Transform shootingPoint;
+    public Transform shootingPoint2;
+
     private bool sprinting;
     private bool canShoot;
     void Start()
@@ -33,24 +40,36 @@ public class ShootController : MonoBehaviour
     {
        
 
-        onShoot();
+        shoot();
 
 
     }
 
-    private void onShoot()
+    private void shoot()
     {
         if (Input.GetKey(KeyCode.LeftShift)) { sprinting = true; }
         else if (Input.GetKey(KeyCode.LeftAlt)) 
         {  sprinting = false;
-           Instantiate(bullet, shootingPoint.position, transform.rotation);
-            rb = GetComponent<Rigidbody2D>();
-            rb.velocity = _input * bulletSpeed;
 
+            onShoot();
+
+            Instantiate(bullet, shootingPoint.position, transform.rotation);
+            Instantiate(bullet, shootingPoint2.position, transform.rotation);
 
         }
         else { sprinting = false; }
     }
-  
+    private IEnumerator onShoot()
+    {
+        bulletFw = _input;
+        shooting = true;
+        canShoot = false;
+        sprinting = false;
+
+        yield return new WaitForSeconds(shootingCooldown);
+        canShoot = true;
+        shooting = false;
+
+    }
 
 }
