@@ -39,7 +39,7 @@ public class ShootController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       
+
 
         shoot();
 
@@ -49,43 +49,32 @@ public class ShootController : MonoBehaviour
     private void shoot()
     {
         if (Input.GetKey(KeyCode.LeftShift)) { sprinting = true; }
-<<<<<<< HEAD
-=======
-        else if (Input.GetKey(KeyCode.LeftAlt)) 
-        {  sprinting = false;
->>>>>>> 06985955e685befef30d191335206d553e6c3590
 
-        else if (Input.GetKey(KeyCode.LeftAlt)) 
+        else if (Input.GetKey(KeyCode.LeftAlt))
         {
-            if (Time.time > nextfire)
+            sprinting = false;
+
+
+            if (Input.GetKey(KeyCode.LeftAlt))
             {
-                sprinting = false;
-                nextfire = Time.time+Firerate;
-                Instantiate(bullet, shootingPoint.position, transform.rotation);
+                if (Time.time > nextfire)
+                {
+                    sprinting = false;
+                    nextfire = Time.time + Firerate;
+                    Instantiate(bullet, shootingPoint.position, transform.rotation);
 
-                Instantiate(bullet, shootingPoint2.position, transform.rotation);
+                    Instantiate(bullet, shootingPoint2.position, transform.rotation);
+                }
+
+
             }
-
-
+            else { sprinting = false; }
         }
-        else { sprinting = false; }
-    }
-<<<<<<< HEAD
 
-    
-=======
-    private IEnumerator onShoot()
-    {
-        bulletFw = _input;
-        shooting = true;
-        canShoot = false;
-        sprinting = false;
 
-        yield return new WaitForSeconds(shootingCooldown);
-        canShoot = true;
-        shooting = false;
+
+
+
 
     }
->>>>>>> 06985955e685befef30d191335206d553e6c3590
-
 }
