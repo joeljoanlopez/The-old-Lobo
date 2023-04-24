@@ -61,7 +61,8 @@ public class ShootController : MonoBehaviour
                 {
                     sprinting = false;
                     nextfire = Time.time + Firerate;
-                    Instantiate(bullet, shootingPoint.position, transform.rotation);
+
+                    Invoke("C", 0.2f);
 
                     Instantiate(bullet, shootingPoint2.position, transform.rotation);
                 }
@@ -76,5 +77,10 @@ public class ShootController : MonoBehaviour
 
 
 
+    }
+
+    private void C()
+    {
+        Instantiate(bullet, shootingPoint.position, transform.rotation);
     }
 }
