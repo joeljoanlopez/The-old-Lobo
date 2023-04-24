@@ -49,6 +49,11 @@ public class ShootController : MonoBehaviour
     private void shoot()
     {
         if (Input.GetKey(KeyCode.LeftShift)) { sprinting = true; }
+<<<<<<< HEAD
+=======
+        else if (Input.GetKey(KeyCode.LeftAlt)) 
+        {  sprinting = false;
+>>>>>>> 06985955e685befef30d191335206d553e6c3590
 
         else if (Input.GetKey(KeyCode.LeftAlt)) 
         {
@@ -65,7 +70,22 @@ public class ShootController : MonoBehaviour
         }
         else { sprinting = false; }
     }
+<<<<<<< HEAD
 
     
+=======
+    private IEnumerator onShoot()
+    {
+        bulletFw = _input;
+        shooting = true;
+        canShoot = false;
+        sprinting = false;
+
+        yield return new WaitForSeconds(shootingCooldown);
+        canShoot = true;
+        shooting = false;
+
+    }
+>>>>>>> 06985955e685befef30d191335206d553e6c3590
 
 }
