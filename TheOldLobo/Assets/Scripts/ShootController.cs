@@ -19,10 +19,11 @@ public class ShootController : MonoBehaviour
     private Vector2 bulletFw;
     private bool shooting;
     private Rigidbody2D rb;
-    private float varSpeed;
+    public float Firerate;
+    float nextfire;
+
 
     //if, where and when the bullet is shot
-    [SerializeField] private float shootingCooldown = 1;
     public Transform shootingPoint;
     public Transform shootingPoint2;
 
@@ -38,7 +39,7 @@ public class ShootController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       
+
 
         shoot();
 
@@ -48,28 +49,38 @@ public class ShootController : MonoBehaviour
     private void shoot()
     {
         if (Input.GetKey(KeyCode.LeftShift)) { sprinting = true; }
-        else if (Input.GetKey(KeyCode.LeftAlt)) 
-        {  sprinting = false;
 
-            onShoot();
+        else if (Input.GetKey(KeyCode.LeftAlt))
+        {
+            sprinting = false;
 
-            Instantiate(bullet, shootingPoint.position, transform.rotation);
-            Instantiate(bullet, shootingPoint2.position, transform.rotation);
 
+            if (Input.GetKey(KeyCode.LeftAlt))
+            {
+                if (Time.time > nextfire)
+                {
+                    sprinting = false;
+                    nextfire = Time.time + Firerate;
+
+                    Invoke("C", 0.2f);
+
+                    Instantiate(bullet, shootingPoint2.position, transform.rotation);
+                }
+
+
+            }
+            else { sprinting = false; }
         }
-        else { sprinting = false; }
+
+
+
+
+
+
     }
-    private IEnumerator onShoot()
+
+    private void C()
     {
-        bulletFw = _input;
-        shooting = true;
-        canShoot = false;
-        sprinting = false;
-
-        yield return new WaitForSeconds(shootingCooldown);
-        canShoot = true;
-        shooting = false;
-
+        Instantiate(bullet, shootingPoint.position, transform.rotation);
     }
-
 }
