@@ -49,7 +49,8 @@ public class ShootController : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.LeftShift)) { sprinting = true; }
         else if (Input.GetMouseButtonDown(0)) 
-        {  sprinting = false;
+        {
+            sprinting = false;
 
             onShoot();
 
@@ -62,13 +63,13 @@ public class ShootController : MonoBehaviour
     private IEnumerator onShoot()
     {
         bulletFw = _input;
-        this.shooting = true;
-        this.canShoot = false;
-        this.sprinting = false;
+        shooting = true;
+        canShoot = false;
+        sprinting = false;
 
         yield return new WaitForSeconds(shootingCooldown);
         canShoot = true;
-        this.shooting = false;
+        shooting = false;
 
     }
 
