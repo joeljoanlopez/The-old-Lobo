@@ -50,12 +50,12 @@ public class ShootController : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.LeftShift)) { sprinting = true; }
 
-        else if (Input.GetKey(KeyCode.LeftAlt))
+        else if (Input.GetMouseButtonDown(0))
         {
             sprinting = false;
 
 
-            if (Input.GetKey(KeyCode.LeftAlt))
+            if (Input.GetMouseButtonDown(0))
             {
                 if (Time.time > nextfire)
                 {
