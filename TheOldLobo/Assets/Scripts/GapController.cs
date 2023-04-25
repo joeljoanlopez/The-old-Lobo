@@ -8,49 +8,28 @@ public class GapController : MonoBehaviour
 {
     public GameObject[] allColliders;
 
-
-
     private void OnEnable()
     {
         MoveController.StartDash += StartDash;
     }
     private void OnDisable()
     {
-        MoveController.StopDash -= StopDash;
+        MoveController.StopDash += StopDash;
     }
 
     private void StartDash()
     {
         foreach (var collider in allColliders)
         {
-            
+            collider.GetComponent<EdgeCollider2D>().enabled = false;
         }
     }
-
-    private void OnParticleSystemStopped()
+    
+    private void StopDash()
     {
-        foreach(var collider in allColliders)
+        foreach (var collider in allColliders)
         {
-            GetComponent<Collider>().enabled = false;
-        }
-    }
-
-    // Start is called before the first frame update
-    void Start()
-    {
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (!moveController.isInvincible())
-        {
-
+            collider.GetComponent<EdgeCollider2D>().enabled = true;
         }
     }
 }
