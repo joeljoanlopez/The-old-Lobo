@@ -29,6 +29,9 @@ public class MoveController : MonoBehaviour
     private bool dashing;
     private Vector2 dashingFw;
 
+    public static Action StartDash;
+    public static Action StopDash;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -63,6 +66,7 @@ public class MoveController : MonoBehaviour
     {
         if (canDash)
         {
+            
             StartCoroutine(Dash());
         }
     }
@@ -76,6 +80,7 @@ public class MoveController : MonoBehaviour
 
     private IEnumerator Dash()
     {
+        StartDash?.Invoke();
         dashingFw = _input;
         dashing = true;
         canDash = false;
@@ -84,5 +89,11 @@ public class MoveController : MonoBehaviour
         dashing = false;
         yield return new WaitForSeconds(dashingCooldown);
         canDash = true;
+        StopDash?.Invoke();
+    }
+
+    public bool isInvincible()
+    {
+        return dashing;
     }
 }
