@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -12455,24 +12455,24 @@ TextureImporter:
       edificis fondos sense acabar_415: 1426600176
       edificis fondos sense acabar_312: -1080313498
       edificis fondos sense acabar_342: 1052754191
+      edificis fondos sense acabar_372: -1872747960
       edificis fondos sense acabar_517: 2110938999
       edificis fondos sense acabar_298: 111034226
       edificis fondos sense acabar_228: 1811265712
-      edificis fondos sense acabar_391: -2013695722
       edificis fondos sense acabar_3: 307342383
+      edificis fondos sense acabar_391: -2013695722
       edificis fondos sense acabar_190: 598084350
-      edificis fondos sense acabar_389: -2094541053
       edificis fondos sense acabar_83: -83027507
-      edificis fondos sense acabar_273: -379002848
       edificis fondos sense acabar_551: -97295200
+      edificis fondos sense acabar_389: -2094541053
       edificis fondos sense acabar_165: 1655071500
       edificis fondos sense acabar_76: -1484287633
-      edificis fondos sense acabar_372: -1872747960
+      edificis fondos sense acabar_143: -968364705
       edificis fondos sense acabar_339: 1790610984
       edificis fondos sense acabar_320: 571002336
       edificis fondos sense acabar_29: 1229853433
       edificis fondos sense acabar_46: 1372433788
-      edificis fondos sense acabar_143: -968364705
+      edificis fondos sense acabar_273: -379002848
       edificis fondos sense acabar_403: 135584928
       edificis fondos sense acabar_85: 1984459406
       edificis fondos sense acabar_150: -629513646
@@ -12504,9 +12504,9 @@ TextureImporter:
       edificis fondos sense acabar_511: -1248546495
       edificis fondos sense acabar_518: 714391505
       edificis fondos sense acabar_429: -1660143872
-      edificis fondos sense acabar_533: -796337601
-      edificis fondos sense acabar_509: -293835961
       edificis fondos sense acabar_305: -1441126190
+      edificis fondos sense acabar_509: -293835961
+      edificis fondos sense acabar_533: -796337601
       edificis fondos sense acabar_266: -711707452
       edificis fondos sense acabar_173: -2056477923
       edificis fondos sense acabar_396: -508514777
