@@ -16,7 +16,7 @@ public class GapController : MonoBehaviour
     }
     private void OnDisable()
     {
-        MoveController.StopDash -= StopDash;
+        //MoveController.StopDash -= StopDash;
     }
 
     private void StartDash()
@@ -48,9 +48,9 @@ public class GapController : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (!moveController.isInvincible())
-        {
+        //if (!moveController.isInvincible())
+        //{
 
-        }
+        //}
     }
 }
