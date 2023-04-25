@@ -16241,6 +16241,7 @@ GameObject:
   m_Component:
   - component: {fileID: 627674268}
   - component: {fileID: 627674269}
+  - component: {fileID: 627674270}
   m_Layer: 0
   m_Name: SegundoGap
   m_TagString: Untagged
@@ -16281,6 +16282,28 @@ EdgeCollider2D:
   m_Points:
   - {x: 27.999914, y: 23.001863}
   - {x: 37.00526, y: 23.000425}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
+--- !u!68 &627674270
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 627674267}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: 28.006886, y: 25.999945}
+  - {x: 37.00609, y: 25.99997}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
