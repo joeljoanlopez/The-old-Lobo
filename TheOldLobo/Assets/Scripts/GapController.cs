@@ -15,6 +15,7 @@ public class GapController : MonoBehaviour
     }
     private void OnDisable()
     {
+        DashController.StartDash += StartDash;
         DashController.StopDash += StopDash;
     }
 
@@ -22,7 +23,7 @@ public class GapController : MonoBehaviour
     {
         foreach (var collider in AllColliders)
         {
-            collider.GetComponent<Collider2D>().enabled = false;
+            if (collider != null) collider.GetComponent<Collider2D>().enabled = false;
         }
     }
     
@@ -30,7 +31,7 @@ public class GapController : MonoBehaviour
     {
         foreach (var collider in AllColliders)
         {
-            collider.GetComponent<Collider2D>().enabled = true;
+            if (collider != null) collider.GetComponent<Collider2D>().enabled = true;
         }
     }
 }

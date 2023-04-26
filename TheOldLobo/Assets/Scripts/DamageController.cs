@@ -14,14 +14,11 @@ public class DamageController : MonoBehaviour
         _healthManager = _life.GetComponent<HealthManager>();
     }
 
-    public void OnCollisionStay2D(Collision collision)
+    public void OnTriggerStay(Collider collision)
     {
-        if (collision.gameObject == _player)
+        if (!collision.GetComponent<DashController>().IsDashing())
         {
-            if (!_player.GetComponent<DashController>().IsDashing())
-            {
-                _healthManager.Kill();
-            }
+            _healthManager.Kill();
         }
     }
 }
