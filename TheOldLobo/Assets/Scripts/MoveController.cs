@@ -34,7 +34,7 @@ public class MoveController : MonoBehaviour
     void Update()
     {
         //Get Sprint input
-        if (Input.GetKey(KeyCode.LeftShift)) { sprinting = true; }
+        if (Input.GetKey(KeyCode.LeftShift) && !_dashController.IsDashing()) { sprinting = true; }
         else { sprinting = false; }
 
         //Handle movement mode
