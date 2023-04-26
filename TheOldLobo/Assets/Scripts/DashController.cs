@@ -27,11 +27,7 @@ public class DashController : MonoBehaviour
 
     private void OnDash()
     {
-        if (canDash)
-        {
-
-            StartCoroutine(Dash());
-        }
+        if (canDash) { StartCoroutine(Dash()); }
     }
 
     private IEnumerator Dash()
