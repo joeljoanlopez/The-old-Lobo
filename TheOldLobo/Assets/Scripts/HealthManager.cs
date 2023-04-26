@@ -41,4 +41,9 @@ public class HealthManager : MonoBehaviour
         healthBar.fillAmount = healthAmount / 100f;
 
     }
+
+    public void Kill()
+    {
+        healthAmount = 0;
+    }
 }

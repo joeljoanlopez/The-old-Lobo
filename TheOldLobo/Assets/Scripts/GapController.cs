@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class GapController : MonoBehaviour
 {
-    public GameObject[] allColliders;
+    public GameObject[] AllColliders;
 
     private void OnEnable()
     {
@@ -20,17 +20,17 @@ public class GapController : MonoBehaviour
 
     private void StartDash()
     {
-        foreach (var collider in allColliders)
+        foreach (var collider in AllColliders)
         {
-            collider.GetComponent<EdgeCollider2D>().enabled = false;
+            collider.GetComponent<Collider2D>().enabled = false;
         }
     }
     
     private void StopDash()
     {
-        foreach (var collider in allColliders)
+        foreach (var collider in AllColliders)
         {
-            collider.GetComponent<EdgeCollider2D>().enabled = true;
+            collider.GetComponent<Collider2D>().enabled = true;
         }
     }
 }
