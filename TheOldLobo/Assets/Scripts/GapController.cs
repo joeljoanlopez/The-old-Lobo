@@ -10,11 +10,12 @@ public class GapController : MonoBehaviour
 
     private void OnEnable()
     {
-        MoveController.StartDash += StartDash;
+        DashController.StartDash += StartDash;
+        DashController.StopDash += StopDash;
     }
     private void OnDisable()
     {
-        MoveController.StopDash += StopDash;
+        DashController.StopDash += StopDash;
     }
 
     private void StartDash()
