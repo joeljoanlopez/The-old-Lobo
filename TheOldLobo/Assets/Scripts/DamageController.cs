@@ -14,9 +14,9 @@ public class DamageController : MonoBehaviour
         _healthManager = _life.GetComponent<HealthManager>();
     }
 
-    public void OnTriggerStay(Collider collision)
+    public void OnTriggerStay2D (Collider2D collision)
     {
-        if (!collision.GetComponent<DashController>().IsDashing())
+        if (collision.gameObject == _player && !collision.GetComponent<DashController>().IsDashing())
         {
             _healthManager.Kill();
         }

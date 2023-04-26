@@ -40,7 +40,6 @@ public class HealthManager : MonoBehaviour
         healthAmount = healthAmount + healthGained;
         healthAmount = Mathf.Clamp(healthAmount, 0, 100);
         healthBar.fillAmount = healthAmount / 100f;
-
     }
 
     public void Kill()
