@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -70,7 +70,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -12430,9 +12430,10 @@ TextureImporter:
       edificis fondos sense acabar_380: -633671778
       edificis fondos sense acabar_428: 1768051210
       edificis fondos sense acabar_224: -89111089
+      edificis fondos sense acabar_523: -374060539
       edificis fondos sense acabar_311: 1512135229
-      edificis fondos sense acabar_340: -323992141
       edificis fondos sense acabar_257: 32585638
+      edificis fondos sense acabar_340: -323992141
       edificis fondos sense acabar_111: -53029227
       edificis fondos sense acabar_363: 1167817619
       edificis fondos sense acabar_406: 287669116
@@ -12440,6 +12441,7 @@ TextureImporter:
       edificis fondos sense acabar_544: -718004134
       edificis fondos sense acabar_220: -1915210567
       edificis fondos sense acabar_437: 128619587
+      edificis fondos sense acabar_561: -388706729
       edificis fondos sense acabar_109: 1771442917
       edificis fondos sense acabar_229: 1822457152
       edificis fondos sense acabar_92: 355391132
@@ -12453,25 +12455,25 @@ TextureImporter:
       edificis fondos sense acabar_415: 1632230651
       edificis fondos sense acabar_312: 675392413
       edificis fondos sense acabar_342: -2140646749
-      edificis fondos sense acabar_298: 357922023
       edificis fondos sense acabar_372: 391052581
-      edificis fondos sense acabar_190: -1869023013
-      edificis fondos sense acabar_3: 1871845562
+      edificis fondos sense acabar_517: 1395043067
+      edificis fondos sense acabar_298: 357922023
       edificis fondos sense acabar_228: -1620520761
+      edificis fondos sense acabar_3: 1871845562
+      edificis fondos sense acabar_391: -1392350626
+      edificis fondos sense acabar_190: -1869023013
       edificis fondos sense acabar_389: -454252183
-      edificis fondos sense acabar_83: 1295068410
       edificis fondos sense acabar_273: -1423549059
-      edificis fondos sense acabar_143: -1261303347
+      edificis fondos sense acabar_551: -798756551
       edificis fondos sense acabar_165: 1708108960
       edificis fondos sense acabar_76: 1307838408
-      edificis fondos sense acabar_517: 1395043067
+      edificis fondos sense acabar_143: -1261303347
       edificis fondos sense acabar_339: -600593216
       edificis fondos sense acabar_409: -1275483665
       edificis fondos sense acabar_320: -1431289409
       edificis fondos sense acabar_29: -367263386
       edificis fondos sense acabar_46: 118394755
-      edificis fondos sense acabar_523: -374060539
-      edificis fondos sense acabar_391: -1392350626
+      edificis fondos sense acabar_83: 1295068410
       edificis fondos sense acabar_403: 163104670
       edificis fondos sense acabar_85: -938952294
       edificis fondos sense acabar_150: 1518001495
@@ -12479,13 +12481,12 @@ TextureImporter:
       edificis fondos sense acabar_469: -1631966583
       edificis fondos sense acabar_12: -1625223220
       edificis fondos sense acabar_448: -670181693
-      edificis fondos sense acabar_561: -388706729
       edificis fondos sense acabar_318: 1957591241
       edificis fondos sense acabar_197: -531643407
       edificis fondos sense acabar_191: 726735003
       edificis fondos sense acabar_39: 1067901955
-      edificis fondos sense acabar_88: 774774201
       edificis fondos sense acabar_483: 1982150036
+      edificis fondos sense acabar_88: 774774201
       edificis fondos sense acabar_15: -1870688477
       edificis fondos sense acabar_226: 694298064
       edificis fondos sense acabar_104: 1037963420
@@ -12495,7 +12496,6 @@ TextureImporter:
       edificis fondos sense acabar_492: 1896831519
       edificis fondos sense acabar_144: 899665091
       edificis fondos sense acabar_460: -2118489329
-      edificis fondos sense acabar_551: -798756551
       edificis fondos sense acabar_570: -912107713
       edificis fondos sense acabar_185: 1421467094
       edificis fondos sense acabar_53: 1379210131
@@ -12503,13 +12503,13 @@ TextureImporter:
       edificis fondos sense acabar_385: -1419382090
       edificis fondos sense acabar_519: 2080500707
       edificis fondos sense acabar_287: 966494884
-      edificis fondos sense acabar_305: 1234615359
       edificis fondos sense acabar_360: -259698436
-      edificis fondos sense acabar_511: -1005650369
+      edificis fondos sense acabar_305: 1234615359
       edificis fondos sense acabar_518: -1541298778
       edificis fondos sense acabar_429: -490919724
-      edificis fondos sense acabar_533: -1153987704
+      edificis fondos sense acabar_511: -1005650369
       edificis fondos sense acabar_509: -1756040510
+      edificis fondos sense acabar_533: -1153987704
       edificis fondos sense acabar_266: -1701415355
       edificis fondos sense acabar_316: -1797349344
       edificis fondos sense acabar_173: 1022308774
