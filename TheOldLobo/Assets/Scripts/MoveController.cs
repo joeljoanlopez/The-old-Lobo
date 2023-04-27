@@ -21,6 +21,8 @@ public class MoveController : MonoBehaviour
     [SerializeField] float sprintSpe = 0;
     private bool sprinting;
 
+    Animator animator;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -28,6 +30,8 @@ public class MoveController : MonoBehaviour
         body = GetComponent<Rigidbody2D>();
         varSpeed = baseSpeed;
         sprinting = false;
+
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -58,5 +62,39 @@ public class MoveController : MonoBehaviour
     {
         var velocity = _input * varSpeed * Time.deltaTime;
         transform.Translate(velocity);
+
+
+        if (Input.GetKey(KeyCode.W))
+        {
+            animator.SetFloat("moving", animator.GetFloat("moving") + Time.deltaTime);
+        }
+        else if (Input.GetKey(KeyCode.S))
+        {
+            animator.SetFloat("moving", animator.GetFloat("moving") + Time.deltaTime);
+        }
+        else if (Input.GetKey(KeyCode.A))
+        {
+            animator.SetFloat("moving", animator.GetFloat("moving") + Time.deltaTime);
+        }
+        else if (Input.GetKey(KeyCode.D))
+        {
+            animator.SetFloat("moving", animator.GetFloat("moving") + Time.deltaTime);
+        }
+        else if (Input.GetKey(KeyCode.W) == false)
+        {
+            animator.SetFloat("moving", animator.GetFloat("moving") - animator.GetFloat("moving"));
+        }
+        else if (Input.GetKey(KeyCode.S) == false)
+        {
+            animator.SetFloat("moving", animator.GetFloat("moving") - animator.GetFloat("moving"));
+        }
+        else if (Input.GetKey(KeyCode.A) == false)
+        {
+            animator.SetFloat("moving", animator.GetFloat("moving") - animator.GetFloat("moving"));
+        }
+        else if (Input.GetKey(KeyCode.D) == false)
+        {
+            animator.SetFloat("moving", animator.GetFloat("moving") - animator.GetFloat("moving"));
+        }
     }
 }
