@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -12457,23 +12457,22 @@ TextureImporter:
       edificis fondos sense acabar_342: -2140646749
       edificis fondos sense acabar_372: 391052581
       edificis fondos sense acabar_517: 1395043067
-      edificis fondos sense acabar_298: 357922023
+      edificis fondos sense acabar_190: -1869023013
       edificis fondos sense acabar_228: -1620520761
       edificis fondos sense acabar_3: 1871845562
+      edificis fondos sense acabar_298: 357922023
       edificis fondos sense acabar_391: -1392350626
-      edificis fondos sense acabar_190: -1869023013
       edificis fondos sense acabar_389: -454252183
-      edificis fondos sense acabar_273: -1423549059
       edificis fondos sense acabar_551: -798756551
+      edificis fondos sense acabar_143: -1261303347
       edificis fondos sense acabar_165: 1708108960
       edificis fondos sense acabar_76: 1307838408
-      edificis fondos sense acabar_143: -1261303347
       edificis fondos sense acabar_339: -600593216
       edificis fondos sense acabar_409: -1275483665
       edificis fondos sense acabar_320: -1431289409
       edificis fondos sense acabar_29: -367263386
       edificis fondos sense acabar_46: 118394755
-      edificis fondos sense acabar_83: 1295068410
+      edificis fondos sense acabar_273: -1423549059
       edificis fondos sense acabar_403: 163104670
       edificis fondos sense acabar_85: -938952294
       edificis fondos sense acabar_150: 1518001495
@@ -12481,6 +12480,7 @@ TextureImporter:
       edificis fondos sense acabar_469: -1631966583
       edificis fondos sense acabar_12: -1625223220
       edificis fondos sense acabar_448: -670181693
+      edificis fondos sense acabar_83: 1295068410
       edificis fondos sense acabar_318: 1957591241
       edificis fondos sense acabar_197: -531643407
       edificis fondos sense acabar_191: 726735003
