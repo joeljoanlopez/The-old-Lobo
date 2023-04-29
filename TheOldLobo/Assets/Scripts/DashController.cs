@@ -18,16 +18,21 @@ public class DashController : MonoBehaviour
     public static Action StartDash;
     public static Action StopDash;
 
+    Animator dash;
+
     // Start is called before the first frame update
     void Start()
     {
         canDash = true;
         dashing = false;
+        dash = GetComponent<Animator>();
     }
 
     private void OnDash()
     {
         if (canDash) { StartCoroutine(Dash()); }
+
+
     }
 
     private IEnumerator Dash()
@@ -50,5 +55,6 @@ public class DashController : MonoBehaviour
     public float DashPower()
     {
         return dashPower;
+
     }
 }

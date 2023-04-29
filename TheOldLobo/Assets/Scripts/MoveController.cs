@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Reflection;
 using System.Threading;
 using Unity.VisualScripting;
 using UnityEditor;
@@ -21,8 +22,9 @@ public class MoveController : MonoBehaviour
     [SerializeField] float sprintSpe = 0;
     private bool sprinting;
 
-    Animator animator;
-
+    Animator idle;
+    Animator dash;
+    Animator shoot;
     // Start is called before the first frame update
     void Start()
     {
@@ -31,10 +33,37 @@ public class MoveController : MonoBehaviour
         varSpeed = baseSpeed;
         sprinting = false;
 
-        animator = GetComponent<Animator>();
+        idle = GetComponent<Animator>();
+        dash = GetComponent<Animator>();
+        shoot = GetComponent<Animator>();
     }
 
     // Update is called once per frame
+    bool spacePressed = false;
+    bool canDash = true;
+
+    IEnumerator DashCoroutine()
+    {
+        if (Input.GetKeyDown(KeyCode.Space) && canDash)
+        {
+            spacePressed = true;
+            canDash = false;
+            dash.SetBool("dash", true);
+            yield return new WaitForSeconds(1f); // Wait for 1 second
+            canDash = true;
+        }
+
+        if (Input.GetKeyUp(KeyCode.Space))
+        {
+            spacePressed = false;
+        }
+
+        if (!spacePressed)
+        {
+            dash.SetBool("dash", false);
+        }
+    }
+
     void Update()
     {
         //Get Sprint input
@@ -49,6 +78,16 @@ public class MoveController : MonoBehaviour
             varSpeed = _dashController.DashPower();
         }
         else { varSpeed = baseSpeed; }
+
+        if (Input.GetKey(KeyCode.Space))
+        {
+            dash.SetBool("dash", true);
+
+        }
+        else
+        {
+            dash.SetBool("dash", false);
+        }
 
         move();
     }
@@ -66,35 +105,86 @@ public class MoveController : MonoBehaviour
 
         if (Input.GetKey(KeyCode.W))
         {
-            animator.SetFloat("moving", animator.GetFloat("moving") + Time.deltaTime);
+            idle.SetFloat("moving", idle.GetFloat("moving") + Time.deltaTime);
+
         }
         else if (Input.GetKey(KeyCode.S))
         {
-            animator.SetFloat("moving", animator.GetFloat("moving") + Time.deltaTime);
+            idle.SetFloat("moving", idle.GetFloat("moving") + Time.deltaTime);
+
         }
         else if (Input.GetKey(KeyCode.A))
         {
-            animator.SetFloat("moving", animator.GetFloat("moving") + Time.deltaTime);
+            idle.SetFloat("moving", idle.GetFloat("moving") + Time.deltaTime);
+
         }
         else if (Input.GetKey(KeyCode.D))
         {
-            animator.SetFloat("moving", animator.GetFloat("moving") + Time.deltaTime);
+            idle.SetFloat("moving", idle.GetFloat("moving") + Time.deltaTime);
+
         }
-        else if (Input.GetKey(KeyCode.W) == false)
+
+
+
+
+        else if (Input.GetKey(KeyCode.W) && Input.GetMouseButtonDown(0))
         {
-            animator.SetFloat("moving", animator.GetFloat("moving") - animator.GetFloat("moving"));
+            idle.SetFloat("moving", idle.GetFloat("moving") + Time.deltaTime);
+
         }
-        else if (Input.GetKey(KeyCode.S) == false)
+        else if (Input.GetKey(KeyCode.S) && Input.GetMouseButtonDown(0))
         {
-            animator.SetFloat("moving", animator.GetFloat("moving") - animator.GetFloat("moving"));
+            idle.SetFloat("moving", idle.GetFloat("moving") + Time.deltaTime);
+
         }
-        else if (Input.GetKey(KeyCode.A) == false)
+        else if (Input.GetKey(KeyCode.A) && Input.GetMouseButtonDown(0))
         {
-            animator.SetFloat("moving", animator.GetFloat("moving") - animator.GetFloat("moving"));
+            idle.SetFloat("moving", idle.GetFloat("moving") + Time.deltaTime);
+
         }
-        else if (Input.GetKey(KeyCode.D) == false)
+        else if (Input.GetKey(KeyCode.D) && Input.GetMouseButtonDown(0))
         {
-            animator.SetFloat("moving", animator.GetFloat("moving") - animator.GetFloat("moving"));
+            idle.SetFloat("moving", idle.GetFloat("moving") + Time.deltaTime);
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        else if (Input.GetKey(KeyCode.W) == false && Input.GetMouseButtonDown(0) == false)
+        {
+            idle.SetFloat("moving", idle.GetFloat("moving") - idle.GetFloat("moving"));
+        }
+        else if (Input.GetKey(KeyCode.S) == false && Input.GetMouseButtonDown(0) == false)
+        {
+            idle.SetFloat("moving", idle.GetFloat("moving") - idle.GetFloat("moving"));
+
+        }
+        else if (Input.GetKey(KeyCode.A) == false && Input.GetMouseButtonDown(0) == false)
+        {
+            idle.SetFloat("moving", idle.GetFloat("moving") - idle.GetFloat("moving")); 
+
+        }
+        else if (Input.GetKey(KeyCode.D) == false && Input.GetMouseButtonDown(0) == false)
+        {
+            idle.SetFloat("moving", idle.GetFloat("moving") - idle.GetFloat("moving"));
+
         }
     }
 }

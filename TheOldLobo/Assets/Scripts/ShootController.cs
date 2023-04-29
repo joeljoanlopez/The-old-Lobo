@@ -30,12 +30,13 @@ public class ShootController : MonoBehaviour
     private bool sprinting;
     private bool canShoot;
 
-    Animator animator;
+    Animator shootAnimator;
+
     void Start()
     {
         sprinting = false;
         canShoot = true;
-        animator = GetComponent<Animator>();
+        shootAnimator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -74,11 +75,14 @@ public class ShootController : MonoBehaviour
         }
         if (Input.GetMouseButtonDown(0))
         {
-            animator.SetBool("shoot", true);
+            shootAnimator.SetBool("shoot", true);
+
         }
         else
         {
-            animator.SetBool("shoot", false);
+            shootAnimator.SetBool("shoot", false);
+
+
         }
     }
 
