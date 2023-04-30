@@ -34,35 +34,12 @@ public class MoveController : MonoBehaviour
         sprinting = false;
 
         idle = GetComponent<Animator>();
-        dash = GetComponent<Animator>();
+        //dash = GetComponent<Animator>();
         shoot = GetComponent<Animator>();
     }
 
     // Update is called once per frame
     bool spacePressed = false;
-    bool canDash = true;
-
-    IEnumerator DashCoroutine()
-    {
-        if (Input.GetKeyDown(KeyCode.Space) && canDash)
-        {
-            spacePressed = true;
-            canDash = false;
-            dash.SetBool("dash", true);
-            yield return new WaitForSeconds(1f); // Wait for 1 second
-            canDash = true;
-        }
-
-        if (Input.GetKeyUp(KeyCode.Space))
-        {
-            spacePressed = false;
-        }
-
-        if (!spacePressed)
-        {
-            dash.SetBool("dash", false);
-        }
-    }
 
     void Update()
     {
@@ -78,17 +55,6 @@ public class MoveController : MonoBehaviour
             varSpeed = _dashController.DashPower();
         }
         else { varSpeed = baseSpeed; }
-
-        if (Input.GetKey(KeyCode.Space))
-        {
-            dash.SetBool("dash", true);
-
-        }
-        else
-        {
-            dash.SetBool("dash", false);
-        }
-
         move();
     }
 

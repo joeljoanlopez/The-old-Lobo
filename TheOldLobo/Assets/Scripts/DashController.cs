@@ -31,8 +31,6 @@ public class DashController : MonoBehaviour
     private void OnDash()
     {
         if (canDash) { StartCoroutine(Dash()); }
-
-
     }
 
     private IEnumerator Dash()
@@ -40,8 +38,10 @@ public class DashController : MonoBehaviour
         StartDash?.Invoke();
         dashing = true;
         canDash = false;
+        dash.SetBool("dash", true);
         yield return new WaitForSeconds(dashTime);
         dashing = false;
+        dash.SetBool("dash", false);
         StopDash?.Invoke();
         yield return new WaitForSeconds(dashingCooldown);
         canDash = true;
