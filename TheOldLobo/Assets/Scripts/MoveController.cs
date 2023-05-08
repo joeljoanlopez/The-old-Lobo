@@ -25,6 +25,7 @@ public class MoveController : MonoBehaviour
     Animator idle;
     Animator dash;
     Animator shoot;
+    Animator runAndShoot;
     // Start is called before the first frame update
     void Start()
     {
@@ -36,6 +37,7 @@ public class MoveController : MonoBehaviour
         idle = GetComponent<Animator>();
         //dash = GetComponent<Animator>();
         shoot = GetComponent<Animator>();
+        runAndShoot = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -102,15 +104,18 @@ public class MoveController : MonoBehaviour
         {
             idle.SetFloat("moving", idle.GetFloat("moving") + Time.deltaTime);
 
+
         }
         else if (Input.GetKey(KeyCode.A) && Input.GetMouseButtonDown(0))
         {
             idle.SetFloat("moving", idle.GetFloat("moving") + Time.deltaTime);
 
+
         }
         else if (Input.GetKey(KeyCode.D) && Input.GetMouseButtonDown(0))
         {
             idle.SetFloat("moving", idle.GetFloat("moving") + Time.deltaTime);
+
 
         }
 
@@ -136,6 +141,7 @@ public class MoveController : MonoBehaviour
         else if (Input.GetKey(KeyCode.W) == false && Input.GetMouseButtonDown(0) == false)
         {
             idle.SetFloat("moving", idle.GetFloat("moving") - idle.GetFloat("moving"));
+
         }
         else if (Input.GetKey(KeyCode.S) == false && Input.GetMouseButtonDown(0) == false)
         {
@@ -144,7 +150,7 @@ public class MoveController : MonoBehaviour
         }
         else if (Input.GetKey(KeyCode.A) == false && Input.GetMouseButtonDown(0) == false)
         {
-            idle.SetFloat("moving", idle.GetFloat("moving") - idle.GetFloat("moving")); 
+            idle.SetFloat("moving", idle.GetFloat("moving") - idle.GetFloat("moving"));
 
         }
         else if (Input.GetKey(KeyCode.D) == false && Input.GetMouseButtonDown(0) == false)
