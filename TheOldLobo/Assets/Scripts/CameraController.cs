@@ -5,7 +5,7 @@ using UnityEngine;
 public class CameraController : MonoBehaviour
 {
     [SerializeField]
-    public float Smoothing = 0.1f;
+    public float Smoothing = 0.5f;
     public Transform Player;
     private Vector3 _offset = new Vector3();
 
