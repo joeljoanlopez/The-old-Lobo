@@ -98,13 +98,11 @@ public class MoveController : MonoBehaviour
         else if (Input.GetKey(KeyCode.W) && Input.GetMouseButtonDown(0))
         {
             idle.SetFloat("moving", idle.GetFloat("moving") + Time.deltaTime);
-            sprinting = false;
 
         }
         else if (Input.GetKey(KeyCode.S) && Input.GetMouseButtonDown(0))
         {
             idle.SetFloat("moving", idle.GetFloat("moving") + Time.deltaTime);
-            sprinting = false;
 
 
         }
@@ -112,14 +110,12 @@ public class MoveController : MonoBehaviour
         {
             idle.SetFloat("moving", idle.GetFloat("moving") + Time.deltaTime);
 
-            sprinting = false;
 
         }
         else if (Input.GetKey(KeyCode.D) && Input.GetMouseButtonDown(0))
         {
             idle.SetFloat("moving", idle.GetFloat("moving") + Time.deltaTime);
 
-            sprinting = false;
 
         }
 
