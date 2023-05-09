@@ -9,6 +9,7 @@ public class HealthManager : MonoBehaviour
     // Start is called before the first frame update
     public Image healthBar;
     public float healthAmount = 100f;
+    public GameOverScreen GameOverScreen;
     void Start()
     {
         
@@ -28,7 +29,8 @@ public class HealthManager : MonoBehaviour
         if (healthAmount == 0)
         {
 
-            SceneManager.LoadScene(1);
+            GameOverScreen.Setup();
+            
         }
     }
     public void takeDamage(float damage)
