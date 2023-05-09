@@ -27,7 +27,8 @@ public class HealthManager : MonoBehaviour
         }
         if (healthAmount == 0)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+
+            SceneManager.LoadScene(1);
         }
     }
     public void takeDamage(float damage)
