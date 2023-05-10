@@ -51,7 +51,8 @@ public class MoveController : MonoBehaviour
         if (Input.GetKey(KeyCode.LeftShift) && !_dashController.IsDashing()) { sprinting = true; }
         else { sprinting = false; }
 
-        //Handle movement mode
+            //Handle movement mode
+
         if (sprinting) { varSpeed = sprintSpe; }
         else if (_dashController.IsDashing())
         {

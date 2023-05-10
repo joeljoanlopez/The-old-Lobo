@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 public class GameOverScreen : MonoBehaviour
 {
-    public Text pointsText;
     public MoveController moveController;
 
     public void Setup()
