@@ -18,6 +18,8 @@ public class MoveController : MonoBehaviour
     private float varSpeed;
     private Vector2 _input;
 
+    private bool canMove = true;
+
     //Sprinting handler
     [SerializeField] float sprintSpe = 0;
     private bool sprinting;
@@ -57,7 +59,12 @@ public class MoveController : MonoBehaviour
             varSpeed = _dashController.DashPower();
         }
         else { varSpeed = baseSpeed; }
-        move();
+
+        if (canMove)
+        {
+
+            move();
+        }
     }
 
     private void OnMove(InputValue value)
@@ -67,6 +74,7 @@ public class MoveController : MonoBehaviour
 
     private void move()
     {
+
         var velocity = _input * varSpeed * Time.deltaTime;
         transform.Translate(velocity);
 
@@ -91,8 +99,6 @@ public class MoveController : MonoBehaviour
             idle.SetFloat("moving", idle.GetFloat("moving") + Time.deltaTime);
 
         }
-
-
 
 
         else if (Input.GetKey(KeyCode.W) && Input.GetMouseButtonDown(0))
@@ -121,23 +127,6 @@ public class MoveController : MonoBehaviour
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         else if (Input.GetKey(KeyCode.W) == false && Input.GetMouseButtonDown(0) == false)
         {
             idle.SetFloat("moving", idle.GetFloat("moving") - idle.GetFloat("moving"));
@@ -159,4 +148,17 @@ public class MoveController : MonoBehaviour
 
         }
     }
+
+    public void StopMovement ()
+    {
+        canMove = false;
+    }
+
+    public void ResumeMovement()
+    {
+        canMove = true;
+    }
+
+
+
 }

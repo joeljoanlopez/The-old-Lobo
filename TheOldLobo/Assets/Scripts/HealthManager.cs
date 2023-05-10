@@ -1,43 +1,50 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class HealthManager : MonoBehaviour
 {
-    // Start is called before the first frame update
     public Image healthBar;
     public float healthAmount = 100f;
-    void Start()
-    {
-        
-    }
+    public GameOverScreen GameOverScreen;
+    private bool isGameOver = false;
+    public MoveController moveController;
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Return))
         {
-            takeDamage(20);
+            TakeDamage(20);
         }
         else if (Input.GetKeyDown(KeyCode.LeftAlt))
         {
             Heal(20);
         }
-        if (healthAmount == 0)
+
+        if (healthAmount <= 0 && !isGameOver)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            isGameOver = true;
+            GameOverScreen.Setup();
+            moveController.StopMovement();
         }
     }
-    public void takeDamage(float damage)
+
+    public void TakeDamage(float damage)
     {
-        healthAmount = healthAmount - damage;
+        healthAmount -= damage;
+        healthAmount = Mathf.Clamp(healthAmount, 0, 100);
         healthBar.fillAmount = healthAmount / 100f;
+
+        if (healthAmount <= 0)
+        {
+            Kill();
+        }
     }
-    public void Heal  (float healthGained)
+
+    public void Heal(float healthGained)
     {
-        healthAmount = healthAmount + healthGained;
+        healthAmount += healthGained;
         healthAmount = Mathf.Clamp(healthAmount, 0, 100);
         healthBar.fillAmount = healthAmount / 100f;
     }
