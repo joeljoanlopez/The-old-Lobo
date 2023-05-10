@@ -504,7 +504,8 @@ MonoBehaviour:
   healthBar: {fileID: 185171864}
   healthAmount: 100
   GameOverScreen: {fileID: 1330495865}
-  moveController: {fileID: 0}
+  moveController: {fileID: 1579991359}
+  pauseMenu: {fileID: 1147938105}
 --- !u!114 &185171864
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34775,7 +34776,7 @@ GameObject:
   - component: {fileID: 1147938104}
   - component: {fileID: 1147938103}
   - component: {fileID: 1147938101}
-  - component: {fileID: 1147938102}
+  - component: {fileID: 1147938105}
   m_Layer: 5
   m_Name: Pause Menu
   m_TagString: Untagged
@@ -34820,20 +34821,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47c593a7ec26b2f4ebfdb61722b97410, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1147938102
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1147938099}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 332fa84817c182b49bf599d67f413e13, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pointsText: {fileID: 0}
-  moveController: {fileID: 0}
 --- !u!114 &1147938103
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34872,6 +34859,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1147938099}
   m_CullTransparentMesh: 1
+--- !u!114 &1147938105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1147938099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf5941459c5f7b448b476a53b602b2d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveController: {fileID: 1579991359}
 --- !u!1 &1228740772
 GameObject:
   m_ObjectHideFlags: 0
@@ -40287,7 +40287,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 332fa84817c182b49bf599d67f413e13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pointsText: {fileID: 0}
   moveController: {fileID: 1579991359}
 --- !u!1 &1368386583
 GameObject:
