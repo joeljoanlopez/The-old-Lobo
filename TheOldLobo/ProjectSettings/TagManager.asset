@@ -57,6 +57,9 @@ TagManager:
   - name: SUPER FOREGROUND
     uniqueID: 1617765903
     locked: 0
+  - name: Props
+    uniqueID: 254420879
+    locked: 0
   - name: Weather
     uniqueID: 1530963071
     locked: 0
