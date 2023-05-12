@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class HealthManager : MonoBehaviour
@@ -33,6 +34,15 @@ public class HealthManager : MonoBehaviour
         if (Input.GetKey(KeyCode.Escape))
         {
             pauseMenu.Setup();
+        }
+    }
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        print("Player damaged");
+        healthAmount = healthAmount - 20f;
+        if (other.gameObject.name == "Bullet")
+        {
+            healthAmount = healthAmount - 20f;
         }
     }
 
