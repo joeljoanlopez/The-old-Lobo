@@ -11,6 +11,7 @@ public class HealthManager : MonoBehaviour
     public GameOverScreen GameOverScreen;
     private bool isGameOver = false;
     public MoveController moveController;
+    public ShootController shotController;
     public PauseMenu pauseMenu;
 
 
@@ -30,6 +31,7 @@ public class HealthManager : MonoBehaviour
             isGameOver = true;
             GameOverScreen.Setup();
             moveController.StopMovement();
+            
         }
         if (Input.GetKey(KeyCode.Escape))
         {
