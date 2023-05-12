@@ -505,6 +505,7 @@ MonoBehaviour:
   healthAmount: 100
   GameOverScreen: {fileID: 1330495865}
   moveController: {fileID: 1579991359}
+  shotController: {fileID: 0}
   pauseMenu: {fileID: 1147938105}
 --- !u!114 &185171864
 MonoBehaviour:
@@ -40288,6 +40289,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveController: {fileID: 1579991359}
+  ShootController: {fileID: 1579991362}
 --- !u!1 &1368386583
 GameObject:
   m_ObjectHideFlags: 0
@@ -53972,6 +53974,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 11903d5350a6b304ba0ad3192c76f928, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1579991362 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1404286813921207722, guid: efee8bf402c98f44db386eafe0c9d3ad, type: 3}
+  m_PrefabInstance: {fileID: 2299289347165519180}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1579991353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 769524e7da976d84d89d30a44ece5ab9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1667809741

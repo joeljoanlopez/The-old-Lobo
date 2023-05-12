@@ -30,6 +30,7 @@ public class ShootController : MonoBehaviour
     private bool sprinting;
     private bool canShoot;
 
+
     Animator shootAnimator;
 
     void Start()
@@ -43,8 +44,11 @@ public class ShootController : MonoBehaviour
     void Update()
     {
 
-
-        shoot();
+        if(canShoot)
+        {
+            shoot();
+        }
+        
 
 
     }
@@ -109,5 +113,14 @@ public class ShootController : MonoBehaviour
     float GetAngleFromPoints(Vector3 a, Vector3 b)
     {
         return Mathf.Atan2(a.y - b.y, a.x - b.x) * Mathf.Rad2Deg;
+    }
+
+    public void StopShoot()
+    {
+        canShoot = false;
+    }
+    public void ResumeShoot()
+    {
+        canShoot = true;
     }
 }
