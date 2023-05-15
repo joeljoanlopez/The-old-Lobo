@@ -55,7 +55,12 @@ public class ShootController : MonoBehaviour
 
     private void shoot()
     {
-        if (Input.GetKey(KeyCode.LeftShift)) { sprinting = true; }
+        if (Input.GetKey(KeyCode.LeftShift)) 
+        { 
+            sprinting = true;
+            shootAnimator.SetBool("shoot", false);
+
+        }
 
         else if (Input.GetMouseButtonDown(0))
         {
