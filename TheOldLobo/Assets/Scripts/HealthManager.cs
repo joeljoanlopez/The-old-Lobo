@@ -44,7 +44,9 @@ public class HealthManager : MonoBehaviour
         healthAmount = healthAmount - 20f;
         if (other.gameObject.name == "Bullet")
         {
+
             healthAmount = healthAmount - 20f;
+            CameraController.Shaking();
         }
     }
 
