@@ -11,6 +11,9 @@ using UnityEngine.InputSystem;
 public class MoveController : MonoBehaviour
 {
     private Rigidbody2D body;
+    public ShootController ShootController;
+
+
     DashController _dashController;
 
     //Direction handlers
@@ -25,9 +28,7 @@ public class MoveController : MonoBehaviour
     private bool sprinting;
 
     Animator idle;
-    Animator dash;
     Animator shoot;
-    Animator runAndShoot;
     // Start is called before the first frame update
     void Start()
     {
@@ -37,9 +38,8 @@ public class MoveController : MonoBehaviour
         sprinting = false;
 
         idle = GetComponent<Animator>();
-        //dash = GetComponent<Animator>();
         shoot = GetComponent<Animator>();
-        runAndShoot = GetComponent<Animator>();
+
     }
 
     // Update is called once per frame
@@ -105,28 +105,28 @@ public class MoveController : MonoBehaviour
         else if (Input.GetKey(KeyCode.W) && Input.GetMouseButtonDown(0))
         {
             idle.SetFloat("moving", idle.GetFloat("moving") + Time.deltaTime);
-
+            shoot.SetBool("shoot", true);
         }
         else if (Input.GetKey(KeyCode.S) && Input.GetMouseButtonDown(0))
         {
             idle.SetFloat("moving", idle.GetFloat("moving") + Time.deltaTime);
+            shoot.SetBool("shoot", true);
 
 
         }
         else if (Input.GetKey(KeyCode.A) && Input.GetMouseButtonDown(0))
         {
             idle.SetFloat("moving", idle.GetFloat("moving") + Time.deltaTime);
+            shoot.SetBool("shoot", true);
 
 
         }
         else if (Input.GetKey(KeyCode.D) && Input.GetMouseButtonDown(0))
         {
             idle.SetFloat("moving", idle.GetFloat("moving") + Time.deltaTime);
-
+            shoot.SetBool("shoot", true);
 
         }
-
-
 
         else if (Input.GetKey(KeyCode.W) == false && Input.GetMouseButtonDown(0) == false)
         {
