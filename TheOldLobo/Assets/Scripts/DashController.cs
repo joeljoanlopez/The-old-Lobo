@@ -57,4 +57,14 @@ public class DashController : MonoBehaviour
         return dashPower;
 
     }
+
+    public void CantDash()
+    {
+        canDash = false;
+    }
+
+    public void ResumeDash()
+    {
+        canDash = true;
+    }
 }
