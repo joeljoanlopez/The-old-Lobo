@@ -4,35 +4,40 @@ using UnityEngine;
 
 public class EnemyShooting : MonoBehaviour
 {
-    public GameObject bullet;
-    [SerializeField]
-    private GameObject _BulletTarget;
-    public Transform bulletPos;
     private float timer;
+    private bool _canShoot;
 
     private void Start()
     {
-        
+        _canShoot = true;
     }
     private void Update()
     {
-        timer += Time.deltaTime;
-        if (timer > 2)
+        if (!_canShoot)
         {
-            timer = 0;
-            Shoot();
+            timer += Time.deltaTime;
+            if (timer >= 2)
+            {
+                _canShoot = true;
+                timer = 0;
+            }
         }
     }
-    void Shoot()
+    public void Shoot(GameObject _target, GameObject _bullet, GameObject _Gun)
     {
-        Instantiate(bullet, bulletPos.position, GetRotation());
+        if (_canShoot)
+        {
+            Instantiate(_bullet, _Gun.transform.position, GetRotation(_target, _Gun));
+            _canShoot = false;
+        }
     }
 
-    private Quaternion GetRotation()
+    private Quaternion GetRotation(GameObject _target, GameObject _Gun)
     {
         //Get the Screen positions of the object and the mouse
-        Vector2 playerPos = _BulletTarget.transform.position;
-        float angle = GetAngleFromPoints(playerPos, transform.position);
+        Vector2 playerPos = _target.transform.position;
+        Vector2 _GunPos = _Gun.transform.position;
+        float angle = GetAngleFromPoints(playerPos, _GunPos);
 
         //return the rotation
         return Quaternion.Euler(new Vector3(0f, 0f, angle));
