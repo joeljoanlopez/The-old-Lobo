@@ -15,7 +15,8 @@ public class ShootController : MonoBehaviour
     // bullet traits
     [SerializeField] private float bulletSpeed;
     [SerializeField] private float bulletDamage;
-    public GameObject bullet;
+    [SerializeField] GameObject bullet;
+
     private Vector2 bulletFw;
     private bool shooting;
     private Rigidbody2D rb;
@@ -43,19 +44,20 @@ public class ShootController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-        if(canShoot)
+        if (canShoot)
         {
             shoot();
         }
-        
-
-
     }
 
     private void shoot()
     {
-        if (Input.GetKey(KeyCode.LeftShift)) { sprinting = true; }
+        if (Input.GetKey(KeyCode.LeftShift)) 
+        { 
+            sprinting = true;
+            shootAnimator.SetBool("shoot", false);
+
+        }
 
         else if (Input.GetMouseButtonDown(0))
         {
@@ -72,21 +74,16 @@ public class ShootController : MonoBehaviour
 
                     Instantiate(bullet, shootingPoint2.position, GetRotation());
                 }
-
-
             }
             else { sprinting = false; }
         }
         if (Input.GetMouseButtonDown(0))
         {
             shootAnimator.SetBool("shoot", true);
-
         }
         else
         {
             shootAnimator.SetBool("shoot", false);
-
-
         }
     }
 
