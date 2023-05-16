@@ -1,101 +1,101 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static UnityEngine.GraphicsBuffer;
+using Random = UnityEngine.Random;
 
 public class EnemyAI : MonoBehaviour
 {
-    [SerializeField] float _speed;
-    [SerializeField] GameObject _Target;
-    [SerializeField] GameObject _Bullet;
-    [SerializeField] GameObject _Gun;
-
-    EnemyShooting _enemyShooting;
-    Transform _player;
-    float _currentTime;
-    Vector3 _direction;
-
-    enum State
+    public enum EState
     {
         Idle,
         Wander,
-        Attack
+        Attack,
     }
-    State currentState;
 
-    private void Start()
+    FSM<EState> brain;
+
+    [SerializeField] GameObject _Target;
+    [SerializeField] GameObject _Bullet;
+    [SerializeField] GameObject _Gun;
+    [SerializeField] float _AggroDist = 5;
+
+    EnemyShooting _enemyShooting;
+    PathFollower _pathFollower;
+    float _currentTime;
+
+    // Start is called before the first frame update
+    void Start()
     {
-        currentState = State.Idle;
+        InitFSM();
         _currentTime = 0;
         _enemyShooting = GetComponent<EnemyShooting>();
-
-        _player = _Target.transform;
-    }
-    private void Update()
-    {
-        switch (currentState)
-        {
-            case State.Idle:
-                IdleUpdate();
-                break;
-            case State.Wander:
-                WanderUpdate();
-                break;
-            case State.Attack:
-                AttackUpdate();
-                break;
-        }
-        switch (currentState)
-        {
-            case State.Idle:
-                break;
-            case State.Wander:
-                break;
-            case State.Attack:
-                break;
-        }
+        _pathFollower = GetComponent<PathFollower>();
     }
 
-    private void ChangeState(State newState)
+    private void InitFSM()
     {
-
-    }
-    void IdleUpdate()
-    {
-        _currentTime += Time.deltaTime;
-
-        if (_currentTime > 2.0f)
+        brain = new FSM<EState>(EState.Idle);
+        brain.SetOnEnter(EState.Idle, () => _currentTime = 0);
+        brain.SetOnEnter(EState.Wander, () =>
         {
-            currentState = State.Wander;
             _currentTime = 0;
-            float _randomAng = Random.Range(0f, 360f);
-            _direction = new Vector3(Mathf.Sin(_randomAng), Mathf.Cos(_randomAng));
-        }
+        });
 
-        if (Vector2.Distance(transform.position, _player.position) < 4)
-        {
-            currentState = State.Attack;
-        }
+        brain.SetOnStay(EState.Idle, IdleUpdate);
+        brain.SetOnStay(EState.Wander, WanderUpdate);
+        brain.SetOnStay(EState.Attack, AttackUpdate);
+
     }
-    void WanderUpdate()
+
+    // Update is called once per frame
+    void Update()
+    {
+        brain.Update();
+    }
+
+    private void IdleUpdate()
     {
         //Execute
-        transform.position += _direction * _speed * Time.deltaTime;
         _currentTime += Time.deltaTime;
 
-        if (_currentTime > 4.0f)
+        //CheckTriggers
+        if (_currentTime > 2.0f)
+            brain.ChangeState(EState.Wander);
+
+        if (Vector2.Distance(transform.position, _Target.transform.position) < _AggroDist)
+            brain.ChangeState(EState.Attack);
+    }
+
+    private void WanderUpdate()
+    {
+        //Execute
+        _pathFollower.Move();
+
+        //CheckTriggers
+        if (_pathFollower.ArrivedAtWP())
         {
-            currentState = State.Idle;
+            _pathFollower.NextWP();
             _currentTime = 0;
+            brain.ChangeState(EState.Idle);
         }
 
-        if (Vector2.Distance(transform.position, _player.position) < 4)
-        {
-            currentState = State.Attack;
-        }
+        if (Vector2.Distance(transform.position, _Target.transform.position) < _AggroDist)
+            brain.ChangeState(EState.Attack);
     }
-    void AttackUpdate()
+
+    private void AttackUpdate()
     {
+        //Execute
         _enemyShooting.Shoot(_Target, _Bullet, _Gun);
+
+        //Trigger
+        if (Vector2.Distance(transform.position, _Target.transform.position) >= 4)
+            brain.ChangeState(EState.Idle);
     }
+
+
+
 
 }

@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8173582642624957957}
   - component: {fileID: 8173582642624957958}
   - component: {fileID: 1446319264018492105}
+  - component: {fileID: 8094987129070622445}
   - component: {fileID: 70803801442736376}
   - component: {fileID: 3287291718872893764}
   - component: {fileID: -949758662902039364}
@@ -100,10 +101,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dffca8d768b239d4094906051c9aa7f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speed: 0
   _Target: {fileID: 0}
   _Bullet: {fileID: 0}
   _Gun: {fileID: 0}
+  Speed: 2
+  _AggroDist: 5
+--- !u!114 &8094987129070622445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8173582642624957952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5583b3379e388874d8f0e67d5bf15e10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _waypoints: {fileID: 0}
+  _speed: 2
 --- !u!114 &70803801442736376
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -11,6 +11,7 @@ public class EnemyShooting : MonoBehaviour
     {
         _canShoot = true;
     }
+
     private void Update()
     {
         if (!_canShoot)
@@ -23,6 +24,7 @@ public class EnemyShooting : MonoBehaviour
             }
         }
     }
+
     public void Shoot(GameObject _target, GameObject _bullet, GameObject _Gun)
     {
         if (_canShoot)
