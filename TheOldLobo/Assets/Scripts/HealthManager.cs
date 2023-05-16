@@ -1,20 +1,24 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
-using UnityEngine.UI;
 
 public class HealthManager : MonoBehaviour
 {
-    public Image healthBar;
-    public float healthAmount = 100f;
-    public GameOverScreen GameOverScreen;
-    private bool isGameOver = false;
-    public MoveController moveController;
-    public ShootController shotController;
-    public PauseMenu pauseMenu;
-    CameraController cameraController;
+    [SerializeField] private GameObject healthBar;
+    [SerializeField] private GameObject gameOver;
+    [SerializeField] private float healthAmount = 100f;
+    [SerializeField] private PauseMenu pauseMenu;
 
+    private GameOverScreen _GameOverScreen;
+    private HPBarController _HPBarController;
+    private bool isGameOver;
+    private MoveController moveController;
+
+    private void Start()
+    {
+        isGameOver = false;
+        moveController = GetComponent<MoveController>();
+        _HPBarController = healthBar.GetComponent<HPBarController>();
+        _GameOverScreen = gameOver.GetComponent<GameOverScreen>();
+    }
 
     private void Update()
     {
@@ -30,34 +34,32 @@ public class HealthManager : MonoBehaviour
         if (healthAmount <= 0 && !isGameOver)
         {
             isGameOver = true;
-            GameOverScreen.Setup();
+            _GameOverScreen.Setup();
             moveController.StopMovement();
-            
         }
-        if (Input.GetKey(KeyCode.Escape))
+        if (Input.GetKey(KeyCode.Escape) && !isGameOver)
         {
             pauseMenu.Setup();
         }
     }
 
-
     public void TakeDamage(float damage)
     {
+        print(healthAmount);
         healthAmount -= damage;
         healthAmount = Mathf.Clamp(healthAmount, 0, 100);
-        healthBar.fillAmount = healthAmount / 100f;
-
+        print(healthAmount);
+        print(damage);
+        _HPBarController.UpdateBar(healthAmount);
         if (healthAmount <= 0)
-        {
             Kill();
-        }
     }
 
     public void Heal(float healthGained)
     {
         healthAmount += healthGained;
         healthAmount = Mathf.Clamp(healthAmount, 0, 100);
-        healthBar.fillAmount = healthAmount / 100f;
+        _HPBarController.UpdateBar(healthAmount);
     }
 
     public void Kill()

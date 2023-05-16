@@ -1,13 +1,11 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class GameOverScreen : MonoBehaviour
 {
     public MoveController moveController;
     public ShootController ShootController;
     public DashController dashController;
+
     public void Setup()
     {
         gameObject.SetActive(true);
@@ -15,5 +13,4 @@ public class GameOverScreen : MonoBehaviour
         ShootController.StopShoot();
         dashController.CantDash();
     }
-
 }
