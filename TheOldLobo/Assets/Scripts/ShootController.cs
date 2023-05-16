@@ -48,6 +48,10 @@ public class ShootController : MonoBehaviour
         {
             shoot();
         }
+        if (Input.GetKeyUp(KeyCode.LeftShift))
+        {
+            ResumeShoot();
+        }
     }
 
     private void shoot()
@@ -56,8 +60,10 @@ public class ShootController : MonoBehaviour
         { 
             sprinting = true;
             shootAnimator.SetBool("shoot", false);
+            StopShoot();
 
         }
+       
 
         else if (Input.GetMouseButtonDown(0))
         {
@@ -67,19 +73,24 @@ public class ShootController : MonoBehaviour
             {
                 if (Time.time > nextfire)
                 {
+
                     sprinting = false;
+
                     nextfire = Time.time + Firerate;
+
 
                     Invoke("C", 0.2f);
 
                     Instantiate(bullet, shootingPoint2.position, GetRotation());
+
                 }
             }
-            else { sprinting = false; }
+
         }
         if (Input.GetMouseButtonDown(0))
         {
             shootAnimator.SetBool("shoot", true);
+
         }
         else
         {
@@ -114,7 +125,10 @@ public class ShootController : MonoBehaviour
 
     public void StopShoot()
     {
-        canShoot = false;
+        if (!shooting)
+        {
+            canShoot = false;
+        }
     }
     public void ResumeShoot()
     {

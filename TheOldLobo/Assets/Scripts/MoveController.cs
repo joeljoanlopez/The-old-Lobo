@@ -105,26 +105,25 @@ public class MoveController : MonoBehaviour
         else if (Input.GetKey(KeyCode.W) && Input.GetMouseButtonDown(0))
         {
             idle.SetFloat("moving", idle.GetFloat("moving") + Time.deltaTime);
-            shoot.SetBool("shoot", true);
+            ShootController.ResumeShoot();
         }
         else if (Input.GetKey(KeyCode.S) && Input.GetMouseButtonDown(0))
         {
             idle.SetFloat("moving", idle.GetFloat("moving") + Time.deltaTime);
-            shoot.SetBool("shoot", true);
-
+            ShootController.ResumeShoot();
 
         }
         else if (Input.GetKey(KeyCode.A) && Input.GetMouseButtonDown(0))
         {
             idle.SetFloat("moving", idle.GetFloat("moving") + Time.deltaTime);
-            shoot.SetBool("shoot", true);
+            ShootController.ResumeShoot();
 
 
         }
         else if (Input.GetKey(KeyCode.D) && Input.GetMouseButtonDown(0))
         {
             idle.SetFloat("moving", idle.GetFloat("moving") + Time.deltaTime);
-            shoot.SetBool("shoot", true);
+            ShootController.ResumeShoot();
 
         }
 
