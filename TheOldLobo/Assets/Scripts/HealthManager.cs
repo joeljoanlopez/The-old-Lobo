@@ -39,18 +39,7 @@ public class HealthManager : MonoBehaviour
             pauseMenu.Setup();
         }
     }
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        print("Player damaged");
-        healthAmount = healthAmount - 20f;
 
-
-            TakeDamage(20);
-
-            cameraController.Shaking();
-            
-
-    }
 
     public void TakeDamage(float damage)
     {
