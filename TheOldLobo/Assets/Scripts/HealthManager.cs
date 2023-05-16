@@ -43,14 +43,13 @@ public class HealthManager : MonoBehaviour
     {
         print("Player damaged");
         healthAmount = healthAmount - 20f;
-        if (other.gameObject.name == "Bullet")
-        {
 
-            healthAmount = healthAmount - 20f;
+
+            TakeDamage(20);
 
             cameraController.Shaking();
-            ;
-        }
+            
+
     }
 
     public void TakeDamage(float damage)
