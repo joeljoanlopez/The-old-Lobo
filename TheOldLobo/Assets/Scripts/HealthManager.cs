@@ -39,19 +39,7 @@ public class HealthManager : MonoBehaviour
             pauseMenu.Setup();
         }
     }
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        print("Player damaged");
-        healthAmount = healthAmount - 20f;
-        if (other.gameObject.name == "Bullet")
-        {
 
-            healthAmount = healthAmount - 20f;
-
-            cameraController.Shaking();
-            ;
-        }
-    }
 
     public void TakeDamage(float damage)
     {
