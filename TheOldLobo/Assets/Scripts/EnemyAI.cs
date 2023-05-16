@@ -1,46 +1,101 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static UnityEngine.GraphicsBuffer;
+using Random = UnityEngine.Random;
 
 public class EnemyAI : MonoBehaviour
 {
-    enum State
+    public enum EState
     {
         Idle,
         Wander,
-        Attack
+        Attack,
     }
-    State currentState;
 
-    private void Start()
+    FSM<EState> brain;
+
+    [SerializeField] GameObject _Target;
+    [SerializeField] GameObject _Bullet;
+    [SerializeField] GameObject _Gun;
+    [SerializeField] float _AggroDist = 5;
+
+    EnemyShooting _enemyShooting;
+    PathFollower _pathFollower;
+    float _currentTime;
+
+    // Start is called before the first frame update
+    void Start()
     {
-        currentState = State.Idle;
+        InitFSM();
+        _currentTime = 0;
+        _enemyShooting = GetComponent<EnemyShooting>();
+        _pathFollower = GetComponent<PathFollower>();
     }
-    private void Update()
+
+    private void InitFSM()
     {
-        switch (currentState)
+        brain = new FSM<EState>(EState.Idle);
+        brain.SetOnEnter(EState.Idle, () => _currentTime = 0);
+        brain.SetOnEnter(EState.Wander, () =>
         {
-            case State.Idle:
-                IdleUpdate();
-                break;
-            case State.Wander:
-                WanderUpdate();
-                break;
-            case State.Attack:
-                AttackUpdate();
-                break;
-        }
+            _currentTime = 0;
+        });
+
+        brain.SetOnStay(EState.Idle, IdleUpdate);
+        brain.SetOnStay(EState.Wander, WanderUpdate);
+        brain.SetOnStay(EState.Attack, AttackUpdate);
+
     }
 
-    private void ChangeState(State newState)
+    // Update is called once per frame
+    void Update()
     {
-        
+        brain.Update();
     }
-    void IdleUpdate()
-    { }
-    void WanderUpdate()
-    { }
-    void AttackUpdate()
-    { }
+
+    private void IdleUpdate()
+    {
+        //Execute
+        _currentTime += Time.deltaTime;
+
+        //CheckTriggers
+        if (_currentTime > 2.0f)
+            brain.ChangeState(EState.Wander);
+
+        if (Vector2.Distance(transform.position, _Target.transform.position) < _AggroDist)
+            brain.ChangeState(EState.Attack);
+    }
+
+    private void WanderUpdate()
+    {
+        //Execute
+        _pathFollower.Move();
+
+        //CheckTriggers
+        if (_pathFollower.ArrivedAtWP())
+        {
+            _pathFollower.NextWP();
+            _currentTime = 0;
+            brain.ChangeState(EState.Idle);
+        }
+
+        if (Vector2.Distance(transform.position, _Target.transform.position) < _AggroDist)
+            brain.ChangeState(EState.Attack);
+    }
+
+    private void AttackUpdate()
+    {
+        //Execute
+        _enemyShooting.Shoot(_Target, _Bullet, _Gun);
+
+        //Trigger
+        if (Vector2.Distance(transform.position, _Target.transform.position) >= 4)
+            brain.ChangeState(EState.Idle);
+    }
+
+
+
 
 }
