@@ -32473,7 +32473,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c3275264ed86b9418a8fb1fd2208110, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _player: {fileID: 1579991353}
 --- !u!1 &645406632
 GameObject:
   m_ObjectHideFlags: 0
@@ -34553,7 +34552,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c3275264ed86b9418a8fb1fd2208110, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _player: {fileID: 1579991353}
 --- !u!61 &1086184867
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -40861,7 +40859,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c3275264ed86b9418a8fb1fd2208110, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _player: {fileID: 1579991353}
 --- !u!61 &1483070094
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -127347,6 +127344,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 3927888924724464146, guid: efee8bf402c98f44db386eafe0c9d3ad, type: 3}
+      propertyPath: gameOver
+      value: 
+      objectReference: {fileID: 1330495860}
     - target: {fileID: 3927888924724464146, guid: efee8bf402c98f44db386eafe0c9d3ad, type: 3}
       propertyPath: healthBar
       value: 
