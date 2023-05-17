@@ -19,9 +19,12 @@ public class DamageController : MonoBehaviour
         }
     }
 
-    public void MakeDamage(float _damage)
+    public void MakeDamage(float _damage, GameObject _target)
     {
-        _healthManager.TakeDamage(_damage);
-        print("player hit");
+        if (_target.name != _player.name)
+            Destroy(_target);
+        else
+            _healthManager.TakeDamage(_damage);
+
     }
 }

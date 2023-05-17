@@ -78,11 +78,8 @@ public class ShootController : MonoBehaviour
 
                     nextfire = Time.time + Firerate;
 
-
-                    Invoke("C", 0.2f);
-
-                    Instantiate(bullet, shootingPoint2.position, GetRotation());
-
+                    StartCoroutine(ShootBullet(shootingPoint2, 0f));
+                    StartCoroutine(ShootBullet(shootingPoint, 0.2f));
                 }
             }
 
@@ -90,7 +87,6 @@ public class ShootController : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             shootAnimator.SetBool("shoot", true);
-
         }
         else
         {
@@ -98,9 +94,11 @@ public class ShootController : MonoBehaviour
         }
     }
 
-    private void C()
+    IEnumerator ShootBullet(Transform pos, float time)
     {
-        Instantiate(bullet, shootingPoint.position, GetRotation());
+        yield return new WaitForSeconds(time);
+        GameObject _bullet = Instantiate(bullet, pos.position, GetRotation());
+        _bullet.transform.parent = this.gameObject.transform.parent;
     }
 
     private Quaternion GetRotation()

@@ -24,9 +24,10 @@ public class Bullet : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.name == _player.name)
+        Transform hit = other.gameObject.transform.parent;
+        if (hit.parent.name != this.gameObject.transform.parent.name && other.gameObject.name != this.gameObject.name)
         {
-            _damageController.MakeDamage(_damage);
+            _damageController.MakeDamage(_damage, hit.gameObject);
             Destroy(this.gameObject);
         }
     }
