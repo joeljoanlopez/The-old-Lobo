@@ -335,6 +335,174 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: LavaFrame_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 374
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39fc64b3be4b236458f27b9ea3d86950
+      internalID: 376903279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaFrame_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 374
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6c75dd59d13eb4428e86fb425b4ee7e
+      internalID: -68195701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaFrame_3
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 374
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dacd26457576fdc4fb5c40b0d5d953e9
+      internalID: -240758472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaFrame_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 374
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd714327c4d208546ad67aa53574682d
+      internalID: -1618393246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaFrame_5
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 374
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33fabbb0f3c3da74296ccf18eb5b7fa2
+      internalID: 495996268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaFrame_6
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 374
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd877f877a35c044eb6cdcf23d5b5246
+      internalID: -1688502482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaFrame_7
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 374
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee20cc7cad32e2e43b682287b626ddbb
+      internalID: -449728824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LavaFrame_8
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 374
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28925612dafb6304cbaa6150ead478aa
+      internalID: -853013851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -346,18 +514,26 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      LavaFrame_6: -1688502482
       Agua_Frame6: -1127777264
       Agua_Frame7: -1860932076
       Agua_Frame3: 1372849958
+      LavaFrame_1: 376903279
+      LavaFrame_4: -1618393246
       Agua_Frame8: -1577482594
       Agua_Frame11: -1056623308
       Agua_Frame10: 2073096693
+      LavaFrame_5: 495996268
+      LavaFrame_3: -240758472
       Agua_Frame12: -495468157
+      LavaFrame_2: -68195701
       Agua_Frame4: 144574434
       Agua_Frame5: 1667197706
       Agua_Frame2: -1997400634
+      LavaFrame_8: -853013851
       Agua_Frame1: -2130760797
       Agua_Frame9: -17002203
+      LavaFrame_7: -449728824
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
