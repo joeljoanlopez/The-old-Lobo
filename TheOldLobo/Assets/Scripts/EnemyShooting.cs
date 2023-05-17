@@ -29,7 +29,8 @@ public class EnemyShooting : MonoBehaviour
     {
         if (_canShoot)
         {
-            Instantiate(_bullet, _Gun.transform.position, GetRotation(_target, _Gun));
+            GameObject bullet =  Instantiate(_bullet, _Gun.transform.position, GetRotation(_target, _Gun)) as GameObject;
+            bullet.transform.parent = this.gameObject.transform.parent;
             _canShoot = false;
         }
     }

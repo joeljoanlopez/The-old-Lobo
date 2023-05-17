@@ -130,7 +130,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1120
-        y: 359
+        y: 358
         width: 96
         height: 48
       alignment: 0
@@ -172,7 +172,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1120
-        y: 293
+        y: 294
         width: 96
         height: 48
       alignment: 0
@@ -214,9 +214,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1120
-        y: 231
+        y: 230
         width: 96
-        height: 47
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -256,7 +256,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1120
-        y: 165
+        y: 166
         width: 96
         height: 48
       alignment: 0
@@ -298,9 +298,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1120
-        y: 103
+        y: 102
         width: 96
-        height: 47
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -331,27 +331,6 @@ TextureImporter:
       bones: []
       spriteID: e13372e6c09bdd145af2bc1dfce950da
       internalID: -1056623308
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Agua_Frame12
-      rect:
-        serializedVersion: 2
-        x: 1120
-        y: 37
-        width: 96
-        height: 48
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 808b4c0d1002ee249aa44e12fcda38da
-      internalID: -495468157
       vertices: []
       indices: 
       edges: []
