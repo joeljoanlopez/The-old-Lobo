@@ -127303,7 +127303,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: HealthBar
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 392718906031283481, guid: 9238a5c150264b04d9181c0d1e9eda51, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 9238a5c150264b04d9181c0d1e9eda51, type: 3}
 --- !u!1001 &2299289347165519180
 PrefabInstance:
@@ -127312,10 +127313,38 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 918345098}
     m_Modifications:
+    - target: {fileID: 514532133686427812, guid: efee8bf402c98f44db386eafe0c9d3ad, type: 3}
+      propertyPath: _Sprint
+      value: 
+      objectReference: {fileID: -3219431218492189237, guid: 833cbb0adc95462478f9404be35db1e3, type: 3}
+    - target: {fileID: 514532133686427812, guid: efee8bf402c98f44db386eafe0c9d3ad, type: 3}
+      propertyPath: sprintSpe
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 514532133686427812, guid: efee8bf402c98f44db386eafe0c9d3ad, type: 3}
+      propertyPath: _sprintSpe
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1404286813921207722, guid: efee8bf402c98f44db386eafe0c9d3ad, type: 3}
+      propertyPath: _shoot
+      value: 
+      objectReference: {fileID: -1401399713984221962, guid: 833cbb0adc95462478f9404be35db1e3, type: 3}
     - target: {fileID: 1404286813921207722, guid: efee8bf402c98f44db386eafe0c9d3ad, type: 3}
       propertyPath: bullet
       value: 
       objectReference: {fileID: 3565154025627714709, guid: 17b042091ceda584d86e6977928b7c6c, type: 3}
+    - target: {fileID: 1404286813921207722, guid: efee8bf402c98f44db386eafe0c9d3ad, type: 3}
+      propertyPath: Firerate
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1404286813921207722, guid: efee8bf402c98f44db386eafe0c9d3ad, type: 3}
+      propertyPath: _coolDown
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1404286813921207722, guid: efee8bf402c98f44db386eafe0c9d3ad, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1404286813921207722, guid: efee8bf402c98f44db386eafe0c9d3ad, type: 3}
       propertyPath: bulletSpeed
       value: 10
