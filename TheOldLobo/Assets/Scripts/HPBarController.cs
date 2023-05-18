@@ -11,11 +11,6 @@ public class HPBarController : MonoBehaviour
         _HPBar = GetComponent<Image>();
     }
 
-    // Update is called once per frame
-    private void Update()
-    {
-    }
-
     public void UpdateBar(float _newAmount)
     {
         _HPBar.fillAmount = _newAmount / 100f;

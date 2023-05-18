@@ -55,7 +55,6 @@ public class DashController : MonoBehaviour
     public float DashPower()
     {
         return dashPower;
-
     }
 
     public void CantDash()

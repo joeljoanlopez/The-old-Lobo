@@ -9,37 +9,31 @@ public class HealthManager : MonoBehaviour
 
     private GameOverScreen _GameOverScreen;
     private HPBarController _HPBarController;
-    private bool isGameOver;
     private MoveController moveController;
+
+    private bool isGameOver;
 
     private void Start()
     {
-        isGameOver = false;
         moveController = GetComponent<MoveController>();
         _HPBarController = healthBar.GetComponent<HPBarController>();
         _GameOverScreen = gameOver.GetComponent<GameOverScreen>();
+
+        isGameOver = false;
     }
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Return))
+        if(!isGameOver)
         {
-            TakeDamage(20);
-        }
-        else if (Input.GetKeyDown(KeyCode.LeftAlt))
-        {
-            Heal(20);
-        }
-
-        if (healthAmount <= 0 && !isGameOver)
-        {
-            isGameOver = true;
-            _GameOverScreen.Setup();
-            moveController.StopMovement();
-        }
-        if (Input.GetKey(KeyCode.Escape) && !isGameOver)
-        {
-            pauseMenu.Setup();
+            if (healthAmount <= 0)
+            {
+                isGameOver = true;
+                _GameOverScreen.Setup();
+                moveController.StopMovement();
+            }
+            if (Input.GetKey(KeyCode.Escape))            
+                pauseMenu.Setup();            
         }
     }
 

@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2299289348617453110}
   - component: {fileID: 2299289348617453115}
   - component: {fileID: 4565875899889395656}
+  - component: {fileID: 514532133686427812}
   - component: {fileID: 1404286813921207722}
   - component: {fileID: 3927888924724464146}
   - component: {fileID: 2299289348617453111}
@@ -143,6 +144,19 @@ MonoBehaviour:
   dashPower: 30
   dashTime: 0.25
   dashingCooldown: 1
+--- !u!114 &514532133686427812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2299289348617453114}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3939b87b2599c52468137bcef8540808, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sprintSpe: 0
 --- !u!114 &1404286813921207722
 MonoBehaviour:
   m_ObjectHideFlags: 0

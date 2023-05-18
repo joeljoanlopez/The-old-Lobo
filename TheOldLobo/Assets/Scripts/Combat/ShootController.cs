@@ -8,90 +8,57 @@ using UnityEngine.UIElements.Experimental;
 
 public class ShootController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    //inputs
-    private Vector2 _input;
-
     // bullet traits
-    [SerializeField] private float bulletSpeed;
-    [SerializeField] private float bulletDamage;
+    [SerializeField] float bulletSpeed;
+    [SerializeField] float bulletDamage;
     [SerializeField] GameObject bullet;
+    [SerializeField] float _coolDown;
+    [SerializeField] InputActionReference _shoot;
 
+    private SprintController _sprintController;
     private Vector2 bulletFw;
-    private bool shooting;
+    private bool _shooting;
     private Rigidbody2D rb;
-    public float Firerate;
-    float nextfire;
+    float _shootTimer;
 
 
     //if, where and when the bullet is shot
     public Transform shootingPoint;
     public Transform shootingPoint2;
-
-    private bool sprinting;
-    private bool canShoot;
-
-
+    private bool _canShoot;
     Animator shootAnimator;
 
     void Start()
     {
-        sprinting = false;
-        canShoot = true;
+        _shootTimer = _coolDown;
         shootAnimator = GetComponent<Animator>();
+        _sprintController = GetComponent<SprintController>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (canShoot)
+        _shootTimer += Time.deltaTime;
+        _canShoot = _shootTimer >= _coolDown;
+
+        _shooting = _shoot.action.IsPressed();
+        
+        if (_canShoot && _shooting && !_sprintController.IsSprinting())
         {
-            shoot();
-        }
-        if (Input.GetKeyUp(KeyCode.LeftShift))
-        {
-            ResumeShoot();
-        }
-    }
-
-    private void shoot()
-    {
-        if (Input.GetKey(KeyCode.LeftShift)) 
-        { 
-            sprinting = true;
-            shootAnimator.SetBool("shoot", false);
-            StopShoot();
-
-        }
-       
-
-        else if (Input.GetMouseButtonDown(0))
-        {
-            sprinting = false;
-
-            if (Input.GetMouseButtonDown(0))
-            {
-                if (Time.time > nextfire)
-                {
-
-                    sprinting = false;
-
-                    nextfire = Time.time + Firerate;
-
-                    StartCoroutine(ShootBullet(shootingPoint2, 0f));
-                    StartCoroutine(ShootBullet(shootingPoint, 0.2f));
-                }
-            }
-
-        }
-        if (Input.GetMouseButtonDown(0))
-        {
+            _shootTimer = 0;
             shootAnimator.SetBool("shoot", true);
+            shoot();
         }
         else
         {
             shootAnimator.SetBool("shoot", false);
         }
+    }
+
+    private void shoot()
+    {
+        StartCoroutine(ShootBullet(shootingPoint2, 0f));
+        StartCoroutine(ShootBullet(shootingPoint, 0.2f));
     }
 
     IEnumerator ShootBullet(Transform pos, float time)
@@ -110,10 +77,6 @@ public class ShootController : MonoBehaviour
 
         //return the rotation
         return Quaternion.Euler(new Vector3(0f, 0f, angle));
-
-        //var fromVec = ;
-        //var toVec = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        //return Quaternion.FromToRotation(fromVec, toVec);
     }
 
     float GetAngleFromPoints(Vector3 a, Vector3 b)
@@ -123,13 +86,9 @@ public class ShootController : MonoBehaviour
 
     public void StopShoot()
     {
-        if (!shooting)
+        if (!_shooting)
         {
-            canShoot = false;
+            _canShoot = false;
         }
-    }
-    public void ResumeShoot()
-    {
-        canShoot = true;
     }
 }

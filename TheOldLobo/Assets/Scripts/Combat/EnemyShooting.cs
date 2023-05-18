@@ -44,10 +44,6 @@ public class EnemyShooting : MonoBehaviour
 
         //return the rotation
         return Quaternion.Euler(new Vector3(0f, 0f, angle));
-
-        //var fromVec = ;
-        //var toVec = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        //return Quaternion.FromToRotation(fromVec, toVec);
     }
 
     float GetAngleFromPoints(Vector3 a, Vector3 b)
