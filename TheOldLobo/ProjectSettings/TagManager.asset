@@ -39,6 +39,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: BacgroundLava
+    uniqueID: 1450955375
+    locked: 0
   - name: Super BackGround
     uniqueID: 2002256683
     locked: 0
