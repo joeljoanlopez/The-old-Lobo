@@ -42,6 +42,9 @@ TagManager:
   - name: BacgroundLava
     uniqueID: 1450955375
     locked: 0
+  - name: Fondo background
+    uniqueID: 3597250345
+    locked: 0
   - name: Super BackGround
     uniqueID: 2002256683
     locked: 0
