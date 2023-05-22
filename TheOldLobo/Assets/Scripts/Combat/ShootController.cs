@@ -26,7 +26,7 @@ public class ShootController : MonoBehaviour
     public Transform shootingPoint;
     public Transform shootingPoint2;
     private bool _canShoot = true;
-    private bool _gameOver = false;
+    private bool _isGameOver = false;
     Animator shootAnimator;
 
     void Start()
@@ -39,10 +39,8 @@ public class ShootController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (_gameOver = true)
-        {
+        if (_isGameOver)
             return;
-        }
         _shootTimer += Time.deltaTime;
         _canShoot = _shootTimer >= _coolDown;
 
@@ -62,15 +60,21 @@ public class ShootController : MonoBehaviour
 
     private void shoot()
     {
-        StartCoroutine(ShootBullet(shootingPoint2, 0f));
-        StartCoroutine(ShootBullet(shootingPoint, 0.2f));
+        if (!_isGameOver)
+        {
+            StartCoroutine(ShootBullet(shootingPoint2, 0f));
+            StartCoroutine(ShootBullet(shootingPoint, 0.2f));
+        }
     }
 
     IEnumerator ShootBullet(Transform pos, float time)
     {
         yield return new WaitForSeconds(time);
-        GameObject _bullet = Instantiate(bullet, pos.position, GetRotation());
-        _bullet.transform.parent = this.gameObject.transform.parent;
+        if (!_isGameOver)
+        {
+            GameObject _bullet = Instantiate(bullet, pos.position, GetRotation());
+            _bullet.transform.parent = this.gameObject.transform.parent;
+        }
     }
 
     private Quaternion GetRotation()
@@ -96,8 +100,12 @@ public class ShootController : MonoBehaviour
             _canShoot = false;
         }
     }
-    public void SetGameOver(bool gameOver)
+    public void SetGameOver(bool isGameOver)
     {
-        _gameOver = gameOver;
+        _isGameOver = isGameOver;
+        if (_isGameOver)
+        {
+            StopShoot();
+        }
     }
 }
