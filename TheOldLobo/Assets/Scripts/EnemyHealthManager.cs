@@ -17,7 +17,7 @@ public class EnemyHealthManager : MonoBehaviour
     {
         if (healthAmount <= 0)
         {
-            Destroy(this);
+            Destroy(GetComponent<Rigidbody>());
         }
     }
     public void EnemyTakeDamage(float damage)
