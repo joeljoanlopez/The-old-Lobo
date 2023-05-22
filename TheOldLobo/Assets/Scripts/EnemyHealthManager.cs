@@ -20,7 +20,7 @@ public class EnemyHealthManager : MonoBehaviour
             Destroy(this);
         }
     }
-    public void TakeDamage(float damage)
+    public void EnemyTakeDamage(float damage)
     {
         healthAmount -= damage;
         healthAmount = Mathf.Clamp(healthAmount, 0, 100);

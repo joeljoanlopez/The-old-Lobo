@@ -25,10 +25,10 @@ public class DamageController : MonoBehaviour
 
     public void MakeDamage(float _damage, GameObject _target)
     {
-        if (_target.name != _player.name)
-            _enemyHealthManager.TakeDamage(_damage);
+        if (_target.name == _enemy.name)
+            _enemyHealthManager.EnemyTakeDamage(_damage);
 
-        if ( _target.name == _player.name)
+        if(_target.name == _player.name)
             _healthManager.TakeDamage(_damage);
 
 
