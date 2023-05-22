@@ -3,12 +3,16 @@ using UnityEngine;
 public class DamageController : MonoBehaviour
 {
     private GameObject _player;
+    private GameObject _enemy;
     private HealthManager _healthManager;
+    private EnemyHealthManager _enemyHealthManager;
 
     public void Start()
     {
         _player = GameObject.Find("Player");
+        _enemy = GameObject.Find("Enemy");
         _healthManager = _player.GetComponent<HealthManager>();
+        _enemyHealthManager = _enemy.GetComponent<EnemyHealthManager>();
     }
 
     public void OnTriggerStay2D(Collider2D collision)
@@ -22,9 +26,11 @@ public class DamageController : MonoBehaviour
     public void MakeDamage(float _damage, GameObject _target)
     {
         if (_target.name != _player.name)
-            Destroy(_target);
-        else
+            _enemyHealthManager.TakeDamage(_damage);
+
+        if ( _target.name == _player.name)
             _healthManager.TakeDamage(_damage);
+
 
     }
 }
