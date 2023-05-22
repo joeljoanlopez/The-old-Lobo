@@ -25,7 +25,8 @@ public class ShootController : MonoBehaviour
     //if, where and when the bullet is shot
     public Transform shootingPoint;
     public Transform shootingPoint2;
-    private bool _canShoot;
+    private bool _canShoot = true;
+    private bool _gameOver = false;
     Animator shootAnimator;
 
     void Start()
@@ -38,6 +39,10 @@ public class ShootController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (_gameOver = true)
+        {
+            return;
+        }
         _shootTimer += Time.deltaTime;
         _canShoot = _shootTimer >= _coolDown;
 
@@ -90,5 +95,9 @@ public class ShootController : MonoBehaviour
         {
             _canShoot = false;
         }
+    }
+    public void SetGameOver(bool gameOver)
+    {
+        _gameOver = gameOver;
     }
 }
