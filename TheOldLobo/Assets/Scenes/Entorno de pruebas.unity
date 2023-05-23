@@ -58591,8 +58591,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c65eeb8979a70b04b965c368f8ca70d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
-  rb: {fileID: 0}
 --- !u!1 &1593955636
 GameObject:
   m_ObjectHideFlags: 0
@@ -132039,6 +132037,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 2299289348617453115, guid: efee8bf402c98f44db386eafe0c9d3ad, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 1579991354}
     - target: {fileID: 3285321281015361006, guid: efee8bf402c98f44db386eafe0c9d3ad, type: 3}
       propertyPath: m_Size.y
       value: 0.4275847

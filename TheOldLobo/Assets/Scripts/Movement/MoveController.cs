@@ -10,6 +10,7 @@ public class MoveController : MonoBehaviour
     private DashController _dashController;
     private SprintController _SprintController;
     private Animator idle;
+    public Animator animator;
 
     private Vector2 _input;
     private float varSpeed;
@@ -55,6 +56,8 @@ public class MoveController : MonoBehaviour
     private void move()
     {
         var velocity = _input * varSpeed * Time.deltaTime;
+        animator.SetFloat("horizontal", _input.x);
+        animator.SetFloat("vertical", _input.y);
         transform.Translate(velocity);
     }
 
