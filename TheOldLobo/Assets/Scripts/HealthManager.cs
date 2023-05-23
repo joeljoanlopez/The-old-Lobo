@@ -1,17 +1,19 @@
+using System;
 using UnityEngine;
 
 public class HealthManager : MonoBehaviour
 {
-    [SerializeField] private GameObject healthBar;
-    [SerializeField] private GameObject gameOver;
+    [SerializeField] private GameObject healthBar = null;
+    [SerializeField] private GameObject gameOver = null;
     [SerializeField] private float healthAmount = 100f;
-    [SerializeField] private PauseMenu pauseMenu;
+    [SerializeField] private PauseMenu pauseMenu = null;
 
     private GameOverScreen _GameOverScreen;
     private HPBarController _HPBarController;
     private MoveController moveController;
 
     private bool isGameOver;
+    private bool _isPlayer;
 
     private void Start()
     {
@@ -20,6 +22,7 @@ public class HealthManager : MonoBehaviour
         _GameOverScreen = gameOver.GetComponent<GameOverScreen>();
 
         isGameOver = false;
+        _isPlayer = moveController != null; 
     }
 
     private void Update()
@@ -28,12 +31,13 @@ public class HealthManager : MonoBehaviour
         {
             if (healthAmount <= 0)
             {
-                isGameOver = true;
-                _GameOverScreen.Setup();
-                moveController.StopMovement();
+                if (_isPlayer)
+                    GameOver();
+                else
+                    Destroy(this.gameObject);
             }
             if (Input.GetKey(KeyCode.Escape))            
-                pauseMenu.Setup();            
+                pauseMenu.Setup();
         }
     }
 
@@ -44,7 +48,8 @@ public class HealthManager : MonoBehaviour
         healthAmount = Mathf.Clamp(healthAmount, 0, 100);
         print(healthAmount);
         print(damage);
-        _HPBarController.UpdateBar(healthAmount);
+        if (_isPlayer) 
+            _HPBarController.UpdateBar(healthAmount);
         if (healthAmount <= 0)
             Kill();
     }
@@ -60,4 +65,12 @@ public class HealthManager : MonoBehaviour
     {
         healthAmount = 0;
     }
+
+    public void GameOver()
+    {
+        isGameOver = true;
+        _GameOverScreen.Setup();
+        moveController.StopMovement();
+    }
+
 }
