@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class Bullet : MonoBehaviour
@@ -25,7 +26,8 @@ public class Bullet : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         Transform hit = other.gameObject.transform.parent;
-        if (hit.parent.name != this.gameObject.transform.parent.name && other.gameObject.name != this.gameObject.name)
+        Transform my = this.gameObject.transform;
+        if (hit.parent.name != my.parent.name && other.gameObject.name != this.gameObject.name)
         {
             _damageController.MakeDamage(_damage, hit.gameObject);
             Destroy(this.gameObject);
