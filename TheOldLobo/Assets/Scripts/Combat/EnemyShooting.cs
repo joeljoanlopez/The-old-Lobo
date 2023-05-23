@@ -7,9 +7,12 @@ public class EnemyShooting : MonoBehaviour
     private float timer;
     private bool _canShoot;
 
+    Animator shooting;
+
     private void Start()
     {
         _canShoot = true;
+        shooting = GetComponent<Animator>();
     }
 
     private void Update()
@@ -32,6 +35,7 @@ public class EnemyShooting : MonoBehaviour
             GameObject bullet =  Instantiate(_bullet, _Gun.transform.position, GetRotation(_target, _Gun)) as GameObject;
             bullet.transform.parent = this.gameObject.transform.parent;
             _canShoot = false;
+            shooting.SetBool("shoot", true);
         }
     }
 
