@@ -25,7 +25,8 @@ public class ShootController : MonoBehaviour
     //if, where and when the bullet is shot
     public Transform shootingPoint;
     public Transform shootingPoint2;
-    private bool _canShoot = true;
+    public bool _canShoot;
+
     Animator shootAnimator;
 
     void Start()
@@ -57,18 +58,17 @@ public class ShootController : MonoBehaviour
 
     private void shoot()
     {
- 
-            StartCoroutine(ShootBullet(shootingPoint2, 0f));
-            StartCoroutine(ShootBullet(shootingPoint, 0.2f));
+        StartCoroutine(ShootBullet(shootingPoint2, 0f));
+        StartCoroutine(ShootBullet(shootingPoint, 0.2f));
         
     }
 
     IEnumerator ShootBullet(Transform pos, float time)
     {
         yield return new WaitForSeconds(time);
-            GameObject _bullet = Instantiate(bullet, pos.position, GetRotation());
-            _bullet.transform.parent = this.gameObject.transform.parent;
-        
+        GameObject _bullet = Instantiate(bullet, pos.position, GetRotation());
+        _bullet.transform.parent = this.gameObject.transform.parent;
+            
     }
 
     private Quaternion GetRotation()
@@ -94,4 +94,5 @@ public class ShootController : MonoBehaviour
             _canShoot = false;
         }
     }
+
 }
