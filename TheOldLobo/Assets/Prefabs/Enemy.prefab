@@ -237,7 +237,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _Target: {fileID: 0}
   _Bullet: {fileID: 0}
-  _Gun: {fileID: 0}
+  _Gun: {fileID: 4916882068770319991}
   _AggroDist: 5
 --- !u!114 &8094987129070622445
 MonoBehaviour:
@@ -299,10 +299,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21469fa01baa5534a849c4209042d5f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthBar: {fileID: 0}
-  gameOver: {fileID: 0}
   healthAmount: 40
-  pauseMenu: {fileID: 0}
 --- !u!1 &8270051264357707077
 GameObject:
   m_ObjectHideFlags: 0

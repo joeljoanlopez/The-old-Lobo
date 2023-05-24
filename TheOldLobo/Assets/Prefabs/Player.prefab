@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 514532133686427812}
   - component: {fileID: 1404286813921207722}
   - component: {fileID: 3927888924724464146}
+  - component: {fileID: 4227194519315060492}
   - component: {fileID: 2299289348617453111}
   - component: {fileID: 5506306887783544537}
   - component: {fileID: 3285321281015361006}
@@ -128,7 +129,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   baseSpeed: 5
-  sprintSpe: 10
+  animator: {fileID: 0}
 --- !u!114 &4565875899889395656
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -156,7 +157,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3939b87b2599c52468137bcef8540808, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sprintSpe: 0
+  _sprintSpe: 20
+  _Sprint: {fileID: 0}
 --- !u!114 &1404286813921207722
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -172,9 +174,11 @@ MonoBehaviour:
   bulletSpeed: 0
   bulletDamage: 0
   bullet: {fileID: 0}
-  Firerate: 0
+  _coolDown: 0
+  _shoot: {fileID: 0}
   shootingPoint: {fileID: 0}
   shootingPoint2: {fileID: 0}
+  _canShoot: 0
 --- !u!114 &3927888924724464146
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -187,9 +191,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21469fa01baa5534a849c4209042d5f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthBar: {fileID: 0}
-  gameOver: {fileID: 0}
   healthAmount: 100
+--- !u!114 &4227194519315060492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2299289348617453114}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e183cc1a3ff06d42bdc890f8bd3f99f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameOver: {fileID: 0}
   pauseMenu: {fileID: 0}
 --- !u!114 &2299289348617453111
 MonoBehaviour:
