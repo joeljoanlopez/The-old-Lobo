@@ -1,43 +1,31 @@
 using System;
 using UnityEngine;
+using UnityEngine.InputSystem.Processors;
 
 public class HealthManager : MonoBehaviour
 {
-    [SerializeField] private GameObject healthBar = null;
-    [SerializeField] private GameObject gameOver = null;
+    
     [SerializeField] private float healthAmount = 100f;
-    [SerializeField] private PauseMenu pauseMenu = null;
 
-    private GameOverScreen _GameOverScreen;
-    private HPBarController _HPBarController;
+    
     private MoveController moveController;
 
-    private bool isGameOver;
     private bool _isPlayer;
 
     private void Start()
     {
         moveController = GetComponent<MoveController>();
-        _HPBarController = healthBar.GetComponent<HPBarController>();
-        _GameOverScreen = gameOver.GetComponent<GameOverScreen>();
-
-        isGameOver = false;
         _isPlayer = moveController != null; 
     }
 
     private void Update()
     {
-        if(!isGameOver)
+        if (isDead())
         {
-            if (healthAmount <= 0)
-            {
-                if (_isPlayer)
-                    GameOver();
-                else
-                    Destroy(this.gameObject);
-            }
-            if (Input.GetKey(KeyCode.Escape))            
-                pauseMenu.Setup();
+            if (_isPlayer)
+                moveController.StopMovement();
+            else
+                Destroy(this.gameObject);
         }
     }
 
@@ -48,17 +36,15 @@ public class HealthManager : MonoBehaviour
         healthAmount = Mathf.Clamp(healthAmount, 0, 100);
         print(healthAmount);
         print(damage);
-        if (_isPlayer) 
-            _HPBarController.UpdateBar(healthAmount);
         if (healthAmount <= 0)
             Kill();
+        
     }
 
     public void Heal(float healthGained)
     {
         healthAmount += healthGained;
         healthAmount = Mathf.Clamp(healthAmount, 0, 100);
-        _HPBarController.UpdateBar(healthAmount);
     }
 
     public void Kill()
@@ -66,11 +52,13 @@ public class HealthManager : MonoBehaviour
         healthAmount = 0;
     }
 
-    public void GameOver()
+    public bool isDead()
     {
-        isGameOver = true;
-        _GameOverScreen.Setup();
-        moveController.StopMovement();
+        return healthAmount <= 0;
     }
 
+    public float GetHP()
+    {
+        return healthAmount;
+    }
 }
