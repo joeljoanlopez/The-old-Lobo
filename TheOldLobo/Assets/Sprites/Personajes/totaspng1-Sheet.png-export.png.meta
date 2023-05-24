@@ -1,0 +1,2653 @@
+fileFormatVersion: 2
+guid: f06b616841b02b74397d2d0852734cbc
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 291
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d2bdb242c6b92e40a0037b4394f4ff7
+      internalID: -2136106044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_1
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 291
+        width: 27
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f7fb2b52309d4841a7639fa7388a455
+      internalID: -1968683339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_2
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 291
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fc72679ceddfe743a2fb5b52b42a447
+      internalID: 871664219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_3
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 291
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0569d8091e31464a9fdccaf016133fd
+      internalID: -671437070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_4
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 291
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27b81e0327c708c4994df4fa19e4164b
+      internalID: 298186204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_5
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 291
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43d48f195c9e85948893f52dcc7d1fbe
+      internalID: 1547575789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_6
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 291
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f96437272e2f0534a955c2765d031337
+      internalID: 2015210030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_7
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 291
+        width: 27
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1719d745545ac014cb462da05f9c78cc
+      internalID: 1903715489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_8
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 302
+        width: 24
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4732c942abc85fe40a19a9515ae13a9d
+      internalID: -1121699189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_9
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 296
+        width: 24
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77ef0220b7f6dfa4993bafa6d42c6ccd
+      internalID: -775658920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_10
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 291
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 828e293216c6fa4408f443268a2e0dc5
+      internalID: 971387001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_11
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 312
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5281bbb7ae3da540be667369fdae36f
+      internalID: 282928704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_12
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 313
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 296b1a1e221a2c740b8d932ee79b1832
+      internalID: 2127872070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_13
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 309
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abc03e7c146925741a5d566b231f2748
+      internalID: -949379316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_14
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 300
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e49c9d336f598fe4095d2954e36df638
+      internalID: 1872256622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_15
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 297
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 728d4f6ff5c2aef42bee079ee17ae10e
+      internalID: 1497631792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_16
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 298
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 356c8a40790e19e42b8807f92fe5b8bd
+      internalID: 9289752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_17
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 298
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa96a077bc967f64fa296daeaa456267
+      internalID: -996450664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_18
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 227
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbb01faa26cafc64daeb6b5d0ec10ba0
+      internalID: 529946768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_19
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 227
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 089d1b5862cb0ac41b87dae5d6135060
+      internalID: -1833890626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_20
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 227
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fef552ee4dbde4842ac8e0e1f0295393
+      internalID: 8510362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_21
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 227
+        width: 27
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20fe5e4eaa27d834ab932fbe08b3e7fb
+      internalID: 1584840770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_22
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 227
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b921fd59f2389147ad77fd0c5a9070d
+      internalID: -166542175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_23
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 227
+        width: 26
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50513ca456f52b44eb9ceb4f0169debc
+      internalID: -1114051342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_24
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 227
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3cc1a0e3e94c354ea06499d7ffe0370
+      internalID: -997676768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_25
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 227
+        width: 27
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ffdf0a3ea236b845b339d2bd6985db9
+      internalID: -1508251197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_26
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 238
+        width: 24
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23f882e8dc866094d91b7b55b1111560
+      internalID: 718146517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_27
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 232
+        width: 24
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 883121fc6be69a44e9d64eb882b0a524
+      internalID: 1326906960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_28
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 275
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1569d821c83f6e4d9a7f09fd64fb4f2
+      internalID: -323569742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_29
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 253
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2070d8c3cb66b14097ddb45be85291a
+      internalID: -1513177550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_30
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 255
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6d9da9964a49c24c85757f135a1dedb
+      internalID: 1547148698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_31
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 255
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fee91d50c59cd545a62a9347073d026
+      internalID: -809100725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_32
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 254
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3817cf4502643f408be04c339e090b0
+      internalID: -318122744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_33
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 254
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b01c93ac22ae1b049bf040dec84f91dd
+      internalID: 1422339900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_34
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 227
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f1e00856645e1b4e8b9caa00c6b3ab5
+      internalID: -812078435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_35
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 253
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca3f275ba020e8f468dc0c821fee2e49
+      internalID: 445904809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_36
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 252
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7e9e1b8b3febe14da33c2c0606e1e8a
+      internalID: 1291082878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_37
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 251
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe8727e9117e6944aba3ad027257a998
+      internalID: 1608974039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_38
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 240
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd6a27584d8ad9043b755a4100a49d46
+      internalID: 730351308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_39
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 238
+        width: 19
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab24fd7f090a6b049b0704aad51ad243
+      internalID: 298422074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_40
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 230
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5adbc07fd5e9a2d4f8a5d8237fd701b9
+      internalID: 1904889424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_41
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 230
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9700bcac5adddfc4ca1a80ca071657aa
+      internalID: -1240748852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_42
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 229
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e86e9e84bb5f52c48bcc707fec955ecc
+      internalID: -1716388205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_43
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 229
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e425f221129529847b6b8cc11dd738bc
+      internalID: 4340477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_44
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 233
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74976355fc4eed34e96ad104d882e601
+      internalID: 1381979167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_45
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 163
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d5b8cf176de7824188fa0703dafae2b
+      internalID: 1329874412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_46
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 163
+        width: 27
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfeca5cf7a8e5a747b1f0c47732ea5a5
+      internalID: -1917722033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_47
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 163
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2ecce23bb9cbd6488c0e45126dbe681
+      internalID: 1855466891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_48
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 163
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f149a40f2d6b6c4488114c4fd526490b
+      internalID: -895477796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_49
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 190
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8f5c2cf5dc42914899f6a1db81a33d0
+      internalID: 720470620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_50
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 191
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e8d7e49a6a1395478d1576cc0e12cd2
+      internalID: 748026916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_51
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 191
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c16b3b6612376d3489a8387a3be1aba9
+      internalID: -722255346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_52
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 190
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbe0e6decb6a8c2408e81649e0d748d3
+      internalID: -777626647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_53
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 190
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36330b73c60ba68448a4cf5364ae3c1e
+      internalID: -1336823767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_54
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 163
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4233eea02e754c647848055f81c04b38
+      internalID: -1559082883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_55
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 163
+        width: 27
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07af4b7dcad258b418b2626d0d9df2f4
+      internalID: -1551668135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_56
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 163
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 461bad3d9d581304bab0ab242acce57c
+      internalID: 1763816440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_57
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 163
+        width: 26
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 777d2dac80865664ca562e9f05f42124
+      internalID: 561219039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_58
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 163
+        width: 20
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ead81f36c02a3e9438aa6abe536c489c
+      internalID: 2074634984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_59
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 163
+        width: 24
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baae795c852146a4aabb961144af9af2
+      internalID: -1529439383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_60
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 163
+        width: 20
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a262ce5ccf33afc43a51dd68d6fb0b37
+      internalID: 769474380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_61
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 163
+        width: 24
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1be9a1a71631e6b4da6f3bb448a7c6f3
+      internalID: 2071330249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_62
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 176
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26148800d189d814c8b4fb56c64da2b1
+      internalID: -1259531097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_63
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 174
+        width: 19
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97bdcc0874ab79c4a844275044d6b93d
+      internalID: -1476572300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_64
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 180
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15af4387a0489084c8eb1405ad905c54
+      internalID: 465892385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_65
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 180
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1c6a9b39ab318248b3cf201cf045ee9
+      internalID: -635822222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_66
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 178
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f617882d73bcbdf4c8d3ca7fa73e854d
+      internalID: -71924334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_67
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 173
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f96470dda7b4f5a45a552a232299a2b6
+      internalID: -1443479534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_68
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 166
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b5eddfcb3466ed4e9978e9dff8719b3
+      internalID: -1212570964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_69
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 166
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37a5b917857a92041848d029b515ffbe
+      internalID: -591024255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_70
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 165
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1767fa1ea2ae24c4199e62fc36623ea6
+      internalID: 133096081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_71
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 165
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87657fd3db25aa24bb53e9c57de82f2f
+      internalID: -687578811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_72
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 99
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3df26a62dddeb164ea7547dcc3cc50a7
+      internalID: -571386912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_73
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 99
+        width: 28
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10e805d711165894d81e2fbbd279f944
+      internalID: 1874656064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_74
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 99
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c818e7f0aef75c4eb2180f9dc6bad2c
+      internalID: -1787055738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_75
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 99
+        width: 28
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5150b4c71d8916e4797c6bfa7d646bc1
+      internalID: 1175000764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_76
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 126
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a202550db760854fa7f386469c67563
+      internalID: -1425946831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_77
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 124
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd02a7c2b60f31f46b7950d318023f06
+      internalID: -828014611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_78
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 124
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13725ea8af8ffd849bfe941ef29ddadf
+      internalID: -1872972843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_79
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 123
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b1a682508466dc41be98878d13386df
+      internalID: 70408271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_80
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 123
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d684a81ac4047a54299fcc664100760b
+      internalID: -1725898525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_81
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 99
+        width: 20
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dcb1655d564a864ca31faf8a5357de8
+      internalID: 1847047329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_82
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 99
+        width: 20
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2425e45b873ddbb488696f7fb165de38
+      internalID: 1625661585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_83
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 99
+        width: 20
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f3463837574e284a8bbfa2f9d7e365b
+      internalID: 838870688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_84
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 99
+        width: 20
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96ac11e5c2613a442a06d4b37639ed81
+      internalID: -1119805892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_85
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 99
+        width: 20
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f5a6e63ffbe4e4418d426907a32b759
+      internalID: 303562296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_86
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 99
+        width: 24
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d02200ce9a58bb7459237b603c0bc125
+      internalID: 786639698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_87
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 99
+        width: 20
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8457567a592de94286d50c647266929
+      internalID: -1822434618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_88
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 99
+        width: 24
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb4da7ddaa2732543b639f1a407b3e44
+      internalID: -1095064601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_89
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 123
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cb21ee06f5965845a623ec397245723
+      internalID: 1154816828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_90
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 123
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 909b1b04e38ccfb43afd613ed6add3c4
+      internalID: -867916783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_91
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 122
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10be02289ebd4ec42892369d44466206
+      internalID: -1320383526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_92
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 122
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9206cb6c759b2984fba2847dea2cd5fd
+      internalID: 124997135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_93
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 35
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e780ec3b8cb1c154a9bc30ce47ee7ff8
+      internalID: 1797545384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_94
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 35
+        width: 28
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e2d0b6347e65804a9dfd666ab6af0c5
+      internalID: 256554504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_95
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 35
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 161a82396732c254e99b023a4851bdfc
+      internalID: 456868169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_96
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 35
+        width: 28
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2d2e5a522a0afe409a6af93f804d66a
+      internalID: -1735879061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_97
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 45
+        width: 24
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c49a9063a00e234189c1ee38afbdab2
+      internalID: -752644484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_98
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 40
+        width: 24
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68b1f8dc8d705294abe5ece1f15a20ed
+      internalID: 771847755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_99
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 34
+        width: 24
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ec6acca16810f040a78e558114a6976
+      internalID: 1084103579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_100
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 35
+        width: 20
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e86ce9bab8b1745428c4e586f85de917
+      internalID: 1463161808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_101
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 35
+        width: 24
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e5c53cf52f6276428adc6ea01eb98ab
+      internalID: 662069023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_102
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 35
+        width: 20
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 250e4f239eed9ef4889d0464e2475281
+      internalID: -1491330931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_103
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 35
+        width: 24
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12a06654d85639a43950db846a5370a6
+      internalID: 1831373617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_104
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 77
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a5c9f24d5003754d82e4293757d820c
+      internalID: 1120302416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_105
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 75
+        width: 19
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba4bdaade64563d41a01240b55ceb5c2
+      internalID: -602701783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_106
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 60
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 680ad03ad4855b04bb5b0509c09389ed
+      internalID: 285147616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_107
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 60
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77e44a1f6ef5ce146acdaa04ed8d5e8f
+      internalID: -2047649347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_108
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 67
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53e9addedc8a9fb488bd58ff9817eed7
+      internalID: -268368899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_109
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 67
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42103654662cdc84d82acf4e5d42f99b
+      internalID: -2069187186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_110
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 66
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9ce0285e030b454fa1b04952de77424
+      internalID: -1515354618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_111
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 66
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b83616bac749fd47a894ca2fd21c42d
+      internalID: 1059903416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_112
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 59
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d2f4762d49313d498d51526133deab3
+      internalID: -1666655350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_113
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 48
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a87eb8f8a9dc8ef4e9bcf9d3f9f9b5ad
+      internalID: 90700145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: totaspng1-Sheet.png-export_114
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 48
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6393789c7d7e5e4459ee303d805df370
+      internalID: -1806985400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      totaspng1-Sheet.png-export_87: -1822434618
+      totaspng1-Sheet.png-export_44: 1381979167
+      totaspng1-Sheet.png-export_64: 465892385
+      totaspng1-Sheet.png-export_25: -1508251197
+      totaspng1-Sheet.png-export_31: -809100725
+      totaspng1-Sheet.png-export_100: 1463161808
+      totaspng1-Sheet.png-export_55: -1551668135
+      totaspng1-Sheet.png-export_77: -828014611
+      totaspng1-Sheet.png-export_104: 1120302416
+      totaspng1-Sheet.png-export_39: 298422074
+      totaspng1-Sheet.png-export_66: -71924334
+      totaspng1-Sheet.png-export_51: -722255346
+      totaspng1-Sheet.png-export_111: 1059903416
+      totaspng1-Sheet.png-export_99: 1084103579
+      totaspng1-Sheet.png-export_4: 298186204
+      totaspng1-Sheet.png-export_58: 2074634984
+      totaspng1-Sheet.png-export_33: 1422339900
+      totaspng1-Sheet.png-export_71: -687578811
+      totaspng1-Sheet.png-export_108: -268368899
+      totaspng1-Sheet.png-export_112: -1666655350
+      totaspng1-Sheet.png-export_95: 456868169
+      totaspng1-Sheet.png-export_14: 1872256622
+      totaspng1-Sheet.png-export_27: 1326906960
+      totaspng1-Sheet.png-export_105: -602701783
+      totaspng1-Sheet.png-export_49: 720470620
+      totaspng1-Sheet.png-export_60: 769474380
+      totaspng1-Sheet.png-export_37: 1608974039
+      totaspng1-Sheet.png-export_36: 1291082878
+      totaspng1-Sheet.png-export_62: -1259531097
+      totaspng1-Sheet.png-export_73: 1874656064
+      totaspng1-Sheet.png-export_19: -1833890626
+      totaspng1-Sheet.png-export_103: 1831373617
+      totaspng1-Sheet.png-export_68: -1212570964
+      totaspng1-Sheet.png-export_97: -752644484
+      totaspng1-Sheet.png-export_109: -2069187186
+      totaspng1-Sheet.png-export_20: 8510362
+      totaspng1-Sheet.png-export_6: 2015210030
+      totaspng1-Sheet.png-export_3: -671437070
+      totaspng1-Sheet.png-export_91: -1320383526
+      totaspng1-Sheet.png-export_9: -775658920
+      totaspng1-Sheet.png-export_29: -1513177550
+      totaspng1-Sheet.png-export_50: 748026916
+      totaspng1-Sheet.png-export_61: 2071330249
+      totaspng1-Sheet.png-export_94: 256554504
+      totaspng1-Sheet.png-export_15: 1497631792
+      totaspng1-Sheet.png-export_67: -1443479534
+      totaspng1-Sheet.png-export_26: 718146517
+      totaspng1-Sheet.png-export_45: 1329874412
+      totaspng1-Sheet.png-export_53: -1336823767
+      totaspng1-Sheet.png-export_70: 133096081
+      totaspng1-Sheet.png-export_47: 1855466891
+      totaspng1-Sheet.png-export_74: -1787055738
+      totaspng1-Sheet.png-export_48: -895477796
+      totaspng1-Sheet.png-export_72: -571386912
+      totaspng1-Sheet.png-export_13: -949379316
+      totaspng1-Sheet.png-export_10: 971387001
+      totaspng1-Sheet.png-export_110: -1515354618
+      totaspng1-Sheet.png-export_42: -1716388205
+      totaspng1-Sheet.png-export_79: 70408271
+      totaspng1-Sheet.png-export_52: -777626647
+      totaspng1-Sheet.png-export_102: -1491330931
+      totaspng1-Sheet.png-export_56: 1763816440
+      totaspng1-Sheet.png-export_2: 871664219
+      totaspng1-Sheet.png-export_101: 662069023
+      totaspng1-Sheet.png-export_46: -1917722033
+      totaspng1-Sheet.png-export_28: -323569742
+      totaspng1-Sheet.png-export_18: 529946768
+      totaspng1-Sheet.png-export_84: -1119805892
+      totaspng1-Sheet.png-export_34: -812078435
+      totaspng1-Sheet.png-export_65: -635822222
+      totaspng1-Sheet.png-export_63: -1476572300
+      totaspng1-Sheet.png-export_23: -1114051342
+      totaspng1-Sheet.png-export_22: -166542175
+      totaspng1-Sheet.png-export_0: -2136106044
+      totaspng1-Sheet.png-export_43: 4340477
+      totaspng1-Sheet.png-export_38: 730351308
+      totaspng1-Sheet.png-export_106: 285147616
+      totaspng1-Sheet.png-export_5: 1547575789
+      totaspng1-Sheet.png-export_107: -2047649347
+      totaspng1-Sheet.png-export_76: -1425946831
+      totaspng1-Sheet.png-export_88: -1095064601
+      totaspng1-Sheet.png-export_96: -1735879061
+      totaspng1-Sheet.png-export_32: -318122744
+      totaspng1-Sheet.png-export_83: 838870688
+      totaspng1-Sheet.png-export_89: 1154816828
+      totaspng1-Sheet.png-export_40: 1904889424
+      totaspng1-Sheet.png-export_90: -867916783
+      totaspng1-Sheet.png-export_30: 1547148698
+      totaspng1-Sheet.png-export_78: -1872972843
+      totaspng1-Sheet.png-export_80: -1725898525
+      totaspng1-Sheet.png-export_86: 786639698
+      totaspng1-Sheet.png-export_57: 561219039
+      totaspng1-Sheet.png-export_92: 124997135
+      totaspng1-Sheet.png-export_16: 9289752
+      totaspng1-Sheet.png-export_12: 2127872070
+      totaspng1-Sheet.png-export_59: -1529439383
+      totaspng1-Sheet.png-export_82: 1625661585
+      totaspng1-Sheet.png-export_81: 1847047329
+      totaspng1-Sheet.png-export_24: -997676768
+      totaspng1-Sheet.png-export_75: 1175000764
+      totaspng1-Sheet.png-export_7: 1903715489
+      totaspng1-Sheet.png-export_11: 282928704
+      totaspng1-Sheet.png-export_113: 90700145
+      totaspng1-Sheet.png-export_17: -996450664
+      totaspng1-Sheet.png-export_1: -1968683339
+      totaspng1-Sheet.png-export_35: 445904809
+      totaspng1-Sheet.png-export_21: 1584840770
+      totaspng1-Sheet.png-export_98: 771847755
+      totaspng1-Sheet.png-export_93: 1797545384
+      totaspng1-Sheet.png-export_114: -1806985400
+      totaspng1-Sheet.png-export_85: 303562296
+      totaspng1-Sheet.png-export_8: -1121699189
+      totaspng1-Sheet.png-export_41: -1240748852
+      totaspng1-Sheet.png-export_54: -1559082883
+      totaspng1-Sheet.png-export_69: -591024255
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
