@@ -58,6 +58,7 @@ public class MoveController : MonoBehaviour
         var velocity = _input * varSpeed * Time.deltaTime;
         animator.SetFloat("horizontal", _input.x);
         animator.SetFloat("vertical", _input.y);
+        animator.SetFloat("moving", _input.sqrMagnitude);
         transform.Translate(velocity);
     }
 
