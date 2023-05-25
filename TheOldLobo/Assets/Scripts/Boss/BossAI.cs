@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static UnityEditor.PlayerSettings;
 
 public class BossAI : MonoBehaviour
 {
@@ -34,6 +35,7 @@ public class BossAI : MonoBehaviour
 
     private float _currentTime;
     private bool _endAttack;
+    private LineRenderer _LineRenderer;
 
 
     // Start is called before the first frame update
@@ -42,6 +44,7 @@ public class BossAI : MonoBehaviour
         InitFSM();
         _currentTime = 0;
         _endAttack = false;
+        _LineRenderer = GetComponent<LineRenderer>();
     }
 
     private void InitFSM()
@@ -139,18 +142,17 @@ public class BossAI : MonoBehaviour
     private void LineaUpdate()
     {
         //Execute
-        print("Line");
-        while (_currentTime >= _changeTime)
-        {
-            _currentTime += Time.deltaTime;
-            Ray2D ray = new Ray2D();
-            ray.origin = _Gun.transform.position;
-            ray.direction = _Target.transform.position - _Gun.transform.forward;
-            _Gun.transform.rotation = GetRotation(_Target, _Gun);
-        }
-        Instantiate(_Bullet, _Gun.transform.position, GetRotation(_Target, _Gun));
-        _endAttack = true;
+        _Gun.transform.parent.rotation = GetRotation(_Target, _Gun);
+        DrawLine(_Gun, _Target, Color.red);
+        _currentTime += Time.deltaTime;
 
+        if (_currentTime >= _changeTime)
+        {
+            GameObject _bullet = Instantiate(_Bullet, _Gun.transform.position, GetRotation(_Target, _Gun));
+            _bullet.transform.parent = this.gameObject.transform.parent;
+            _endAttack = true;
+        }
+        
         //CheckTriggers
         if (_endAttack)
             AttackChange();
@@ -192,6 +194,14 @@ public class BossAI : MonoBehaviour
     float GetAngleFromPoints(Vector3 a, Vector3 b)
     {
         return Mathf.Atan2(a.y - b.y, a.x - b.x) * Mathf.Rad2Deg;
+    }
+
+    private void DrawLine(GameObject _start, GameObject _end, Color _color)
+    {
+        _LineRenderer.SetPosition(0, _start.transform.position);
+        _LineRenderer.SetPosition(1, _end.transform.position - _start.transform.position);
+        _LineRenderer.startWidth = 0.5f;
+        _LineRenderer.startColor = _color;
     }
 
 }

@@ -60,7 +60,6 @@ public class ShootController : MonoBehaviour
     {
         StartCoroutine(ShootBullet(shootingPoint2, 0f));
         StartCoroutine(ShootBullet(shootingPoint, 0.2f));
-        
     }
 
     IEnumerator ShootBullet(Transform pos, float time)
