@@ -32,20 +32,23 @@ public class MoveController : MonoBehaviour
     private void Update()
     {
         //Handle movement mode
-        if (_dashController.IsDashing()) 
+        if (_dashController != null && _dashController.IsDashing()) 
             varSpeed = _dashController.DashPower();
-        else if (_SprintController.IsSprinting()) 
+        else if (_SprintController != null && _SprintController.IsSprinting()) 
             varSpeed = _SprintController.Speed();
         else 
             varSpeed = baseSpeed;
 
         if (canMove)
             move();
-
-        if (_input != Vector2.zero)
-            idle.SetFloat("moving", idle.GetFloat("moving") + Time.deltaTime);
-        else
-            idle.SetFloat("moving", idle.GetFloat("moving") - idle.GetFloat("moving"));
+            
+        if (idle != null)
+        {
+            if (_input != Vector2.zero)
+                idle.SetFloat("moving", idle.GetFloat("moving") + Time.deltaTime);
+            else
+                idle.SetFloat("moving", idle.GetFloat("moving") - idle.GetFloat("moving"));
+        }
     }
 
     private void OnMove(InputValue value)
@@ -55,10 +58,13 @@ public class MoveController : MonoBehaviour
 
     private void move()
     {
+        if (animator != null)
+        {
+            animator.SetFloat("horizontal", _input.x);
+            animator.SetFloat("vertical", _input.y);
+            animator.SetFloat("moving", _input.sqrMagnitude);
+        }
         var velocity = _input * varSpeed * Time.deltaTime;
-        animator.SetFloat("horizontal", _input.x);
-        animator.SetFloat("vertical", _input.y);
-        animator.SetFloat("moving", _input.sqrMagnitude);
         transform.Translate(velocity);
     }
 
