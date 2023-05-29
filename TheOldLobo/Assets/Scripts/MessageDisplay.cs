@@ -24,6 +24,7 @@ public class MessageDisplay : MonoBehaviour
     void Update()
     {
         _displayTime -= Time.deltaTime;
+
         if (_displayTime <= 0.0)
         {
             _text.gameObject.SetActive(false);
