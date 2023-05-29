@@ -41,6 +41,7 @@ public class MoveController : MonoBehaviour
 
         if (canMove)
             move();
+            
         if (idle != null)
         {
             if (_input != Vector2.zero)
