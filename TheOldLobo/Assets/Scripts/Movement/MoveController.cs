@@ -32,20 +32,16 @@ public class MoveController : MonoBehaviour
     private void Update()
     {
         //Handle movement mode
-        if (_dashController.IsDashing()) 
+        if (_dashController.IsDashing())
             varSpeed = _dashController.DashPower();
-        else if (_SprintController.IsSprinting()) 
+        else if (_SprintController.IsSprinting())
             varSpeed = _SprintController.Speed();
-        else 
+        else
             varSpeed = baseSpeed;
 
         if (canMove)
             move();
 
-        if (_input != Vector2.zero)
-            idle.SetFloat("moving", idle.GetFloat("moving") + Time.deltaTime);
-        else
-            idle.SetFloat("moving", idle.GetFloat("moving") - idle.GetFloat("moving"));
     }
 
     private void OnMove(InputValue value)
@@ -55,11 +51,23 @@ public class MoveController : MonoBehaviour
 
     private void move()
     {
-        var velocity = _input * varSpeed * Time.deltaTime;
-        animator.SetFloat("horizontal", _input.x);
-        animator.SetFloat("vertical", _input.y);
-        animator.SetFloat("moving", _input.sqrMagnitude);
-        transform.Translate(velocity);
+        bool isIdle = _input.x == 0 && _input.y == 0;
+        if (isIdle)
+        {
+            _input = Vector2.zero;
+            idle.SetBool("isMoving", false);
+
+        }
+        else
+        {
+            var velocity = _input * varSpeed * Time.deltaTime;
+            animator.SetFloat("MoveX", _input.x);
+            animator.SetFloat("MoveY", _input.y);
+            animator.SetBool("isMoving", true);
+            transform.Translate(velocity);
+
+        }
+
     }
 
     public void StopMovement()
