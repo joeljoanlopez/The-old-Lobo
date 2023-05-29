@@ -42,13 +42,6 @@ public class MoveController : MonoBehaviour
         if (canMove)
             move();
             
-        if (idle != null)
-        {
-            if (_input != Vector2.zero)
-                idle.SetFloat("moving", idle.GetFloat("moving") + Time.deltaTime);
-            else
-                idle.SetFloat("moving", idle.GetFloat("moving") - idle.GetFloat("moving"));
-        }
     }
 
     private void OnMove(InputValue value)
@@ -58,14 +51,20 @@ public class MoveController : MonoBehaviour
 
     private void move()
     {
-        if (animator != null)
+        bool isIdle = _input.x == 0 && _input.y == 0;
+        if (isIdle)
         {
-            animator.SetFloat("horizontal", _input.x);
-            animator.SetFloat("vertical", _input.y);
-            animator.SetFloat("moving", _input.sqrMagnitude);
+            _input = Vector2.zero;
+            idle.SetBool("isMoving", false);
         }
-        var velocity = _input * varSpeed * Time.deltaTime;
-        transform.Translate(velocity);
+        else
+        {
+            var velocity = _input * varSpeed * Time.deltaTime;
+            animator.SetFloat("MoveX", _input.x);
+            animator.SetFloat("MoveY", _input.y);
+            animator.SetBool("isMoving", true);
+            transform.Translate(velocity);
+        }
     }
 
     public void StopMovement()
