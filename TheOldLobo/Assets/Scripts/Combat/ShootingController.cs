@@ -1,18 +1,21 @@
-using Newtonsoft.Json.Linq;
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using UnityEngine.UIElements.Experimental;
 
-public class MainWeaponController : MonoBehaviour
+public class ShootingController : MonoBehaviour
 {
     // bullet traits
-    [SerializeField] GameObject bullet;
+    [SerializeField] GameObject _bullet;
+    [SerializeField] GameObject _Player;
     [SerializeField] InputActionReference _shoot;
-    [SerializeField] float bulletDamage = 20;
+    [SerializeField] float _bulletDamage = 20;
     [SerializeField] float _coolDown = 0.5f;
+    [SerializeField] float _delay = 0;
+    [SerializeField] float _fireRate = 0;
+    [SerializeField] int _bulletNumber = 1;
+    [SerializeField] bool _isAuto = false;
+
 
     private SprintController _sprintController;
     private Vector2 bulletFw;
@@ -24,15 +27,14 @@ public class MainWeaponController : MonoBehaviour
 
     //if, where and when the bullet is shot
     public Transform shootingPoint;
-    public Transform shootingPoint2;
 
     Animator shootAnimator;
 
     void Start()
     {
         _shootTimer = _coolDown;
-        shootAnimator = GetComponent<Animator>();
-        _sprintController = GetComponent<SprintController>();
+        shootAnimator = _Player.GetComponent<Animator>();
+        _sprintController = _Player.GetComponent<SprintController>();
     }
 
     // Update is called once per frame
@@ -42,7 +44,7 @@ public class MainWeaponController : MonoBehaviour
         _canShoot = _shootTimer >= _coolDown;
 
         _shooting = _shoot.action.IsPressed();
-        
+
         if (_canShoot && _shooting && !_sprintController.IsSprinting())
         {
             _shootTimer = 0;
@@ -57,15 +59,24 @@ public class MainWeaponController : MonoBehaviour
 
     private void shoot()
     {
-        StartCoroutine(ShootBullet(shootingPoint2, 0f));
-        StartCoroutine(ShootBullet(shootingPoint, 0.2f));
+        if (_isAuto)
+        {
+            for (int i = 0; i < _bulletNumber; i++)
+            {
+                StartCoroutine(ShootBullet(shootingPoint, i * _fireRate));
+            }
+        }
+        else
+        {
+            StartCoroutine(ShootBullet(shootingPoint, _delay));
+        }
     }
 
     IEnumerator ShootBullet(Transform pos, float time)
     {
         yield return new WaitForSeconds(time);
-        GameObject _bullet = Instantiate(bullet, pos.position, GetRotation());
-        _bullet.transform.parent = this.gameObject.transform.parent;
+        GameObject bullet = Instantiate(_bullet, pos.position, GetRotation());
+        bullet.transform.parent = _Player.gameObject.transform.parent;
         Sonidos.playSFX("GunShot");
     }
 

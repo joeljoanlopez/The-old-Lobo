@@ -9,7 +9,6 @@ public class SecondWeaponController : MonoBehaviour
 
     [SerializeField] private GameObject _bullet;
     [SerializeField] private SprintController _sprintController;
-    [SerializeField] private float _bulletSpeed = 30;
     [SerializeField] private float _bulletNumber = 3;
     [SerializeField] private float _fireRate = 0.2f;
     [SerializeField] private float _bulletRemaining = 40;
