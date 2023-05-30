@@ -20,6 +20,7 @@ public class EnemyAI : MonoBehaviour
     [SerializeField] GameObject _Bullet;
     [SerializeField] GameObject _Gun;
     [SerializeField] float _AggroDist = 5;
+    [SerializeField] float _Speed = 2f;
 
     EnemyShooting _enemyShooting;
     PathFollower _pathFollower;
@@ -38,10 +39,7 @@ public class EnemyAI : MonoBehaviour
     {
         brain = new FSM<EState>(EState.Idle);
         brain.SetOnEnter(EState.Idle, () => _currentTime = 0);
-        brain.SetOnEnter(EState.Wander, () =>
-        {
-            _currentTime = 0;
-        });
+        brain.SetOnEnter(EState.Wander, () => _currentTime = 0);
 
         brain.SetOnStay(EState.Idle, IdleUpdate);
         brain.SetOnStay(EState.Wander, WanderUpdate);
@@ -89,13 +87,19 @@ public class EnemyAI : MonoBehaviour
     {
         //Execute
         _enemyShooting.Shoot(_Target, _Bullet, _Gun);
+        MoveRandomly();
 
         //Trigger
-        if (Vector2.Distance(transform.position, _Target.transform.position) >= 4)
+        if (Vector2.Distance(transform.position, _Target.transform.position) >= _AggroDist)
             brain.ChangeState(EState.Idle);
     }
 
 
-
+    private void MoveRandomly()
+    {
+        Vector3 _newDirection = new Vector3(Random.Range(0, 4), Random.Range(0, 4), 0);
+        _newDirection.Normalize();
+        transform.position += _newDirection * _Speed * Time.deltaTime;
+    }
 
 }

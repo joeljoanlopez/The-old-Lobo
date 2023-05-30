@@ -6,26 +6,26 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UIElements.Experimental;
 
-public class ShootController : MonoBehaviour
+public class MainWeaponController : MonoBehaviour
 {
     // bullet traits
-    [SerializeField] float bulletSpeed;
-    [SerializeField] float bulletDamage;
     [SerializeField] GameObject bullet;
-    [SerializeField] float _coolDown;
     [SerializeField] InputActionReference _shoot;
+    [SerializeField] float bulletSpeed = 30;
+    [SerializeField] float bulletDamage = 20;
+    [SerializeField] float _coolDown = 0.5f;
 
     private SprintController _sprintController;
     private Vector2 bulletFw;
     private bool _shooting;
     private Rigidbody2D rb;
     float _shootTimer;
+    private bool _canShoot;
 
 
     //if, where and when the bullet is shot
     public Transform shootingPoint;
     public Transform shootingPoint2;
-    public bool _canShoot;
 
     Animator shootAnimator;
 

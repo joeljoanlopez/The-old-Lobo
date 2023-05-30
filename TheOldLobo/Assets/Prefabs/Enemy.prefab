@@ -147,6 +147,7 @@ GameObject:
   - component: {fileID: 70803801442736376}
   - component: {fileID: 3287291718872893764}
   - component: {fileID: 4899862758930733276}
+  - component: {fileID: 7619277408147446215}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -239,6 +240,7 @@ MonoBehaviour:
   _Bullet: {fileID: 0}
   _Gun: {fileID: 4916882068770319991}
   _AggroDist: 5
+  _Speed: 2
 --- !u!114 &8094987129070622445
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -300,6 +302,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthAmount: 40
+--- !u!70 &7619277408147446215
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8173582642624957952}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.004337311, y: 0.05642128}
+  m_Size: {x: 0.8767624, y: 2.7100945}
+  m_Direction: 0
 --- !u!1 &8270051264357707077
 GameObject:
   m_ObjectHideFlags: 0

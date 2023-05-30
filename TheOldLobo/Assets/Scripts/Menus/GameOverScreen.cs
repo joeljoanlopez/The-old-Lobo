@@ -3,7 +3,7 @@ using UnityEngine;
 public class GameOverScreen : MonoBehaviour
 {
     public MoveController moveController;
-    public ShootController ShootController;
+    public MainWeaponController ShootController;
     public DashController dashController;
 
     public void Setup()
