@@ -38,6 +38,7 @@ public class MessageDisplay : MonoBehaviour
             
            ShowMessage();
         }
+
     }
     void ShowMessage()
     {

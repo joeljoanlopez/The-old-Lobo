@@ -59794,6 +59794,9 @@ MonoBehaviour:
   - Name: GunShot
     Clip: {fileID: 8300000, guid: 4e708df31e138554d85592e49fb3e867, type: 3}
     Volume: 2
+  - Name: GunSShotRifle
+    Clip: {fileID: 8300000, guid: 2c2d7bf049698bc4385f90bd18463a34, type: 3}
+    Volume: 2
 --- !u!4 &1768325321
 Transform:
   m_ObjectHideFlags: 0
