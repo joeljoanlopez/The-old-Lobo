@@ -47,6 +47,7 @@ public class ShootingController : MonoBehaviour
 
         if (_canShoot && _shooting && !_sprintController.IsSprinting())
         {
+            _canShoot = false;
             _shootTimer = 0;
             shootAnimator.SetBool("shoot", true);
             shoot();
