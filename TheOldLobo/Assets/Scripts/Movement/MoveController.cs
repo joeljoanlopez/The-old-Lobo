@@ -32,8 +32,12 @@ public class MoveController : MonoBehaviour
     private void Update()
     {
         //Handle movement mode
-        if (_dashController != null && _dashController.IsDashing()) 
+        if (_dashController != null && _dashController.IsDashing())
+        {
             varSpeed = _dashController.DashPower();
+            Sonidos.playSFX("Dash");
+
+        }
         else if (_SprintController != null && _SprintController.IsSprinting()) 
             varSpeed = _SprintController.Speed();
         else 

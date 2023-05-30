@@ -6494,7 +6494,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: a42c17a1f8c2e6f4c9718d51420fcfb0, type: 3}
@@ -59754,6 +59754,12 @@ MonoBehaviour:
   _audioFiles:
   - Name: GunShot
     Clip: {fileID: 8300000, guid: 4e708df31e138554d85592e49fb3e867, type: 3}
+    Volume: 2
+  - Name: GunShotRifle
+    Clip: {fileID: 8300000, guid: 2c2d7bf049698bc4385f90bd18463a34, type: 3}
+    Volume: 2
+  - Name: Dash
+    Clip: {fileID: 8300000, guid: 981cfb3ca6e6e9942a367a2e55c595ed, type: 3}
     Volume: 2
 --- !u!4 &1768325321
 Transform:

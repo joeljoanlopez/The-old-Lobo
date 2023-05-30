@@ -36,6 +36,8 @@ public class EnemyShooting : MonoBehaviour
             bullet.transform.parent = this.gameObject.transform.parent;
             _canShoot = false;
             shooting.SetBool("shoot", true);
+            Sonidos.playSFX("GunShotRifle");
+
         }
     }
 
