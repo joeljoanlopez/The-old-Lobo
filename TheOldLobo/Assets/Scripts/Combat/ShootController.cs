@@ -67,7 +67,7 @@ public class ShootController : MonoBehaviour
         yield return new WaitForSeconds(time);
         GameObject _bullet = Instantiate(bullet, pos.position, GetRotation());
         _bullet.transform.parent = this.gameObject.transform.parent;
-            
+        Sonidos.playSFX("GunShot");
     }
 
     private Quaternion GetRotation()

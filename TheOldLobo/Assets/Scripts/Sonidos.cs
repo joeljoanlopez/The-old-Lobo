@@ -10,12 +10,29 @@ public class Sonidos : MonoBehaviour
     private AudioSource _sfxSourde;
     // Start is called before the first frame update
     [SerializeField] private AudioSource _sfxSource;
-    private List<AudioFile> _audioFiles;
+    [SerializeField] private List<AudioFile> _audioFiles;
+    public static Sonidos instance;
 
-    public void playSFX(string name)
+
+    private void Awake()
+    {
+        if (instance == null)
+        {
+            instance = this;
+        }
+        else
+        {
+            Destroy(this);
+        }
+    }
+    public static void playSFX(string name, AudioSource orgSource = null)
+    {
+        instance._playSFX(name, orgSource);
+    }
+    public void _playSFX(string name, AudioSource orgSource = null)
     {
         AudioFile file = GetFileName(name);
-        if(file == null)
+        if (file == null)
         {
 
         }
@@ -23,11 +40,15 @@ public class Sonidos : MonoBehaviour
         _sfxSource.volume = file.Volume;
         _sfxSource.Play();
     }
+
+
+
+
     AudioFile GetFileName(string name)
     {
         for (int i = 0; i < _audioFiles.Count; i++)
         {
-            if (_audioFiles[i].name == name)
+            if (_audioFiles[i].Name == name)
             {
                 return _audioFiles[i];
             }

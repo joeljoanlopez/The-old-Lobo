@@ -3,11 +3,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AudioFile : MonoBehaviour
+[System.Serializable]
+public class AudioFile 
 {
     // Start is called before the first frame update
 
-        public string name;
+        public string Name;
         public AudioClip Clip;
         public float Volume;
    
