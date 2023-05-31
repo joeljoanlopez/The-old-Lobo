@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 2299289348617453108}
   - component: {fileID: 2299289348617453110}
   - component: {fileID: 2299289348617453115}
-  - component: {fileID: 8015746893751334924}
   - component: {fileID: 4565875899889395656}
   - component: {fileID: 514532133686427812}
   - component: {fileID: 3927888924724464146}
@@ -23,7 +22,7 @@ GameObject:
   - component: {fileID: 8994426885883709086}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -130,26 +129,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseSpeed: 5
   animator: {fileID: 0}
---- !u!114 &8015746893751334924
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2299289348617453114}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 769524e7da976d84d89d30a44ece5ab9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bullet: {fileID: 3565154025627714709, guid: 17b042091ceda584d86e6977928b7c6c, type: 3}
-  _shoot: {fileID: 0}
-  bulletSpeed: 30
-  bulletDamage: 20
-  _coolDown: 0.5
-  shootingPoint: {fileID: 0}
-  shootingPoint2: {fileID: 0}
-  _canShoot: 0
 --- !u!114 &4565875899889395656
 MonoBehaviour:
   m_ObjectHideFlags: 0

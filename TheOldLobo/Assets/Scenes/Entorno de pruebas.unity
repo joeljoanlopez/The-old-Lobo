@@ -5634,7 +5634,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8173582642624957952, guid: 776236844697fa2499dcff55a7fe671f, type: 3}
       propertyPath: m_Layer
-      value: 3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8173582642624957957, guid: 776236844697fa2499dcff55a7fe671f, type: 3}
       propertyPath: m_RootOrder
@@ -6085,7 +6085,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8173582642624957952, guid: 776236844697fa2499dcff55a7fe671f, type: 3}
       propertyPath: m_Layer
-      value: 3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8173582642624957957, guid: 776236844697fa2499dcff55a7fe671f, type: 3}
       propertyPath: m_RootOrder
@@ -33180,7 +33180,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8173582642624957952, guid: 776236844697fa2499dcff55a7fe671f, type: 3}
       propertyPath: m_Layer
-      value: 3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8173582642624957957, guid: 776236844697fa2499dcff55a7fe671f, type: 3}
       propertyPath: m_RootOrder
@@ -35895,7 +35895,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8173582642624957952, guid: 776236844697fa2499dcff55a7fe671f, type: 3}
       propertyPath: m_Layer
-      value: 3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8173582642624957957, guid: 776236844697fa2499dcff55a7fe671f, type: 3}
       propertyPath: m_RootOrder
@@ -36124,7 +36124,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8173582642624957952, guid: 776236844697fa2499dcff55a7fe671f, type: 3}
       propertyPath: m_Layer
-      value: 3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8173582642624957957, guid: 776236844697fa2499dcff55a7fe671f, type: 3}
       propertyPath: m_RootOrder
@@ -36277,7 +36277,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8173582642624957952, guid: 776236844697fa2499dcff55a7fe671f, type: 3}
       propertyPath: m_Layer
-      value: 3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8173582642624957957, guid: 776236844697fa2499dcff55a7fe671f, type: 3}
       propertyPath: m_RootOrder
@@ -42666,9 +42666,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 332fa84817c182b49bf599d67f413e13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveController: {fileID: 1579991359}
-  ShootController: {fileID: 0}
-  dashController: {fileID: 0}
 --- !u!1 &1351206685
 GameObject:
   m_ObjectHideFlags: 0
@@ -133080,7 +133077,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8173582642624957952, guid: 776236844697fa2499dcff55a7fe671f, type: 3}
       propertyPath: m_Layer
-      value: 3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8173582642624957957, guid: 776236844697fa2499dcff55a7fe671f, type: 3}
       propertyPath: m_RootOrder

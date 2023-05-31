@@ -27,8 +27,12 @@ public class Bullet : MonoBehaviour
     {
         Transform hit = other.gameObject.transform.parent;
         Transform my = this.gameObject.transform;
+        Debug.Assert(hit != null);
+        Debug.Assert(my != null);
         if (hit.parent.name != my.parent.name && other.gameObject.name != this.gameObject.name)
         {
+            print(hit.parent.name);
+            print(my.parent.name);
             _damageController.MakeDamage(_damage, hit.gameObject);
             Destroy(this.gameObject);
         }
