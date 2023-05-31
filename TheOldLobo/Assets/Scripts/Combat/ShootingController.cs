@@ -43,11 +43,10 @@ public class ShootingController : MonoBehaviour
         _shootTimer += Time.deltaTime;
         _canShoot = _shootTimer >= _coolDown;
 
-        _shooting = _shoot.action.IsPressed();
+        _shooting = _shoot.action.IsPressed() && _canShoot;
 
-        if (_canShoot && _shooting && !_sprintController.IsSprinting())
+        if (_shooting && !_sprintController.IsSprinting())
         {
-            _canShoot = false;
             _shootTimer = 0;
             shootAnimator.SetBool("shoot", true);
             shoot();
@@ -96,13 +95,4 @@ public class ShootingController : MonoBehaviour
     {
         return Mathf.Atan2(a.y - b.y, a.x - b.x) * Mathf.Rad2Deg;
     }
-
-    public void StopShoot()
-    {
-        if (!_shooting)
-        {
-            _canShoot = false;
-        }
-    }
-
 }
