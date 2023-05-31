@@ -132967,12 +132967,20 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2790020700447438896, guid: ed27dc096c0e8eb4aab654568dd7d6b3, type: 3}
+      propertyPath: _coolDown
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2790020700447438896, guid: ed27dc096c0e8eb4aab654568dd7d6b3, type: 3}
       propertyPath: _fireRate
       value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 2790020700447438896, guid: ed27dc096c0e8eb4aab654568dd7d6b3, type: 3}
-      propertyPath: _bulletNumber
+      propertyPath: _bulletsShot
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2790020700447438896, guid: ed27dc096c0e8eb4aab654568dd7d6b3, type: 3}
+      propertyPath: _bulletNumber
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7603019604832483910, guid: ed27dc096c0e8eb4aab654568dd7d6b3, type: 3}
       propertyPath: m_RootOrder
