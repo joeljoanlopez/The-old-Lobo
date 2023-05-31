@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,15 +6,14 @@ using UnityEngine.InputSystem;
 
 public class ShootingController : MonoBehaviour
 {
-    // bullet traits
     [SerializeField] GameObject _bullet;
     [SerializeField] GameObject _Player;
     [SerializeField] InputActionReference _shoot;
-    [SerializeField] float _bulletDamage = 20;
     [SerializeField] float _coolDown = 0.5f;
     [SerializeField] float _delay = 0;
     [SerializeField] float _fireRate = 0;
-    [SerializeField] int _bulletNumber = 1;
+    [SerializeField] int _bulletsShot = 1;
+    [SerializeField] int _bulletNumber = -1;
     [SerializeField] bool _isAuto = false;
 
 
@@ -23,6 +23,7 @@ public class ShootingController : MonoBehaviour
     private Rigidbody2D rb;
     float _shootTimer;
     private bool _canShoot;
+    private bool _hasBullets;
 
 
     //if, where and when the bullet is shot
@@ -42,10 +43,11 @@ public class ShootingController : MonoBehaviour
     {
         _shootTimer += Time.deltaTime;
         _canShoot = _shootTimer >= _coolDown;
+        _hasBullets = _bulletNumber > 0 || _bulletNumber == -1;
 
         _shooting = _shoot.action.IsPressed() && _canShoot;
 
-        if (_shooting && !_sprintController.IsSprinting())
+        if (_hasBullets && _shooting && !_sprintController.IsSprinting())
         {
             _shootTimer = 0;
             shootAnimator.SetBool("shoot", true);
@@ -61,7 +63,7 @@ public class ShootingController : MonoBehaviour
     {
         if (_isAuto)
         {
-            for (int i = 0; i < _bulletNumber; i++)
+            for (int i = 0; i < Math.Min(_bulletsShot, _bulletNumber); i++)
             {
                 StartCoroutine(ShootBullet(shootingPoint, i * _fireRate));
             }
@@ -77,6 +79,9 @@ public class ShootingController : MonoBehaviour
         yield return new WaitForSeconds(time);
         GameObject bullet = Instantiate(_bullet, pos.position, GetRotation());
         bullet.transform.parent = _Player.gameObject.transform.parent;
+        if (_bulletNumber > 0)
+            _bulletNumber--;
+
         Sonidos.playSFX("GunShot");
     }
 
