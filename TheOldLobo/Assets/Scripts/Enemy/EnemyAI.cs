@@ -87,13 +87,21 @@ public class EnemyAI : MonoBehaviour
     {
         //Execute
         _enemyShooting.Shoot(_Target, _Bullet, _Gun);
-        MoveRandomly();
+        // MoveRandomly();
+        MoveTowardsTarget();
 
         //Trigger
         if (Vector2.Distance(transform.position, _Target.transform.position) >= _AggroDist)
             brain.ChangeState(EState.Idle);
     }
 
+    private void MoveTowardsTarget()
+    {
+        Vector3 newDirection = _Target.transform.position - transform.position;
+        int deviation = Random.Range(-5, 5);
+        newDirection.Normalize();
+        transform.position += newDirection * _Speed * Time.deltaTime;
+    }
 
     private void MoveRandomly()
     {
