@@ -42524,7 +42524,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1317216010}
-  - component: {fileID: 1317216011}
   m_Layer: 0
   m_Name: Pivot
   m_TagString: Untagged
@@ -42540,7 +42539,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1317216009}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.35, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -42549,18 +42548,6 @@ Transform:
   m_Father: {fileID: 1502430073}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1317216011
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1317216009}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 63d6e44b0d3e12143a79e6898eb40dad, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1330495860
 GameObject:
   m_ObjectHideFlags: 0
@@ -132458,6 +132445,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 80946824104168510, guid: 673e27376787d244db86fea641d166ec, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 80946824104168510, guid: 673e27376787d244db86fea641d166ec, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -132540,6 +132531,10 @@ PrefabInstance:
     - target: {fileID: 80946824677019549, guid: 673e27376787d244db86fea641d166ec, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1474166088999801826, guid: 673e27376787d244db86fea641d166ec, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1663949096066501736, guid: 673e27376787d244db86fea641d166ec, type: 3}
       propertyPath: m_SortingOrder
@@ -132944,8 +132939,7 @@ PrefabInstance:
       propertyPath: shootingPoint2
       value: 
       objectReference: {fileID: 1126537032}
-    m_RemovedComponents:
-    - {fileID: 8994426885883709086, guid: efee8bf402c98f44db386eafe0c9d3ad, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: efee8bf402c98f44db386eafe0c9d3ad, type: 3}
 --- !u!1001 &7603019603759149819
 PrefabInstance:
@@ -132988,11 +132982,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7603019604832483910, guid: ed27dc096c0e8eb4aab654568dd7d6b3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.215
+      value: 0.21499963
       objectReference: {fileID: 0}
     - target: {fileID: 7603019604832483910, guid: ed27dc096c0e8eb4aab654568dd7d6b3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.286
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7603019604832483910, guid: ed27dc096c0e8eb4aab654568dd7d6b3, type: 3}
       propertyPath: m_LocalPosition.z
@@ -133004,15 +132998,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7603019604832483910, guid: ed27dc096c0e8eb4aab654568dd7d6b3, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 7603019604832483910, guid: ed27dc096c0e8eb4aab654568dd7d6b3, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 7603019604832483910, guid: ed27dc096c0e8eb4aab654568dd7d6b3, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 7603019604832483910, guid: ed27dc096c0e8eb4aab654568dd7d6b3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -133071,6 +133065,10 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4899862758930733276, guid: 776236844697fa2499dcff55a7fe671f, type: 3}
+      propertyPath: _Ammo
+      value: 
+      objectReference: {fileID: 4339579013278430977, guid: 1d8687e24a98a0f47a1850ec39f8ae8a, type: 3}
     - target: {fileID: 8094987129070622445, guid: 776236844697fa2499dcff55a7fe671f, type: 3}
       propertyPath: _speed
       value: 2

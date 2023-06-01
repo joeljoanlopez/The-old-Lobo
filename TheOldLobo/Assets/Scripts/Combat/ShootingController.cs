@@ -47,7 +47,7 @@ public class ShootingController : MonoBehaviour
 
         _shooting = _shoot.action.IsPressed() && _canShoot;
 
-        if (_hasBullets && _shooting && !_sprintController.IsSprinting())
+        if (_hasBullets && _shooting && (!_sprintController.IsSprinting() || _sprintController == null))
         {
             _shootTimer = 0;
             shootAnimator.SetBool("shoot", true);
@@ -99,5 +99,10 @@ public class ShootingController : MonoBehaviour
     float GetAngleFromPoints(Vector3 a, Vector3 b)
     {
         return Mathf.Atan2(a.y - b.y, a.x - b.x) * Mathf.Rad2Deg;
+    }
+
+    public void GetBullets(int amount){
+        if (_bulletNumber != -1)
+            _bulletNumber += amount;
     }
 }

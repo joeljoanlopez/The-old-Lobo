@@ -4,10 +4,11 @@ using UnityEngine.InputSystem.Processors;
 
 public class HealthManager : MonoBehaviour
 {
-    
+
+    [SerializeField] GameObject _Ammo;
     [SerializeField] private float healthAmount = 100f;
 
-    
+
     private MoveController moveController;
 
     private bool _isPlayer;
@@ -15,7 +16,7 @@ public class HealthManager : MonoBehaviour
     private void Start()
     {
         moveController = GetComponent<MoveController>();
-        _isPlayer = moveController != null; 
+        _isPlayer = moveController != null;
     }
 
     private void Update()
@@ -25,7 +26,11 @@ public class HealthManager : MonoBehaviour
             if (_isPlayer)
                 moveController.StopMovement();
             else
+            {
+                GameObject ammo = Instantiate(_Ammo, transform.position, transform.rotation);
+                ammo.transform.parent = this.gameObject.transform.parent;
                 Destroy(this.gameObject);
+            }
         }
     }
 
@@ -38,7 +43,7 @@ public class HealthManager : MonoBehaviour
         print(damage);
         if (healthAmount <= 0)
             Kill();
-        
+
     }
 
     public void Heal(float healthGained)

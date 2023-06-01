@@ -301,6 +301,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21469fa01baa5534a849c4209042d5f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _Ammo: {fileID: 4339579013278430977, guid: 1d8687e24a98a0f47a1850ec39f8ae8a, type: 3}
   healthAmount: 40
 --- !u!61 &1387919575767709855
 BoxCollider2D:

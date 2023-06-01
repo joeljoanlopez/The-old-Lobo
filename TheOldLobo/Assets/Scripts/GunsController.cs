@@ -10,7 +10,7 @@ public class GunsController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -38,6 +38,5 @@ public class GunsController : MonoBehaviour
     {
         return Mathf.Atan2(a.y - b.y, a.x - b.x) * Mathf.Rad2Deg;
     }
-
 
 }
