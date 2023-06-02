@@ -20,7 +20,7 @@ public class EnemyAI : MonoBehaviour
     [SerializeField] GameObject _Bullet;
     [SerializeField] GameObject _Gun;
     [SerializeField] float _AggroDist = 5;
-    [SerializeField] float _Speed = 2f;
+    [SerializeField] float _Speed = 1f;
 
     EnemyShooting _enemyShooting;
     PathFollower _pathFollower;
@@ -98,7 +98,6 @@ public class EnemyAI : MonoBehaviour
     private void MoveTowardsTarget()
     {
         Vector3 newDirection = _Target.transform.position - transform.position;
-        int deviation = Random.Range(-5, 5);
         newDirection.Normalize();
         transform.position += newDirection * _Speed * Time.deltaTime;
     }
