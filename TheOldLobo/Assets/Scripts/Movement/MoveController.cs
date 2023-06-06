@@ -44,8 +44,10 @@ public class MoveController : MonoBehaviour
             ani.SetBool("run", true);
         }
         else
+        {
+            ani.SetBool("run", false);
             varSpeed = baseSpeed;
-
+        }
         if (canMove)
         {
             move();
