@@ -5,8 +5,9 @@ using UnityEngine;
 using static UnityEngine.GraphicsBuffer;
 using Random = UnityEngine.Random;
 
-public class EnemyAI : MonoBehaviour
+public class MiniBossAI : MonoBehaviour
 {
+    // Start is called before the first frame update
     public enum EState
     {
         Idle,
@@ -19,6 +20,10 @@ public class EnemyAI : MonoBehaviour
     [SerializeField] GameObject _Target;
     [SerializeField] GameObject _Bullet;
     [SerializeField] GameObject _Gun;
+    [SerializeField] GameObject _Gun2;
+    [SerializeField] GameObject _Gun3;
+
+
     [SerializeField] float _AggroDist = 5;
     [SerializeField] float _Speed = 1f;
 
@@ -87,6 +92,11 @@ public class EnemyAI : MonoBehaviour
     {
         //Execute
         StartCoroutine(_enemyShooting.Shoot(_Target, _Bullet, _Gun, 0f));
+
+        StartCoroutine(_enemyShooting.Shoot(_Target, _Bullet, _Gun2, 0.5f));
+
+        StartCoroutine(_enemyShooting.Shoot(_Target, _Bullet, _Gun3, 0.5f));
+
         // MoveRandomly();
         MoveTowardsTarget();
 
@@ -110,3 +120,4 @@ public class EnemyAI : MonoBehaviour
     }
 
 }
+

@@ -28,8 +28,9 @@ public class EnemyShooting : MonoBehaviour
         }
     }
 
-    public void Shoot(GameObject _target, GameObject _bullet, GameObject _Gun)
+    public IEnumerator Shoot(GameObject _target, GameObject _bullet, GameObject _Gun, float time)
     {
+        yield return new WaitForSeconds(time);
         if (_canShoot)
         {
             GameObject bullet =  Instantiate(_bullet, _Gun.transform.position, GetRotation(_target, _Gun)) as GameObject;

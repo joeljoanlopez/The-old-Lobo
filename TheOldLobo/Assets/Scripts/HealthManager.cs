@@ -38,7 +38,7 @@ public class HealthManager : MonoBehaviour
     {
         print(healthAmount);
         healthAmount -= damage;
-        healthAmount = Mathf.Clamp(healthAmount, 0, 100);
+        //healthAmount = Mathf.Clamp(healthAmount, 0, 100);
         print(healthAmount);
         print(damage);
         if (healthAmount <= 0)
