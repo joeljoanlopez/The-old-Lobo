@@ -8,15 +8,18 @@ public class WeaponController : MonoBehaviour
 {
     [SerializeField] GameObject[] _Weapons;
     [SerializeField] GameObject _WeaponHolder;
+    [SerializeField] GameObject _Player;
     [SerializeField] int _CurrentWeaponIndex = 0;
 
     GameObject _CurrentWeapon;
     int _TotalWeapons;
+    private SprintController _sprintController;
 
 
     // Start is called before the first frame update
     void Start()
     {
+        _sprintController = _Player.GetComponent<SprintController>();
         _TotalWeapons = _WeaponHolder.transform.childCount;
         _Weapons = new GameObject[_TotalWeapons];
 
@@ -32,6 +35,12 @@ public class WeaponController : MonoBehaviour
 
     void Update()
     {
+        
+        if (_sprintController != null && _sprintController.IsSprinting())
+            _Weapons[_CurrentWeaponIndex].SetActive(false);
+        else
+            _Weapons[_CurrentWeaponIndex].SetActive(true);
+
         if (Input.GetKeyDown(KeyCode.LeftAlt))
         {
             _Weapons[_CurrentWeaponIndex].SetActive(false);
