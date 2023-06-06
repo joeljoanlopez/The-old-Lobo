@@ -9,7 +9,7 @@ public class MoveController : MonoBehaviour
 
     private DashController _dashController;
     private SprintController _SprintController;
-    private Animator idle;
+    private Animator ani;
     public Animator animator;
 
     private Vector2 _input;
@@ -21,7 +21,7 @@ public class MoveController : MonoBehaviour
     {
         _dashController = GetComponent<DashController>();
         _SprintController = GetComponent<SprintController>();
-        idle = GetComponent<Animator>();
+        ani = GetComponent<Animator>();
 
         varSpeed = baseSpeed;
         canMove = true;
@@ -38,14 +38,20 @@ public class MoveController : MonoBehaviour
             Sonidos.playSFX("Dash");
 
         }
-        else if (_SprintController != null && _SprintController.IsSprinting()) 
+        else if (_SprintController != null && _SprintController.IsSprinting())
+        {
             varSpeed = _SprintController.Speed();
-        else 
+            ani.SetBool("run", true);
+        }
+        else
+        {
+            ani.SetBool("run", false);
             varSpeed = baseSpeed;
-
+        }
         if (canMove)
+        {
             move();
-            
+        }
     }
 
     private void OnMove(InputValue value)
@@ -59,7 +65,7 @@ public class MoveController : MonoBehaviour
         if (isIdle)
         {
             _input = Vector2.zero;
-            idle.SetBool("isMoving", false);
+            ani.SetBool("isMoving", false);
         }
         else
         {
