@@ -7,7 +7,6 @@ using UnityEngine.InputSystem;
 public class ShootingController : MonoBehaviour
 {
     [SerializeField] GameObject _bullet;
-    [SerializeField] GameObject _Player;
     [SerializeField] InputActionReference _shoot;
     [SerializeField] float _coolDown = 0.5f;
     [SerializeField] float _delay = 0;
@@ -15,9 +14,8 @@ public class ShootingController : MonoBehaviour
     [SerializeField] int _bulletsShot = 1;
     [SerializeField] int _bulletNumber = -1;
     [SerializeField] bool _isAuto = false;
+    [SerializeField] GameObject _Player;
 
-
-    private SprintController _sprintController;
     private Vector2 bulletFw;
     private bool _shooting;
     private Rigidbody2D rb;
@@ -28,14 +26,12 @@ public class ShootingController : MonoBehaviour
 
     //if, where and when the bullet is shot
     public Transform shootingPoint;
-
     Animator shootAnimator;
 
     void Start()
     {
         _shootTimer = _coolDown;
         shootAnimator = _Player.GetComponent<Animator>();
-        _sprintController = _Player.GetComponent<SprintController>();
     }
 
     // Update is called once per frame
@@ -46,8 +42,7 @@ public class ShootingController : MonoBehaviour
         _hasBullets = _bulletNumber > 0 || _bulletNumber == -1;
 
         _shooting = _shoot.action.IsPressed() && _canShoot;
-
-        if (_hasBullets && _shooting && (!_sprintController.IsSprinting() || _sprintController == null))
+        if (_hasBullets && _shooting)
         {
             _shootTimer = 0;
             shootAnimator.SetBool("shoot", true);
@@ -101,7 +96,8 @@ public class ShootingController : MonoBehaviour
         return Mathf.Atan2(a.y - b.y, a.x - b.x) * Mathf.Rad2Deg;
     }
 
-    public void GetBullets(int amount){
+    public void GetBullets(int amount)
+    {
         if (_bulletNumber != -1)
             _bulletNumber += amount;
     }

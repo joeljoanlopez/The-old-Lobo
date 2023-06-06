@@ -59038,6 +59038,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _Weapons: []
   _WeaponHolder: {fileID: 1317216009}
+  _Player: {fileID: 1579991353}
   _CurrentWeaponIndex: 0
 --- !u!1 &1593955636
 GameObject:
@@ -132975,6 +132976,10 @@ PrefabInstance:
     - target: {fileID: 2790020700447438896, guid: ed27dc096c0e8eb4aab654568dd7d6b3, type: 3}
       propertyPath: _bulletNumber
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7603019604832483909, guid: ed27dc096c0e8eb4aab654568dd7d6b3, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7603019604832483910, guid: ed27dc096c0e8eb4aab654568dd7d6b3, type: 3}
       propertyPath: m_RootOrder
