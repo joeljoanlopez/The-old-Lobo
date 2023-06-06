@@ -8,8 +8,6 @@ public class Bullet : MonoBehaviour
 
     [SerializeField] private float _speed = 10;
     [SerializeField] private float _damage = 20;
-    [SerializeField] private GameObject _player;
-    [SerializeField] private GameObject _enemy;
     [SerializeField] private float _lifeTime = 3f;
 
     private float _currentLifeTime;
@@ -27,12 +25,10 @@ public class Bullet : MonoBehaviour
     {
         Transform hit = other.gameObject.transform.parent;
         Transform my = this.gameObject.transform;
-        Debug.Assert(hit != null);
-        Debug.Assert(my != null);
+        Debug.Assert(hit.parent != null);
+        Debug.Assert(my.parent != null);
         if (hit.parent.name != my.parent.name && other.gameObject.name != this.gameObject.name)
         {
-            print(hit.parent.name);
-            print(my.parent.name);
             _damageController.MakeDamage(_damage, hit.gameObject);
             Destroy(this.gameObject);
         }

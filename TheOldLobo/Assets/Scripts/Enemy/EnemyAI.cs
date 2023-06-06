@@ -20,7 +20,7 @@ public class EnemyAI : MonoBehaviour
     [SerializeField] GameObject _Bullet;
     [SerializeField] GameObject _Gun;
     [SerializeField] float _AggroDist = 5;
-    [SerializeField] float _Speed = 2f;
+    [SerializeField] float _Speed = 1f;
 
     EnemyShooting _enemyShooting;
     PathFollower _pathFollower;
@@ -87,13 +87,20 @@ public class EnemyAI : MonoBehaviour
     {
         //Execute
         _enemyShooting.Shoot(_Target, _Bullet, _Gun);
-        MoveRandomly();
+        // MoveRandomly();
+        MoveTowardsTarget();
 
         //Trigger
         if (Vector2.Distance(transform.position, _Target.transform.position) >= _AggroDist)
             brain.ChangeState(EState.Idle);
     }
 
+    private void MoveTowardsTarget()
+    {
+        Vector3 newDirection = _Target.transform.position - transform.position;
+        newDirection.Normalize();
+        transform.position += newDirection * _Speed * Time.deltaTime;
+    }
 
     private void MoveRandomly()
     {

@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -33,7 +34,6 @@ public class WeaponController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.LeftAlt))
         {
-
             _Weapons[_CurrentWeaponIndex].SetActive(false);
             int _nextWeapon = _CurrentWeaponIndex + 1;
             if (_nextWeapon >= _TotalWeapons)
@@ -41,5 +41,55 @@ public class WeaponController : MonoBehaviour
             _CurrentWeaponIndex = _nextWeapon;
             _Weapons[_CurrentWeaponIndex].SetActive(true);
         }
+
+        _WeaponHolder.transform.rotation = GetRotation();
+
+        if (NeedsFlip()) Flip();
+        else UnFlip();
+    }
+    private Quaternion GetRotation()
+    {
+        //Get the Screen positions of the object and the mouse
+        Vector2 positionOnScreen = Camera.main.WorldToViewportPoint(transform.position);
+        Vector2 mouseOnScreen = (Vector2)Camera.main.ScreenToViewportPoint(Input.mousePosition);
+        float angle = GetAngleFromPoints(mouseOnScreen, positionOnScreen);
+
+        //return the rotation
+        return Quaternion.Euler(new Vector3(0f, 0f, angle));
+    }
+
+    float GetAngleFromPoints(Vector3 a, Vector3 b)
+    {
+        return MathF.Atan2(a.y - b.y, a.x - b.x) * Mathf.Rad2Deg;
+    }
+
+    bool NeedsFlip()
+    {
+        float MaxRotation = 0.5f;
+        float MinRotation = -0.5f;
+        float CurrentRotation = _WeaponHolder.transform.rotation.z;
+
+        return CurrentRotation > MaxRotation || CurrentRotation < MinRotation;
+    }
+
+    void Flip()
+    {
+        foreach (var var in _Weapons[_CurrentWeaponIndex].GetComponentsInChildren<SpriteRenderer>())
+        {
+            var.flipY = true;
+        }
+    }
+
+    void UnFlip()
+    {
+        foreach (var var in _Weapons[_CurrentWeaponIndex].GetComponentsInChildren<SpriteRenderer>())
+        {
+            var.flipY = false;
+        }
+    }
+
+    public void GetBullets(int amount)
+    {
+        _Weapons[_CurrentWeaponIndex].transform.GetComponentInChildren<ShootingController>().GetBullets(amount);
     }
 }
