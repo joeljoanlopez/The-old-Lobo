@@ -10,7 +10,6 @@ public class MessageDisplay : MonoBehaviour
     public GameObject _player;
     public string _message;
     public float _displayTime = 0;
-    public bool _showMessage = false;
 
     public TextMeshProUGUI _text;
 
@@ -19,7 +18,7 @@ public class MessageDisplay : MonoBehaviour
 
     void Start()
     {
-
+        _text.text = _message;  
     }
     void Update()
     {
@@ -35,7 +34,6 @@ public class MessageDisplay : MonoBehaviour
         print("trigger entered");
         if (other.gameObject == _player)
         {
-            
            ShowMessage();
         }
 
@@ -43,7 +41,6 @@ public class MessageDisplay : MonoBehaviour
     void ShowMessage()
     {
         _displayTime = 3;
-        _text.text = _message;  
         _text.gameObject.SetActive(true);
     }
     // Update is called once per fram
