@@ -9,12 +9,10 @@ public class MessageDisplay : MonoBehaviour
 {
     public GameObject _player;
     public string _message;
-<<<<<<< Updated upstream
-    public float _displayTime = 0;
-=======
+
     public static float _displayTime = 0;
     public bool _showMessage = false;
->>>>>>> Stashed changes
+
 
     public TextMeshProUGUI _text;
 
@@ -47,12 +45,10 @@ public class MessageDisplay : MonoBehaviour
     }
     void ShowMessage()
     {
-<<<<<<< Updated upstream
         _displayTime = 3;
-=======
+
         _displayTime = 10;
         _text.text = _message;  
->>>>>>> Stashed changes
         _text.gameObject.SetActive(true);
     }
 
