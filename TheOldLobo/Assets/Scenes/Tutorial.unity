@@ -6606,7 +6606,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _player: {fileID: 1579991353}
   _message: Press Left Shift to SPRINT
-  _displayTime: 5
   _showMessage: 0
   _text: {fileID: 164447406}
 --- !u!61 &529249614
@@ -33301,7 +33300,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _player: {fileID: 1579991353}
   _message: Press WASD to move
-  _displayTime: 5
   _showMessage: 0
   _text: {fileID: 164447406}
 --- !u!61 &909238711
@@ -35128,7 +35126,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _player: {fileID: 1579991353}
   _message: Press V to activate bullet time
-  _displayTime: 5
   _showMessage: 0
   _text: {fileID: 164447406}
 --- !u!61 &1114534812
@@ -35557,7 +35554,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _player: {fileID: 1579991353}
   _message: Use everything you've learned
-  _displayTime: 5
   _showMessage: 0
   _text: {fileID: 164447406}
 --- !u!61 &1149801190
@@ -42320,7 +42316,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _player: {fileID: 1579991353}
   _message: Press Space to DASH
-  _displayTime: 5
   _showMessage: 0
   _text: {fileID: 164447406}
 --- !u!61 &1457216189
@@ -60301,7 +60296,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _player: {fileID: 1579991353}
   _message: You can DASH to avoid DAMAGE
-  _displayTime: 5
   _showMessage: 0
   _text: {fileID: 164447406}
 --- !u!61 &2014748572

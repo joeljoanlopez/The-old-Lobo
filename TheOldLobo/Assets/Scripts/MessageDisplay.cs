@@ -9,7 +9,12 @@ public class MessageDisplay : MonoBehaviour
 {
     public GameObject _player;
     public string _message;
+<<<<<<< Updated upstream
     public float _displayTime = 0;
+=======
+    public static float _displayTime = 0;
+    public bool _showMessage = false;
+>>>>>>> Stashed changes
 
     public TextMeshProUGUI _text;
 
@@ -24,9 +29,11 @@ public class MessageDisplay : MonoBehaviour
     {
         _displayTime -= Time.deltaTime;
 
+        Debug.Log(_displayTime);
         if (_displayTime <= 0.0)
         {
             _text.gameObject.SetActive(false);
+            
         }
     }
     private void OnTriggerEnter2D(Collider2D other)
@@ -40,9 +47,15 @@ public class MessageDisplay : MonoBehaviour
     }
     void ShowMessage()
     {
+<<<<<<< Updated upstream
         _displayTime = 3;
+=======
+        _displayTime = 10;
+        _text.text = _message;  
+>>>>>>> Stashed changes
         _text.gameObject.SetActive(true);
     }
+
     // Update is called once per fram
 
 
