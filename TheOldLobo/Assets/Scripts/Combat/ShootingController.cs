@@ -45,12 +45,7 @@ public class ShootingController : MonoBehaviour
         if (_hasBullets && _shooting)
         {
             _shootTimer = 0;
-            shootAnimator.SetBool("shoot", true);
             shoot();
-        }
-        else
-        {
-            shootAnimator.SetBool("shoot", false);
         }
     }
 
