@@ -38,7 +38,6 @@ public class EnemyShooting : MonoBehaviour
             _canShoot = false;
             shooting.SetBool("shoot", true);
             Sonidos.playSFX("GunShotRifle");
-
         }
     }
 
