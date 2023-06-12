@@ -33,7 +33,6 @@ public class EnemyAI : MonoBehaviour
         _currentTime = 0;
         _enemyShooting = GetComponent<EnemyShooting>();
         _pathFollower = GetComponent<PathFollower>();
-        _Target = GameObject.Find(_Target.name);
     }
 
     private void InitFSM()
@@ -60,7 +59,7 @@ public class EnemyAI : MonoBehaviour
         _currentTime += Time.deltaTime;
 
         //CheckTriggers
-        if (_currentTime > 2.0f && _pathFollower != null)
+        if (_currentTime > 2.0f)
             brain.ChangeState(EState.Wander);
 
         if (Vector2.Distance(transform.position, _Target.transform.position) < _AggroDist)
