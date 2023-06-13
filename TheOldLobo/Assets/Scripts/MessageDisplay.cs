@@ -27,11 +27,10 @@ public class MessageDisplay : MonoBehaviour
     {
         _displayTime -= Time.deltaTime;
 
-        Debug.Log(_displayTime);
+        // Debug.Log(_displayTime);
         if (_displayTime <= 0.0)
         {
             _text.gameObject.SetActive(false);
-            
         }
     }
     private void OnTriggerEnter2D(Collider2D other)

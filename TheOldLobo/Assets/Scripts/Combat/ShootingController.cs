@@ -79,7 +79,7 @@ public class ShootingController : MonoBehaviour
     {
         //Get the Screen positions of the object and the mouse
         Vector2 positionOnScreen = Camera.main.WorldToViewportPoint(transform.position);
-        Vector2 mouseOnScreen = (Vector2)Camera.main.ScreenToViewportPoint(Input.mousePosition);
+        Vector2 mouseOnScreen = Camera.main.ScreenToViewportPoint(Input.mousePosition);
         float angle = GetAngleFromPoints(mouseOnScreen, positionOnScreen);
 
         //return the rotation

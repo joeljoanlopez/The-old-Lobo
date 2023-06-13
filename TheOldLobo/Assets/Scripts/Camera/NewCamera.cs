@@ -4,23 +4,22 @@ using UnityEngine;
 
 public class NewCamera : MonoBehaviour
 {
-    [SerializeField] GameObject player;
-    public float cameraSpeed = 5.0f;
+    [SerializeField] GameObject _Cameras;
+    [SerializeField] GameObject _Player;
 
-    // Use this for initialization
+
+    CameraChangeController _CameraChangeController;
+
     void Start()
     {
-
+        _CameraChangeController = _Cameras.GetComponent<CameraChangeController>();
     }
-    private void LateUpdate()
-    {
-        float posX = Mathf.Lerp(transform.position.x, player.transform.position.x, Time.deltaTime * cameraSpeed);
-        float posY = Mathf.Lerp(transform.position.y, player.transform.position.y, Time.deltaTime * cameraSpeed);
-        transform.position = new Vector3(posX, posY, transform.position.z);
-    }
-    // Update is called once per frame
-    void Update()
-    {
 
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.name == _Player.name)
+        {
+            _CameraChangeController?.ChangeCamera(1);
+        }
     }
 }

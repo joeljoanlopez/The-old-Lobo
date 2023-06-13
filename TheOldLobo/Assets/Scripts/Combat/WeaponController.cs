@@ -15,7 +15,6 @@ public class WeaponController : MonoBehaviour
     int _TotalWeapons;
     private SprintController _sprintController;
 
-
     // Start is called before the first frame update
     void Start()
     {
@@ -35,7 +34,7 @@ public class WeaponController : MonoBehaviour
 
     void Update()
     {
-        
+
         if (_sprintController != null && _sprintController.IsSprinting())
             _Weapons[_CurrentWeaponIndex].SetActive(false);
         else
@@ -51,16 +50,21 @@ public class WeaponController : MonoBehaviour
             _Weapons[_CurrentWeaponIndex].SetActive(true);
         }
 
-        _WeaponHolder.transform.rotation = GetRotation();
-
         if (NeedsFlip()) Flip();
         else UnFlip();
     }
+
+    void FixedUpdate()
+    {
+        _WeaponHolder.transform.rotation = GetRotation();
+    }
+
     private Quaternion GetRotation()
     {
         //Get the Screen positions of the object and the mouse
+        // Debug.Log(Camera.current);
         Vector2 positionOnScreen = Camera.main.WorldToViewportPoint(transform.position);
-        Vector2 mouseOnScreen = (Vector2)Camera.main.ScreenToViewportPoint(Input.mousePosition);
+        Vector2 mouseOnScreen = Camera.main.ScreenToViewportPoint(Input.mousePosition);
         float angle = GetAngleFromPoints(mouseOnScreen, positionOnScreen);
 
         //return the rotation
