@@ -58562,6 +58562,21 @@ MonoBehaviour:
   _WeaponHolder: {fileID: 1317216009}
   _Player: {fileID: 1579991353}
   _CurrentWeaponIndex: 0
+--- !u!114 &1579991381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1579991353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a054f93d363f07f4b85d241b2492e28a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _TimeFraction: 0.5
+  _TotalSeconds: 3
+  _BulletTime: {fileID: -3454281941372601276, guid: 833cbb0adc95462478f9404be35db1e3, type: 3}
 --- !u!1 &1593955636
 GameObject:
   m_ObjectHideFlags: 0

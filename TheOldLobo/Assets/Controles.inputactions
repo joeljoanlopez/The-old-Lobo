@@ -345,7 +345,7 @@
                 {
                     "name": "",
                     "id": "60ee7fce-3196-4f37-8f53-5d120a3b986f",
-                    "path": "<Keyboard>/ctrl",
+                    "path": "<Keyboard>/leftCtrl",
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard",
