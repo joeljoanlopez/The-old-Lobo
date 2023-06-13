@@ -10,26 +10,13 @@ public class PauseMenu : MonoBehaviour
     public void Setup()
     {
         gameObject.SetActive(true);
-        // moveController.StopMovement();
 
-        _Player = GameObject.FindGameObjectWithTag("Player");
-        _Enemies = GameObject.FindGameObjectsWithTag("Enemy");
-
-        _Player.SetActive(false);
-        foreach(GameObject var in _Enemies){
-            var.SetActive(false);
-        }
+        Time.timeScale = 0;
     }
 
     public void Play(){
         gameObject.SetActive(false);
-        // moveController.ResumeMovement();
-        // _Player = GameObject.FindGameObjectWithTag("Player");
-        // _Enemies = GameObject.FindGameObjectsWithTag("Enemy");
 
-        _Player.SetActive(true);
-        foreach(GameObject var in _Enemies){
-            var.SetActive(true);
-        }
+        Time.timeScale = 1;
     }
 }
