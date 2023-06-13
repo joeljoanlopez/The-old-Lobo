@@ -7,12 +7,12 @@ public class EnemyShooting : MonoBehaviour
     private float timer;
     private bool _canShoot;
 
-    Animator animator;
+    Animator shooting;
 
     private void Start()
     {
         _canShoot = true;
-        animator = GetComponent<Animator>();
+        shooting = GetComponent<Animator>();
     }
 
     private void Update()
@@ -36,8 +36,8 @@ public class EnemyShooting : MonoBehaviour
             GameObject bullet =  Instantiate(_bullet, _Gun.transform.position, GetRotation(_target, _Gun)) as GameObject;
             bullet.transform.parent = this.gameObject.transform.parent;
             _canShoot = false;
-            animator.SetBool("shoot", true);
-            Sonidos.playSFX("GunShotRifle");
+            shooting.SetBool("shoot", true);
+            Sonidos.playSFX("GunShotRifle",GetComponent<AudioSource>());
         }
     }
 

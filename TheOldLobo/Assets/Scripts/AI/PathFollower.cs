@@ -11,7 +11,6 @@ public class PathFollower : MonoBehaviour
 
     Transform _currentWP;
     bool _moving;
-    Animator _animator;
 
     // Start is called before the first frame update
     void Start()
@@ -20,7 +19,6 @@ public class PathFollower : MonoBehaviour
         //Set initial position
         _currentWP = _waypoints.GetNextWP(_currentWP);
         transform.position = _currentWP.position;
-        _animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -29,8 +27,6 @@ public class PathFollower : MonoBehaviour
         if (_moving)
         {
             transform.position = Vector2.MoveTowards(transform.position, _currentWP.position, _speed * Time.deltaTime);
-            _animator.SetBool("isMoving", true);
-            _animator.SetFloat("enemyMove", transform.position.x);
         }
     }
 
