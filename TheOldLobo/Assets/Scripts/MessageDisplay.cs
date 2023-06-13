@@ -49,7 +49,7 @@ public class MessageDisplay : MonoBehaviour
         _displayTime = 10;
         _text.text = _message;  
         _text.gameObject.SetActive(true);
-        GetComponent<AudioSource>().playOnAwake = true;
+       // GetComponent<AudioSource>().playOnAwake = true;
         GetComponent<Collider2D>().enabled = false;
     }
 
