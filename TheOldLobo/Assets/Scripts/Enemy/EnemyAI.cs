@@ -25,6 +25,9 @@ public class EnemyAI : MonoBehaviour
     EnemyShooting _enemyShooting;
     PathFollower _pathFollower;
     float _currentTime;
+    Animator animator;
+
+    public bool canMove = true;
 
     // Start is called before the first frame update
     void Start()
@@ -34,6 +37,7 @@ public class EnemyAI : MonoBehaviour
         _enemyShooting = GetComponent<EnemyShooting>();
         _pathFollower = GetComponent<PathFollower>();
         _Target = GameObject.Find(_Target.name);
+        animator = GetComponent<Animator>();
     }
 
     private void InitFSM()
@@ -98,16 +102,19 @@ public class EnemyAI : MonoBehaviour
 
     private void MoveTowardsTarget()
     {
+
         Vector3 newDirection = _Target.transform.position - transform.position;
         newDirection.Normalize();
-        transform.position += newDirection * _Speed * Time.deltaTime;
+        transform.position += newDirection * _Speed * Time.deltaTime;        
     }
 
     private void MoveRandomly()
     {
-        Vector3 _newDirection = new Vector3(Random.Range(0, 4), Random.Range(0, 4), 0);
-        _newDirection.Normalize();
-        transform.position += _newDirection * _Speed * Time.deltaTime;
+   
+            Vector3 _newDirection = new Vector3(Random.Range(0, 4), Random.Range(0, 4), 0);
+            _newDirection.Normalize();
+            transform.position += _newDirection * _Speed * Time.deltaTime;
+         
     }
 
 }
