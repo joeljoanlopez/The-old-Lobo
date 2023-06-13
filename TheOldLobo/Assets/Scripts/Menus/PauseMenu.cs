@@ -9,14 +9,12 @@ public class PauseMenu : MonoBehaviour
 
     public void Setup()
     {
-        gameObject.SetActive(true);
-
         Time.timeScale = 0;
+        gameObject.SetActive(true);
     }
 
     public void Play(){
-        gameObject.SetActive(false);
-
         Time.timeScale = 1;
+        gameObject.SetActive(false);
     }
 }
