@@ -28,7 +28,7 @@ public class HealthManager : MonoBehaviour
             else
             {
                 GameObject ammo = Instantiate(_Ammo, transform.position, transform.rotation);
-                ammo.transform.parent = this.gameObject.transform.parent;
+                ammo.transform.parent = transform.parent.parent;
                 Destroy(this.gameObject);
             }
         }
