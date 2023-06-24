@@ -8,6 +8,7 @@ public class PathFollower : MonoBehaviour
     [SerializeField] private Waypoint _waypoints;
     [SerializeField] float _speed = 2f;
     [SerializeField] float _distChange = 0.01f;
+    Animator animator;
 
     Transform _currentWP;
     bool _moving;
@@ -19,6 +20,7 @@ public class PathFollower : MonoBehaviour
         //Set initial position
         _currentWP = _waypoints.GetNextWP(_currentWP);
         transform.position = _currentWP.position;
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -27,6 +29,10 @@ public class PathFollower : MonoBehaviour
         if (_moving)
         {
             transform.position = Vector2.MoveTowards(transform.position, _currentWP.position, _speed * Time.deltaTime);
+            animator.SetFloat("moveX", transform.position.x);
+            animator.SetBool("isMoving",true);
+
+
         }
     }
 

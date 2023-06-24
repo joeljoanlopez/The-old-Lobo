@@ -5577,7 +5577,7 @@ PrefabInstance:
       objectReference: {fileID: 26452048}
     - target: {fileID: 8173582642624957952, guid: 776236844697fa2499dcff55a7fe671f, type: 3}
       propertyPath: m_Name
-      value: Enemy (4)
+      value: Enemy (3)
       objectReference: {fileID: 0}
     - target: {fileID: 8173582642624957952, guid: 776236844697fa2499dcff55a7fe671f, type: 3}
       propertyPath: m_Layer
@@ -5650,7 +5650,7 @@ Animator:
   m_GameObject: {fileID: 237146159}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 7f29b7d61cafcf3489c071bb97b4ba68, type: 2}
+  m_Controller: {fileID: 9100000, guid: ad3afb82fa9499844bdc02757b3697a4, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -35805,7 +35805,7 @@ PrefabInstance:
       objectReference: {fileID: 936646954}
     - target: {fileID: 8173582642624957952, guid: 776236844697fa2499dcff55a7fe671f, type: 3}
       propertyPath: m_Name
-      value: Enemy (1)
+      value: Enemy (2)
       objectReference: {fileID: 0}
     - target: {fileID: 8173582642624957952, guid: 776236844697fa2499dcff55a7fe671f, type: 3}
       propertyPath: m_Layer
@@ -35817,11 +35817,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8173582642624957957, guid: 776236844697fa2499dcff55a7fe671f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -1.73
       objectReference: {fileID: 0}
     - target: {fileID: 8173582642624957957, guid: 776236844697fa2499dcff55a7fe671f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.13
       objectReference: {fileID: 0}
     - target: {fileID: 8173582642624957957, guid: 776236844697fa2499dcff55a7fe671f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -35878,7 +35878,7 @@ Animator:
   m_GameObject: {fileID: 1152476739}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 7f29b7d61cafcf3489c071bb97b4ba68, type: 2}
+  m_Controller: {fileID: 9100000, guid: ad3afb82fa9499844bdc02757b3697a4, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -35973,7 +35973,7 @@ PrefabInstance:
       objectReference: {fileID: 879685302}
     - target: {fileID: 8173582642624957952, guid: 776236844697fa2499dcff55a7fe671f, type: 3}
       propertyPath: m_Name
-      value: Enemy (5)
+      value: Enemy (4)
       objectReference: {fileID: 0}
     - target: {fileID: 8173582642624957952, guid: 776236844697fa2499dcff55a7fe671f, type: 3}
       propertyPath: m_Layer
@@ -35985,7 +35985,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8173582642624957957, guid: 776236844697fa2499dcff55a7fe671f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 1.97
       objectReference: {fileID: 0}
     - target: {fileID: 8173582642624957957, guid: 776236844697fa2499dcff55a7fe671f, type: 3}
       propertyPath: m_LocalPosition.y
@@ -36046,7 +36046,7 @@ Animator:
   m_GameObject: {fileID: 1181111802}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 7f29b7d61cafcf3489c071bb97b4ba68, type: 2}
+  m_Controller: {fileID: 9100000, guid: ad3afb82fa9499844bdc02757b3697a4, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -131895,7 +131895,7 @@ Animator:
   m_GameObject: {fileID: 2037283131}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 7f29b7d61cafcf3489c071bb97b4ba68, type: 2}
+  m_Controller: {fileID: 9100000, guid: ad3afb82fa9499844bdc02757b3697a4, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -132839,11 +132839,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8173582642624957957, guid: 776236844697fa2499dcff55a7fe671f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -3.5
       objectReference: {fileID: 0}
     - target: {fileID: 8173582642624957957, guid: 776236844697fa2499dcff55a7fe671f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.1
       objectReference: {fileID: 0}
     - target: {fileID: 8173582642624957957, guid: 776236844697fa2499dcff55a7fe671f, type: 3}
       propertyPath: m_LocalPosition.z

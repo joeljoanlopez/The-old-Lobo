@@ -25,7 +25,7 @@ public class EnemyAI : MonoBehaviour
     EnemyShooting _enemyShooting;
     PathFollower _pathFollower;
     float _currentTime;
-
+    Animator animator;
     // Start is called before the first frame update
     void Start()
     {
@@ -34,6 +34,7 @@ public class EnemyAI : MonoBehaviour
         _enemyShooting = GetComponent<EnemyShooting>();
         _pathFollower = GetComponent<PathFollower>();
         _Target = GameObject.Find(_Target.name);
+        animator = GetComponent<Animator>();
     }
 
     private void InitFSM()
@@ -61,16 +62,32 @@ public class EnemyAI : MonoBehaviour
 
         //CheckTriggers
         if (_currentTime > 2.0f && _pathFollower != null)
+        {
             brain.ChangeState(EState.Wander);
+            animator.SetBool("isMoving", true);
+            animator.SetFloat("moveX", transform.position.x);
 
+
+        }
         if (Vector2.Distance(transform.position, _Target.transform.position) < _AggroDist)
+        {
             brain.ChangeState(EState.Attack);
+            animator.SetBool("shoot", true);
+            animator.SetBool("isMoving", false);
+            animator.SetFloat("moveX", transform.position.x);
+
+
+
+        }
     }
 
     private void WanderUpdate()
     {
         //Execute
         _pathFollower.Move();
+        animator.SetBool("isMoving", true);
+        animator.SetFloat("moveX", transform.position.x);
+
 
         //CheckTriggers
         if (_pathFollower.ArrivedAtWP())
@@ -78,10 +95,21 @@ public class EnemyAI : MonoBehaviour
             _pathFollower.NextWP();
             _currentTime = 0;
             brain.ChangeState(EState.Idle);
+            animator.SetBool("isMoving", false);
+            animator.SetBool("shoot", false);
+            animator.SetFloat("moveX", transform.position.x);
+
         }
 
         if (Vector2.Distance(transform.position, _Target.transform.position) < _AggroDist)
+        {
             brain.ChangeState(EState.Attack);
+            animator.SetBool("shoot", true);
+            animator.SetBool("isMoving", false);
+            animator.SetFloat("moveX", transform.position.x);
+
+
+        }
     }
 
     private void AttackUpdate()
@@ -90,6 +118,8 @@ public class EnemyAI : MonoBehaviour
         StartCoroutine(_enemyShooting.Shoot(_Target, _Bullet, _Gun, 0f));
         // MoveRandomly();
         MoveTowardsTarget();
+        animator.SetFloat("moveX", transform.position.x);
+
 
         //Trigger
         if (Vector2.Distance(transform.position, _Target.transform.position) >= _AggroDist)
@@ -101,6 +131,7 @@ public class EnemyAI : MonoBehaviour
         Vector3 newDirection = _Target.transform.position - transform.position;
         newDirection.Normalize();
         transform.position += newDirection * _Speed * Time.deltaTime;
+        animator.SetFloat("moveX",transform.position.x);
     }
 
     private void MoveRandomly()
@@ -108,6 +139,8 @@ public class EnemyAI : MonoBehaviour
         Vector3 _newDirection = new Vector3(Random.Range(0, 4), Random.Range(0, 4), 0);
         _newDirection.Normalize();
         transform.position += _newDirection * _Speed * Time.deltaTime;
+        animator.SetFloat("moveX", transform.position.x);
+
     }
 
 }
