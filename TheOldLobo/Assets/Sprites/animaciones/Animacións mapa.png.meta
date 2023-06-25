@@ -344,7 +344,7 @@ TextureImporter:
         width: 48
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -365,7 +365,7 @@ TextureImporter:
         width: 48
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -386,7 +386,7 @@ TextureImporter:
         width: 48
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -407,7 +407,7 @@ TextureImporter:
         width: 48
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -428,7 +428,7 @@ TextureImporter:
         width: 48
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -449,7 +449,7 @@ TextureImporter:
         width: 48
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -470,7 +470,7 @@ TextureImporter:
         width: 48
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -491,7 +491,7 @@ TextureImporter:
         width: 48
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -499,6 +499,279 @@ TextureImporter:
       bones: []
       spriteID: 28925612dafb6304cbaa6150ead478aa
       internalID: -853013851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animaci\xF3ns mapa_0"
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 182
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab0cef01b711da342bf193712903d642
+      internalID: 1987612553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animaci\xF3ns mapa_1"
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 182
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2aa69134e1b4c146badd259f9dfe74d
+      internalID: 1452965270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animaci\xF3ns mapa_2"
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 182
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71eab5bcda97a004db930eb32cb40e90
+      internalID: -810147051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animaci\xF3ns mapa_3"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 0.42319235, y: 0.41575202}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dba40168c6e07c34b9894a81bc1b9f6b
+      internalID: -1515428567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Animaci\xF3ns mapa_4"
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 182
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 035b7f2176d7e834c8f3245a82ad4468
+      internalID: -510302125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ed aigua1
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 278
+        width: 160
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 675d64f8db5909246b0be59e7adc9a10
+      internalID: -1016977606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ed aigua5
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 246
+        width: 160
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dabc89069db921c478220fdf42c8c08e
+      internalID: 1912629839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ed aigua2
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 278
+        width: 160
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e68b9b1d02834b34d94ed95ffb80f2a9
+      internalID: 877186168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ed aigua6
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 246
+        width: 160
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7d7f30f905632849b558df74124f9f3
+      internalID: 1855818831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ed aigua3
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 278
+        width: 160
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7087c11bab7117f4e81996158c9f1b0d
+      internalID: 1182484431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ed aigua7
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 246
+        width: 160
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8de45d63e1fec1841a7e86478acac0f8
+      internalID: 1352685547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ed aigua4
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 278
+        width: 160
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b0dd8ed337650846b190f67fe3575d2
+      internalID: -18272557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ed aigua8
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 247
+        width: 160
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01fcf34f67975394c91cd2ac4c36c111
+      internalID: 463407758
       vertices: []
       indices: 
       edges: []
@@ -514,25 +787,38 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      ed aigua5: 1912629839
+      ed aigua6: 1855818831
+      ed aigua1: -1016977606
       LavaFrame_6: -1688502482
+      "Animaci\xF3ns mapa_0": 1987612553
       Agua_Frame6: -1127777264
       Agua_Frame7: -1860932076
       Agua_Frame3: 1372849958
       LavaFrame_1: 376903279
+      ed aigua2: 877186168
       LavaFrame_4: -1618393246
       Agua_Frame8: -1577482594
       Agua_Frame11: -1056623308
       Agua_Frame10: 2073096693
       LavaFrame_5: 495996268
+      "Animaci\xF3ns mapa_2": -810147051
+      ed aigua4: -18272557
       LavaFrame_3: -240758472
+      "Animaci\xF3ns mapa_3": -1515428567
       Agua_Frame12: -495468157
       LavaFrame_2: -68195701
       Agua_Frame4: 144574434
+      ed aigua7: 1352685547
       Agua_Frame5: 1667197706
       Agua_Frame2: -1997400634
       LavaFrame_8: -853013851
       Agua_Frame1: -2130760797
+      "Animaci\xF3ns mapa_1": 1452965270
       Agua_Frame9: -17002203
+      ed aigua3: 1182484431
+      ed aigua8: 463407758
+      "Animaci\xF3ns mapa_4": -510302125
       LavaFrame_7: -449728824
   spritePackingTag: 
   pSDRemoveMatte: 0
