@@ -9,6 +9,7 @@ public class RectangleRandomSpawner : MonoBehaviour
     [SerializeField] Transform _TopLeft;
     [SerializeField] Transform _BotRight;
     [SerializeField] int _PoolSize = 5;
+    float counter = 0;
 
     GameObject[] _Pool;
     int _Alive;
@@ -29,8 +30,32 @@ public class RectangleRandomSpawner : MonoBehaviour
 
     private void Spawn(int i)
     {
-        _Pool[i] = Instantiate(_SpawnObject, GetRandomPos(), transform.rotation);
-        _Pool[i].transform.parent = _SpawnParent;
+        if (counter <= 10)
+        {
+            _Pool[i] = Instantiate(_SpawnObject, GetRandomPos(), transform.rotation);
+            _Pool[i].transform.parent = _SpawnParent;
+            counter++;
+
+        }
+        else if( counter == 11) 
+        {
+            _Pool[i] = Instantiate(_SpawnObject, GetRandomPos(), transform.rotation);
+            _Pool[i].transform.parent = _SpawnParent;
+            counter++;
+            _PoolSize++;
+            _PoolSize++;
+
+        }
+        else if (counter <= 25)
+        {
+            _Pool[i] = Instantiate(_SpawnObject, GetRandomPos(), transform.rotation);
+            _Pool[i].transform.parent = _SpawnParent;
+        }
+        else
+        {
+
+        }
+
         
 
     }
