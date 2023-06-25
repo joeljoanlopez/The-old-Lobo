@@ -22,6 +22,8 @@ public class EnemyAI : MonoBehaviour
     [SerializeField] float _AggroDist = 5;
     [SerializeField] float _Speed = 1f;
 
+
+
     EnemyShooting _enemyShooting;
     PathFollower _pathFollower;
     float _currentTime;
@@ -64,6 +66,7 @@ public class EnemyAI : MonoBehaviour
         if (_currentTime > 2.0f && _pathFollower != null)
         {
             brain.ChangeState(EState.Wander);
+            animator.SetBool("shoot", false);
             animator.SetBool("isMoving", true);
             animator.SetFloat("moveX", transform.position.x);
 
@@ -85,8 +88,6 @@ public class EnemyAI : MonoBehaviour
     {
         //Execute
         _pathFollower.Move();
-        animator.SetBool("isMoving", true);
-        animator.SetFloat("moveX", transform.position.x);
 
 
         //CheckTriggers
@@ -97,7 +98,6 @@ public class EnemyAI : MonoBehaviour
             brain.ChangeState(EState.Idle);
             animator.SetBool("isMoving", false);
             animator.SetBool("shoot", false);
-            animator.SetFloat("moveX", transform.position.x);
 
         }
 
@@ -106,7 +106,6 @@ public class EnemyAI : MonoBehaviour
             brain.ChangeState(EState.Attack);
             animator.SetBool("shoot", true);
             animator.SetBool("isMoving", false);
-            animator.SetFloat("moveX", transform.position.x);
 
 
         }
@@ -118,12 +117,17 @@ public class EnemyAI : MonoBehaviour
         StartCoroutine(_enemyShooting.Shoot(_Target, _Bullet, _Gun, 0f));
         // MoveRandomly();
         MoveTowardsTarget();
-        animator.SetFloat("moveX", transform.position.x);
+
 
 
         //Trigger
         if (Vector2.Distance(transform.position, _Target.transform.position) >= _AggroDist)
+        {
             brain.ChangeState(EState.Idle);
+            animator.SetBool("shoot", false);
+            animator.SetBool("isMoving", false);
+        }
+
     }
 
     private void MoveTowardsTarget()
@@ -131,6 +135,7 @@ public class EnemyAI : MonoBehaviour
         Vector3 newDirection = _Target.transform.position - transform.position;
         newDirection.Normalize();
         transform.position += newDirection * _Speed * Time.deltaTime;
+        animator.SetBool("isMoving", true);
         animator.SetFloat("moveX",transform.position.x);
     }
 
@@ -139,6 +144,7 @@ public class EnemyAI : MonoBehaviour
         Vector3 _newDirection = new Vector3(Random.Range(0, 4), Random.Range(0, 4), 0);
         _newDirection.Normalize();
         transform.position += _newDirection * _Speed * Time.deltaTime;
+        animator.SetBool("isMoving", true);
         animator.SetFloat("moveX", transform.position.x);
 
     }

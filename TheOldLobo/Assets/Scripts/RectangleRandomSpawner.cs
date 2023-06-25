@@ -31,6 +31,8 @@ public class RectangleRandomSpawner : MonoBehaviour
     {
         _Pool[i] = Instantiate(_SpawnObject, GetRandomPos(), transform.rotation);
         _Pool[i].transform.parent = _SpawnParent;
+        
+
     }
 
     private Vector2 GetRandomPos()

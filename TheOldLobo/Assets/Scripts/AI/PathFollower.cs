@@ -29,8 +29,8 @@ public class PathFollower : MonoBehaviour
         if (_moving)
         {
             transform.position = Vector2.MoveTowards(transform.position, _currentWP.position, _speed * Time.deltaTime);
+            animator.SetBool("isMoving", true);
             animator.SetFloat("moveX", transform.position.x);
-            animator.SetBool("isMoving",true);
 
 
         }
@@ -39,6 +39,9 @@ public class PathFollower : MonoBehaviour
     public void Move()
     {
         _moving = true;
+        animator.SetBool("shoot", false);
+        animator.SetBool("isMoving", true);
+        animator.SetFloat("moveX", transform.position.x);
     }
 
     public void NextWP()
