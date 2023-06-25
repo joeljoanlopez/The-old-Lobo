@@ -5,10 +5,13 @@ using UnityEngine;
 public class RectangleRandomSpawner : MonoBehaviour
 {
     [SerializeField] GameObject _SpawnObject;
+    [SerializeField] GameObject _BossSpawnObject;
+
     [SerializeField] Transform _SpawnParent;
     [SerializeField] Transform _TopLeft;
     [SerializeField] Transform _BotRight;
     [SerializeField] int _PoolSize = 5;
+    float counter;
 
     GameObject[] _Pool;
     int _Alive;
@@ -29,8 +32,31 @@ public class RectangleRandomSpawner : MonoBehaviour
 
     private void Spawn(int i)
     {
-        _Pool[i] = Instantiate(_SpawnObject, GetRandomPos(), transform.rotation);
-        _Pool[i].transform.parent = _SpawnParent;
+        if (counter <= 10)
+        {
+            _Pool[i] = Instantiate(_SpawnObject, GetRandomPos(), transform.rotation);
+            _Pool[i].transform.parent = _SpawnParent;
+            counter++;
+        }
+        else if (counter == 11)
+        {
+            _Pool[i] = Instantiate(_SpawnObject, GetRandomPos(), transform.rotation);
+            _Pool[i].transform.parent = _SpawnParent;
+            counter++;
+            _PoolSize++;
+            _PoolSize++;
+
+        }
+        else if (counter >= 12 && counter <= 20) 
+        {
+            _Pool[i] = Instantiate(_SpawnObject, new Vector2 (_TopLeft.position.x/2, _TopLeft.position.y / 2), transform.rotation);
+            _Pool[i].transform.parent = _SpawnParent;
+        }
+        else
+        {
+
+        }
+
     }
 
     private Vector2 GetRandomPos()
