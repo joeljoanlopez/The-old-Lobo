@@ -7,10 +7,11 @@ public class EnemyShooting : MonoBehaviour
     private float timer;
     private bool _canShoot;
 
-
+    Animator _animator;
     private void Start()
     {
         _canShoot = true;
+        _animator = GetComponent<Animator>();
     }
 
     private void Update()

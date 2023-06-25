@@ -142,6 +142,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8173582642624957957}
   - component: {fileID: 8173582642624957958}
+  - component: {fileID: 6348518862013883708}
   - component: {fileID: 1446319264018492105}
   - component: {fileID: 70803801442736376}
   - component: {fileID: 3287291718872893764}
@@ -224,7 +225,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1446319264018492105
+--- !u!114 &6348518862013883708
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -232,6 +233,24 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8173582642624957952}
   m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c01d8e9c5a0c1144ba38230c2611344d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Target: {fileID: 2299289348617453114, guid: efee8bf402c98f44db386eafe0c9d3ad, type: 3}
+  _Bullet: {fileID: 3565154025627714709, guid: 17b042091ceda584d86e6977928b7c6c, type: 3}
+  _Gun: {fileID: 4916882068770319991}
+  _AggroDist: 50
+  _Speed: 2
+  _BulletsPerBurst: 3
+--- !u!114 &1446319264018492105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8173582642624957952}
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dffca8d768b239d4094906051c9aa7f0, type: 3}
   m_Name: 
