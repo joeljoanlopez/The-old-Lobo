@@ -149,7 +149,7 @@ GameObject:
   - component: {fileID: 1387919575767709855}
   - component: {fileID: 2613656460825903897}
   m_Layer: 0
-  m_Name: Enemy Final Arena
+  m_Name: Enemy 1
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -324,7 +324,7 @@ Animator:
   m_GameObject: {fileID: 8173582642624957952}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 7f29b7d61cafcf3489c071bb97b4ba68, type: 2}
+  m_Controller: {fileID: 9100000, guid: ad3afb82fa9499844bdc02757b3697a4, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
