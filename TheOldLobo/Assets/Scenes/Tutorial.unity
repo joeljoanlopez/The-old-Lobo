@@ -34502,6 +34502,7 @@ GameObject:
   - component: {fileID: 909238709}
   - component: {fileID: 909238711}
   - component: {fileID: 909238710}
+  - component: {fileID: 909238712}
   m_Layer: 0
   m_Name: WASD
   m_TagString: Untagged
@@ -34566,6 +34567,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.0212555, y: 23.592096}
   m_EdgeRadius: 0
+--- !u!114 &909238712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 909238708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0135f41604003a42a98de99b48e3921, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _player: {fileID: 1579991353}
+  _timer: 0
 --- !u!1 &915748429
 GameObject:
   m_ObjectHideFlags: 0
@@ -34904,8 +34919,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3273c72426ac85e47a4c62eec71810c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _SpawnObject: {fileID: 8173582642624957952, guid: 776236844697fa2499dcff55a7fe671f, type: 3}
+  _SpawnObject: {fileID: 8173582642624957952, guid: 9f80c7aaca1ca1c4cb81240613a659eb, type: 3}
   _SpawnParent: {fileID: 1939474964}
+  _BossSpawn: {fileID: 8173582642624957952, guid: c55874f1e08244940bc238b842492778, type: 3}
   _TopLeft: {fileID: 1808606336}
   _BotRight: {fileID: 335047125}
   _PoolSize: 4
@@ -36918,6 +36934,7 @@ GameObject:
   - component: {fileID: 1149801188}
   - component: {fileID: 1149801190}
   - component: {fileID: 1149801189}
+  - component: {fileID: 1149801191}
   m_Layer: 0
   m_Name: Everything
   m_TagString: Untagged
@@ -36982,6 +36999,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.0212555, y: 23.592096}
   m_EdgeRadius: 0
+--- !u!114 &1149801191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1149801187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0135f41604003a42a98de99b48e3921, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _player: {fileID: 1579991353}
+  _timer: 0
 --- !u!1001 &1152476737
 PrefabInstance:
   m_ObjectHideFlags: 0

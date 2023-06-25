@@ -6,6 +6,8 @@ public class RectangleRandomSpawner : MonoBehaviour
 {
     [SerializeField] GameObject _SpawnObject;
     [SerializeField] Transform _SpawnParent;
+    [SerializeField] GameObject _BossSpawn;
+
     [SerializeField] Transform _TopLeft;
     [SerializeField] Transform _BotRight;
     [SerializeField] int _PoolSize = 5;
@@ -30,16 +32,16 @@ public class RectangleRandomSpawner : MonoBehaviour
 
     private void Spawn(int i)
     {
-        if (counter <= 10)
+        if (counter < 10)
         {
             _Pool[i] = Instantiate(_SpawnObject, GetRandomPos(), transform.rotation);
             _Pool[i].transform.parent = _SpawnParent;
             counter++;
 
         }
-        else if( counter == 11) 
+        else if( counter == 10) 
         {
-            _Pool[i] = Instantiate(_SpawnObject, GetRandomPos(), transform.rotation);
+            _Pool[i] = Instantiate(_BossSpawn, GetRandomPos(), transform.rotation);
             _Pool[i].transform.parent = _SpawnParent;
             counter++;
             _PoolSize++;
