@@ -136,7 +136,7 @@ public class EnemyAI : MonoBehaviour
         newDirection.Normalize();
         transform.position += newDirection * _Speed * Time.deltaTime;
         animator.SetBool("isMoving", true);
-        animator.SetFloat("moveX",transform.position.x);
+        animator.SetFloat("moveX", newDirection.x);
     }
 
     private void MoveRandomly()
