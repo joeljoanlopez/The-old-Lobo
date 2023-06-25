@@ -117,17 +117,18 @@ public class MiniBossAI : MonoBehaviour
     {
         //Execute
 
-        //Execute
-        StartCoroutine(ShootBurst(_Target, _Bullet, _Gun, 0.1f, 3));
+        StartCoroutine(_enemyShooting.Shoot(_Target, _Bullet, _Gun, 0f));
+        StartCoroutine(_enemyShooting.Shoot(_Target, _Bullet, _Gun, 0.1f));
+        StartCoroutine(_enemyShooting.Shoot(_Target, _Bullet, _Gun, 0.1f));
 
+        // MoveRandomly();
         MoveTowardsTarget();
         animator.SetFloat("moveX", transform.position.x);
+
 
         //Trigger
         if (Vector2.Distance(transform.position, _Target.transform.position) >= _AggroDist)
             brain.ChangeState(EState.Idle);
-
-
     }
 
     private void MoveTowardsTarget()
@@ -147,11 +148,11 @@ public class MiniBossAI : MonoBehaviour
 
     }
     private IEnumerator ShootBurst(GameObject target, GameObject bullet, GameObject gun, float delayBetweenShots, int numShots)
+{
+    for (int i = 0; i < numShots; i++)
     {
-        for (int i = 0; i < numShots; i++)
-        {
-            _enemyShooting.Shoot(target, bullet, gun, 0f);
-            yield return new WaitForSeconds(delayBetweenShots);
-        }
+        _enemyShooting.Shoot(target, bullet, gun, 0f);
+        yield return new WaitForSeconds(delayBetweenShots);
     }
+}
 }
