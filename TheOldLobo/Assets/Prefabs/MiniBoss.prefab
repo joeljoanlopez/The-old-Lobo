@@ -242,7 +242,6 @@ MonoBehaviour:
   _Gun: {fileID: 4916882068770319991}
   _AggroDist: 50
   _Speed: 2
-  _BulletsPerBurst: 3
 --- !u!114 &1446319264018492105
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -343,7 +342,7 @@ Animator:
   m_GameObject: {fileID: 8173582642624957952}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 7f29b7d61cafcf3489c071bb97b4ba68, type: 2}
+  m_Controller: {fileID: 9100000, guid: 3f93ec1e71268b64eb510d7604bfceb3, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
